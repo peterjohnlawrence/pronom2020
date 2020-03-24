@@ -1,0 +1,278 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/encoding
+# prefix: encoding
+
+@prefix encoding: <http://data.nationalarchives.gov.uk/formatregistry/data/encoding#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/chr/1>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 2 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "UTF-8" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UTF-8" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/10>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 12 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "GB18030" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GB18030" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/11>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 13 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "EUC-JP" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "EUC-JP - Japanese" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EUC-JP" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/12>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 14 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "EUC-KR" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "EUC-KR - Korean" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EUC-KR" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/13>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 15 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "Big5" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "Big5 - Chinese" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Big5" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/14>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 16 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-1" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-1 - Danish, Dutch, English, French, German, Italian, Norwegian, Portuguese, Swedish" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-1" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/15>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 17 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-2" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-2 - Czech, Hungarian, Polish, Romanian" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-2" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/16>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 18 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-5" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-5 - Russian" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-5" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/17>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 19 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-9959-6" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-6 - Arabic" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-9959-6" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/18>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 20 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-7" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-7 - Greek" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-7" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/19>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 21 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-8" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-8 - Hebrew" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-8" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/2>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 3 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "UTF-16BE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UTF-16BE" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/20>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 22 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "windows-1251" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "windows-1251 - Russian" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "windows-1251" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/21>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 23 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "windows-1256" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "windows-1256 - Arabic" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "windows-1256" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/22>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 24 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "KOI8-R" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "KOI8-R - Russian" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KOI8-R" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/23>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 25 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-8859-9" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-8859-9 - Turkish" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-8859-9" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/24>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 26 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "IBM424_rtl" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IBM424_rtl" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/25>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 27 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "IBM424_ltr" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IBM424_ltr" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/26>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 28 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "IBM420_rtl" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IBM420_rtl" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/27>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 29 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "IBM420_ltr" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IBM420_ltr" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/3>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 5 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "UTF-16LE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UTF-16LE" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/4>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 6 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "UTF-32BE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UTF-32BE" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/5>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 7 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "UTF-32LE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UTF-32LE" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/6>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 8 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "Shift_JIS" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "Shift JIS - Japanese" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Shift_JIS" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/7>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 9 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-2022-JP" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-2022-JP - Japanese" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-2022-JP" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/8>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 10 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-2022-CN" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-2022-CN - Simplified Chinese" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-2022-CN" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/chr/9>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 11 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "Outline record only." ;
+  rdfs:label "ISO-2022-KR" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "ISO-2022-KR - Korean" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO-2022-KR" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-chr/1>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 1 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+  rdfs:comment "American Standard Code for Information Interchange (ASCII)" ;
+  rdfs:label "US-ASCII" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "US-ASCII" ;
+.

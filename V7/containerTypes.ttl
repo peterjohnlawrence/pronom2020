@@ -1,0 +1,24 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/containerTypes
+# prefix: containerTypes
+
+@prefix containerTypes: <http://data.nationalarchives.gov.uk/formatregistry/data/containerTypes#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerType/CT-OLE2>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ContainerType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerType.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/111> ;
+  rdfs:comment "OLE2" ;
+  rdfs:label "OLE2" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "OLE2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerType/CT-ZIP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ContainerType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerType.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/189> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerType.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/263> ;
+  rdfs:comment "ZIP" ;
+  rdfs:label "ZIP" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ZIP" ;
+.

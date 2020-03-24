@@ -1,0 +1,770 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/documents
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-1>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "1" ;
+  rdfs:comment "No bibliographical text available" ;
+  rdfs:label "Introducing Microsoft Windows 95" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Introducing Microsoft Windows 95" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-10>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "10" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://sc.openoffice.org/excelfileformat.pdf"^^xsd:anyURI ;
+  rdfs:comment "OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003" ;
+  rdfs:label "OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenOffice.org's documentation of the Microsoft Excel file format: Excel versions 2, 3, 4, 5, 95, 97, 2000, XP, 2003" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-11>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "11" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://sc.openoffice.org/compdocfileformat.pdf"^^xsd:anyURI ;
+  rdfs:comment "OpenOffice.org, 2004, OpenOffice.org's documentation of the Microsoft Compound Document file format" ;
+  rdfs:label "OpenOffice.org's documentation of the Microsoft Compound Document file format" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenOffice.org's documentation of the Microsoft Compound Document file format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-12>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "12" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://xml.openoffice.org/xml_specification.pdf"^^xsd:anyURI ;
+  rdfs:comment "OpenOffice.org, 2002, OpenOffice.org XML file format: Technical reference manual, Version 2" ;
+  rdfs:label "OpenOffice.org XML file format: Technical reference manual, Version 2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "OpenOffice.org XML file format: Technical reference manual, Version 2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-13>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "13" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_tcm6-10544.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Version 1" ;
+  rdfs:label "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Version 1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Version 1" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-14>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "14" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_s1_tcm6-10545.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 1997, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 1 - MPEG audio" ;
+  rdfs:label "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 1 - MPEG audio" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 1 - MPEG audio" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-15>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "15" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_s2_tcm6-10482.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 2 - Capturing Report" ;
+  rdfs:label "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 2 - capturing report" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 2 - capturing report" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-16>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "16" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_s3_tcm6-10483.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 2001, Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 3 - Peak Envelope Chunk" ;
+  rdfs:label "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 3 - Peak Envelope Chunk" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: BWF - a format for audio data files in broadcasting, Supplement 3 - Peak Envelope Chunk" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-17>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "17" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_s4_tcm6-10484.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 2003, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 4 - <link> Chunk" ;
+  rdfs:label "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 4 - <link> Chunk" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 4 - <link> Chunk" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-18>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "18" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.ebu.ch/CMSimages/en/tec_doc_t3285_s5_tcm6-10485.pdf"^^xsd:anyURI ;
+  rdfs:comment "European Broadcasting Union, 2003, Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 5 - <axml> Chunk" ;
+  rdfs:label "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 5 - <axml> Chunk" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Technical Specification 3285: Specification of the Broadcast Wave Format - a format for audio data files in broadcasting, Supplement 5 - <axml> Chunk" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-19>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "19" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.exif.org/dcf-exif.PDF"^^xsd:anyURI ;
+  rdfs:comment "Japan Electronic Industry Development Association, 1998, JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1" ;
+  rdfs:label "JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JEIDA-49-1998 - Digital Still Camera Image File Format Standard (Exchangeable image file format for Digital Still Cameras: Exif), Version 2.1" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-20>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "20" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.exif.org/Exif2-2.PDF"^^xsd:anyURI ;
+  rdfs:comment "Japan Electronic Industry Development Association, 2002, JEITA CP-3451 - Exchangeable image file format for digital still cameras: Exif Version 2.2" ;
+  rdfs:label "JEITA CP-3451 - Exchangeable image file format for digital still cameras: Exif Version 2.2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JEITA CP-3451 - Exchangeable image file format for digital still cameras: Exif Version 2.2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-21>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "21" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/2004/REC-xml-20040204/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 2004, W3C Recommendation: Extensible Markup Language (XML) 1.0 (Third Edition) W3C Recommendation 04 February 2004" ;
+  rdfs:label "W3C Recommendation: Extensible Markup Language (XML) 1.0 (Third Edition) W3C Recommendation 04 February 2004" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: Extensible Markup Language (XML) 1.0 (Third Edition) W3C Recommendation 04 February 2004" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-22>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "22" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/2004/REC-xml11-20040204/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 2004, W3C Recommendation: Extensible Markup Language (XML) 1.1" ;
+  rdfs:label "W3C Recommendation: Extensible Markup Language (XML) 1.1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: Extensible Markup Language (XML) 1.1" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-23>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "23" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/xhtml1/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 2002, W3C Recommendation: XHTML 1.0 - The Extensible HyperText Markup Language (Second Edition)" ;
+  rdfs:label "W3C Recommendation: XHTML 1.0 - The Extensible HyperText Markup Language (Second Edition)" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: XHTML 1.0 - The Extensible HyperText Markup Language (Second Edition)" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-24>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "24" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/xhtml11/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 2001, W3C Recommendation: XHTML 1.1 - Module-based XHTML" ;
+  rdfs:label "W3C Recommendation: XHTML 1.1 - Module-based XHTML" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: XHTML 1.1 - Module-based XHTML" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-25>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "25" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/html401/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 1999, W3C Recommendation: HTML 4.01 Specification" ;
+  rdfs:label "W3C Recommendation: HTML 4.01 Specification" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: HTML 4.01 Specification" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-26>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "26" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/1998/REC-html40-19980424/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 1998, W3C Recommendation: HTML 4.0 Specification" ;
+  rdfs:label "W3C Recommendation: HTML 4.0 Specification" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: HTML 4.0 Specification" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-27>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "27" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/TR/REC-html32"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 1997, W3C Recommendation: HTML 3.2 Reference Specification" ;
+  rdfs:label "W3C Recommendation: HTML 3.2 Reference Specification" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: HTML 3.2 Reference Specification" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-28>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "28" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/MarkUp/html-spec/"^^xsd:anyURI ;
+  rdfs:comment "World Wide Web Consortium, 1995, W3C Recommendation: Hypertext Markup Language - 2.0" ;
+  rdfs:label "W3C Recommendation: Hypertext Markup Language - 2.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "W3C Recommendation: Hypertext Markup Language - 2.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-29>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "29" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://fits.gsfc.nasa.gov/documents.html#Standard"^^xsd:anyURI ;
+  rdfs:comment "NASA/Science Office of Standards and Technology, 1999, NOST Standard 100-2.0: Definition of the Flexible Image Transport System (FITS)" ;
+  rdfs:label "NOST Standard 100-2.0: Definition of the Flexible Image Transport System (FITS)" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NOST Standard 100-2.0: Definition of the Flexible Image Transport System (FITS)" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-3>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "3" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.microsoft.com/windows/windowsmedia/format/asfspec.aspx"^^xsd:anyURI ;
+  rdfs:comment "Microsoft Corporation, 2004, Advanced Systems Format (ASF) Specification: Revision 01.20.03" ;
+  rdfs:label "Advanced Systems Format (ASF) Specification: Revision 01.20.03" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Advanced Systems Format (ASF) Specification: Revision 01.20.03" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-30>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "30" ;
+  rdfs:comment "Compuserve Incorporated, 1987, Graphics Interchange Format: A standard defining a mechanism for the storage and transmission of raster-based graphics information" ;
+  rdfs:label "Graphics Interchange Format: A standard defining a mechanism for the storage and transmission of raster-based graphics information" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Graphics Interchange Format: A standard defining a mechanism for the storage and transmission of raster-based graphics information" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-31>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "31" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.w3.org/Graphics/GIF/spec-gif89a.txt"^^xsd:anyURI ;
+  rdfs:comment "Compuserve Incorporated, 1990, Graphics Interchange Format: Version 1989a" ;
+  rdfs:label "Graphics Interchange Format: Version 1989a" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Graphics Interchange Format: Version 1989a" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-32>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "32" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.autodesk.com/techpubs/autocad/acadr14/dxf/the_dxb_file_format_al_u05_b.htm"^^xsd:anyURI ;
+  rdfs:comment "Autodesk Corporation, nd, The DXB File Format" ;
+  rdfs:label "The DXB File Format" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "The DXB File Format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-33>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "33" ;
+  rdfs:comment "Autodesk Corporation, 1988, AutoCAD Release 10 Reference Manual: Appendix C - Drawing Interchange and File Formats" ;
+  rdfs:label "AutoCAD Release 10 Reference Manual: Appendix C - Drawing Interchange and File Formats" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD Release 10 Reference Manual: Appendix C - Drawing Interchange and File Formats" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-34>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "34" ;
+  rdfs:comment "Autodesk Corporation, 1992, Drawing Interchange and File Formats, Release 12" ;
+  rdfs:label "Drawing Interchange and File Formats, Release 12" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Drawing Interchange and File Formats, Release 12" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-35>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "35" ;
+  rdfs:comment "Autodesk Corporation, nd, AutoCAD Customization Guide, Release 14: Appendix B - Drawing Interchange File Formats" ;
+  rdfs:label "AutoCAD Customization Guide, Release 14: Appendix B - Drawing Interchange File Formats" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD Customization Guide, Release 14: Appendix B - Drawing Interchange File Formats" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-36>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "36" ;
+  rdfs:comment "Autodesk Corporation, 1995, AutoCAD Release 13 Developer's Guide: Chapter 13 - DXF Reference" ;
+  rdfs:label "AutoCAD Release 13 Developer's Guide: Chapter 13 - DXF Reference" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD Release 13 Developer's Guide: Chapter 13 - DXF Reference" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-37>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "37" ;
+  rdfs:comment "Microsoft, 2004, Microsoft Office Word 2003 Rich Text Format (RTF) Specification: White Paper" ;
+  rdfs:label "Microsoft Office Word 2003 Rich Text Format (RTF) Specification: White Paper" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Microsoft Office Word 2003 Rich Text Format (RTF) Specification: White Paper" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-38>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "38" ;
+  rdfs:comment "Microsoft, 1992, Rich-Text Format (RTF) Specification: Version 1.0, Product Support Services Application Note 6/92" ;
+  rdfs:label "Rich-Text Format (RTF) Specification: Version 1.0, Product Support Services Application Note 6/92" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Rich-Text Format (RTF) Specification: Version 1.0, Product Support Services Application Note 6/92" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-39>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "39" ;
+  rdfs:comment "Microsoft, nd, Rich-Text Format Specification v. 1.2" ;
+  rdfs:label "Rich-Text Format Specification v. 1.2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Rich-Text Format Specification v. 1.2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-4>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "4" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "ISBN:1-85032-117-5" ;
+  rdfs:comment "Born, G, 1995, The file formats handbook, International Thompson Computer Press" ;
+  rdfs:label "The file formats handbook" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "The file formats handbook" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-40>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "40" ;
+  rdfs:comment "Microsoft, 1994, Rich-Text Format (RTF) Specification: Version 1.3, Product Support Services Application Note 1/94 GC0165" ;
+  rdfs:label "Rich-Text Format (RTF) Specification: Version 1.3, Product Support Services Application Note 1/94 GC0165" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Rich-Text Format (RTF) Specification: Version 1.3, Product Support Services Application Note 1/94 GC0165" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-41>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "41" ;
+  rdfs:comment "Microsoft, 1997, Rich-Text Format (RTF) Specification: Version 1.5, Product Support Services Application Note 5/97 GC0165" ;
+  rdfs:label "Rich-Text Format (RTF) Specification: Version 1.5, Microsoft Technical Support Application Note 5/97 GC0165" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Rich-Text Format (RTF) Specification: Version 1.5, Microsoft Technical Support Application Note 5/97 GC0165" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-42>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "42" ;
+  rdfs:comment "Microsoft, 2001, Rich-Text Format (RTF) Specification: Version 1.7, Microsoft Technical Support Specification 8/2001" ;
+  rdfs:label "Rich-Text Format (RTF) Specification: Version 1.7, Microsoft Technical Support Specification 8/2001" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Rich-Text Format (RTF) Specification: Version 1.7, Microsoft Technical Support Specification 8/2001" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-43>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "43" ;
+  rdfs:comment "Adobe Systems Incorporated, 2004, PDF Reference, fifth edition: Adobe Portable Document Format, Version 1.6" ;
+  rdfs:label "PDF Reference, fifth edition: Adobe Portable Document Format, Version 1.6" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PDF Reference, fifth edition: Adobe Portable Document Format, Version 1.6" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-44>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "44" ;
+  rdfs:comment "Adobe Systems Incorporated, 2003, PDF Reference, fourth edition: Adobe Portable Document Format, Version 1.5" ;
+  rdfs:label "PDF Reference, fourth edition: Adobe Portable Document Format, Version 1.5" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PDF Reference, fourth edition: Adobe Portable Document Format, Version 1.5" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-45>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "45" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "ISBN:0-201-75839-3" ;
+  rdfs:comment "Adobe Systems Incorporated, 2001, PDF Reference, third edition: Adobe Portable Document Format, Version 1.4, Addison-Wesley" ;
+  rdfs:label "PDF Reference, third edition: Adobe Portable Document Format, Version 1.4" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PDF Reference, third edition: Adobe Portable Document Format, Version 1.4" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-46>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "46" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "ISBN:0-201-62628-4" ;
+  rdfs:comment "Adobe Systems Incorporated, 1999, Portable Document Format Reference Manual, Version 1.3" ;
+  rdfs:label "Portable Document Format Reference Manual, Version 1.3" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Portable Document Format Reference Manual, Version 1.3" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-48>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "48" ;
+  rdfs:comment "Macromedia, Inc., 2003, Macromedia Flash (SWF) File Format Specification, Version 7" ;
+  rdfs:label "Macromedia Flash (SWF) File Format Specification, Version 7" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Macromedia Flash (SWF) File Format Specification, Version 7" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-49>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Not available" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "49" ;
+  rdfs:comment "Aldus Corporation/Microsoft Corporation, 1987, Tag Image File Format, Revision 4.0" ;
+  rdfs:label "Tag Image File Format Revision, 4.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag Image File Format Revision, 4.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-5>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "5" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "ISBN:1-56592-161-5" ;
+  rdfs:comment "Murray, J D & Van Ryper, W, 1996, Encyclopedia of graphics file formats, 2nd Edition, O'Reilly & Associates" ;
+  rdfs:label "Encyclopedia of graphics file formats, 2nd Edition" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Encyclopedia of graphics file formats, 2nd Edition" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-51>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Not available" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "51" ;
+  rdfs:comment "Aldus Corporation/Microsoft Corporation, 1988, Tag Image File Format, Revision 5.0" ;
+  rdfs:label "Tag Image File Format, Revision 5.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Tag Image File Format, Revision 5.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-52>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "52" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://partners.adobe.com/public/developer/en/tiff/TIFF6.pdf"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 1992, TIFF Revision 6.0" ;
+  rdfs:label "TIFF Revision 6.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TIFF Revision 6.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-53>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "53" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.remotesensing.org/libtiff/TIFFTechNote2.html"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 1995, TIFF Technical Note #2 (draft)" ;
+  rdfs:label "TIFF Technical Note #2 (draft)" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TIFF Technical Note #2 (draft)" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-54>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "54" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://partners.adobe.com/public/developer/en/tiff/TIFFPM6.pdf"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 1995, Adobe PageMaker 6.0: TIFF Technical Notes" ;
+  rdfs:label "Adobe PageMaker 6.0: TIFF Technical Notes" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Adobe PageMaker 6.0: TIFF Technical Notes" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-55>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "55" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://partners.adobe.com/public/developer/en/tiff/TIFFphotoshop.pdf"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 2002, Adobe Photoshop: TIFF Technical Notes" ;
+  rdfs:label "Adobe Photoshop: TIFF Technical Notes" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Adobe Photoshop: TIFF Technical Notes" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-56>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "56" ;
+  rdfs:comment "Hamilton, E, 1992, JPEG File Interchange Format, Version 1.02, C-Cube Microsystems" ;
+  rdfs:label "JPEG File Interchange Format, Version 1.02, C-Cube Microsystems" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JPEG File Interchange Format, Version 1.02, C-Cube Microsystems" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-57>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "57" ;
+  rdfs:comment "Apple Computer, Incorporated, 2000, Inside QuickTime: QuickTime File Format" ;
+  rdfs:label "Inside QuickTime: QuickTime File Format" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Inside QuickTime: QuickTime File Format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-58>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "58" ;
+  rdfs:comment "ISO/IEC 10918-1: 1994, Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines" ;
+  rdfs:label "Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Information technology - Digital compression and coding of continuous-tone still images: Requirements and guidelines" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-59>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "59" ;
+  rdfs:comment "Welch, T A, 1984, A technique for high performance data compression, IEEE Computer, 17: 6" ;
+  rdfs:label "A technique for high performance data compression" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "A technique for high performance data compression" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-6>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "6" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://msdn.microsoft.com/library/default.asp?url=/library/en-us/directshow/htm/avifileformat.asp"^^xsd:anyURI ;
+  rdfs:comment "Microsoft Corporation, 2004, Microsoft DirectX 9.0 SDK Update: AVI File Format" ;
+  rdfs:label "Microsoft DirectX 9.0 SDK Update: AVI File Format" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Microsoft DirectX 9.0 SDK Update: AVI File Format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-60>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "60" ;
+  rdfs:comment "CCITT Blue Book, 1989, Volume VII, Fascicle VII.3: Terminal equipment and protocols for telematic services, recommendations T.0 - T.63" ;
+  rdfs:label "Terminal equipment and protocols for telematic services, recommendations T.0 - T.63" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Terminal equipment and protocols for telematic services, recommendations T.0 - T.63" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-61>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "61" ;
+  rdfs:comment "ISO/IEC 15948: 2004, Information technology - Computer Graphics and image processing - Portable Network Graphics (PNG): Functional specification" ;
+  rdfs:label "Information technology - Computer Graphics and image processing - Portable Network Graphics (PNG): Functional specification" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Information technology - Computer Graphics and image processing - Portable Network Graphics (PNG): Functional specification" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-62>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "62" ;
+  rdfs:comment "Adobe Systems Incorporated, 1987, Encapsulated PostScript File Format: EPSF Version 1.2" ;
+  rdfs:label "Encapsulated PostScript File Format: EPSF Version 1.2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Encapsulated PostScript File Format: EPSF Version 1.2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-64>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "64" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.nationalarchives.gov.uk/aboutapps/fileformat/pdf/automatic_format_identification.pdf"^^xsd:anyURI ;
+  rdfs:comment "Brown, A, 2005, Automatic format identification using PRONOM and DROID, Digital Preservation Technical Paper, 1, The National Archives" ;
+  rdfs:label "Automatic format identification using PRONOM and DROID" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Automatic format identification using PRONOM and DROID" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-66>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "66" ;
+  rdfs:comment "Adobe Systems Incorporated, 1989, Encapsulated PostScript Files Specification: Version 2.0" ;
+  rdfs:label "Encapsulated PostScript Files Specification: Version 2.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Encapsulated PostScript Files Specification: Version 2.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-67>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "67" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://partners.adobe.com/public/developer/en/ps/5002.EPSF_Spec.pdf"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 1992, Encapsulated PostScript File Format Specification: Version 3.0" ;
+  rdfs:label "Encapsulated PostScript File Format Specification: Version 3.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Encapsulated PostScript File Format Specification: Version 3.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-68>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "68" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "ISBN:0 580 46855 0" ;
+  rdfs:comment "ISO 19005-1:2005 - Document management - Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1)" ;
+  rdfs:label "ISO 19005-1:2005 - Document management - Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1)" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ISO 19005-1:2005 - Document management - Electronic document file format for long-term preservation - Part 1: Use of PDF 1.4 (PDF/A-1)" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-7>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "7" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.opendesign.com/downloads/spec/formatSpec13-15.rtf"^^xsd:anyURI ;
+  rdfs:comment "OpenDWG Alliance, 2000, AutoCAD R13/R14/R2000 DWG File Specification: Version 2.0" ;
+  rdfs:label "AutoCAD R13/R14/R2000 DWG File Specification: Version 2.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD R13/R14/R2000 DWG File Specification: Version 2.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-70>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "70" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://partners.adobe.com/public/developer/en/ps/5001.DSC_Spec.pdf"^^xsd:anyURI ;
+  rdfs:comment "Adobe Systems Incorporated, 1992, PostScript Language Document Structuring Conventions Specification: Version 3.0" ;
+  rdfs:label "PostScript Language Document Structuring Conventions Specification: Version 3.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PostScript Language Document Structuring Conventions Specification: Version 3.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-71>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "71" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.microsoft.com/whdc/system/platform/firmware/PECOFF.mspx"^^xsd:anyURI ;
+  rdfs:comment "Microsoft Corporation, 1999, Microsoft Portable Executable and Common Object File Format, Revision 6.0" ;
+  rdfs:label "Microsoft Portable Executable and Common Object File Format, Revision 6.0" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Microsoft Portable Executable and Common Object File Format, Revision 6.0" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-72>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "72" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://docs.oasis-open.org/office/v1.0/OpenDocument-v1.0-os.pdf"^^xsd:anyURI ;
+  rdfs:comment "OASIS, 2005, Open Document Format for Office Applications (OpenDocument) v1.0, OASIS Standard, 1 May 2005" ;
+  rdfs:label "Open Document Format for Office Applications (OpenDocument) v1.0, OASIS Standard, 1 May 2005" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Open Document Format for Office Applications (OpenDocument) v1.0, OASIS Standard, 1 May 2005" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-76>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "76" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://hul.harvard.edu/jhove/"^^xsd:anyURI ;
+  rdfs:comment "JSTOR and Harvard University Library 2006, JHOVE" ;
+  rdfs:label "JHOVE (JSTOR/Harvard Object Validation Environment)" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JHOVE (JSTOR/Harvard Object Validation Environment)" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-77>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "77" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://droid.sourceforge.net/wiki/index.php/Development_History"^^xsd:anyURI ;
+  rdfs:comment "The National Archives, 2006, DROID (Digital Record Object Identification) Development History" ;
+  rdfs:label "DROID (Digital Record Object Identification) Development History" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DROID (Digital Record Object Identification) Development History" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-8>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "8" ;
+  rdfs:comment "Autodesk Corporation, 2001, AutoCAD 2002: DXF reference guide" ;
+  rdfs:label "AutoCAD 2002: DXF reference guide" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD 2002: DXF reference guide" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-82>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "82" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://www.opennurbs.org"^^xsd:anyURI ;
+  rdfs:comment "Robert McNeel & Associates (n.d.) openNURBS Toolkit" ;
+  rdfs:label "openNURBS Toolkit" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "openNURBS Toolkit" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-87>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "87" ;
+  rdfs:comment "SIARD Format Description." ;
+  rdfs:label "SIARD Format Description" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SIARD Format Description" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-9>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "9" ;
+  rdfs:comment "Autodesk Corporation, 2003, AutoCAD 2004: DXF reference" ;
+  rdfs:label "AutoCAD 2004: DXF reference" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AutoCAD 2004: DXF reference" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-92>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "92" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> "http://http://viewer.zmags.com/publication/8ddab5af#/8ddab5af/1"^^xsd:anyURI ;
+  rdfs:comment "\"Final Draft Version 7 User Guide\", Final Draft Inc. 2005" ;
+  rdfs:label "Final Draft Version 7 User Guide" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Final Draft Version 7 User Guide" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-93>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability> "Public" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID> "93" ;
+  rdfs:comment "Standard MIDI-File Fomat Spec. 1.1" ;
+  rdfs:label "Standard MIDI-File Fomat Spec. 1.1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Standard MIDI-File Fomat Spec. 1.1" ;
+.

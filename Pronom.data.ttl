@@ -1,0 +1,210 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/convertedData
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/actorTypes
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/actors
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/alias
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/byteSequences
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/classifications
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/compressionDocumentation
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/containerSignatures
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/containerTypes
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/countries
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/developerActors
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/documentPublishers
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/documentTypes
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/documents
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/encoding
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileExtension
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormat
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatClassifications
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatDocuments
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatMappings
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatRelationships
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/formatFamilies
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/formatIdentifiers
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/signature
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/software
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/softwareMaintainers
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/softwareProcesses
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes
+# imports: http://data.nationalarchives.gov.uk/formatregistry/data/supportActors
+# imports: http://data.nationalarchives.gov.uk/formatregistry/def/
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/data/convertedData>
+  rdf:type owl:Ontology ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/actorTypes> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/actors> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/alias> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/byteSequences> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/classifications> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDocumentation> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/containerSignatures> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/containerTypes> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/countries> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/developerActors> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/documentPublishers> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/documentTypes> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/documents> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/encoding> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileExtension> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormat> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatClassifications> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatDocuments> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatMappings> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatRelationships> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/formatFamilies> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/formatIdentifiers> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/signature> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/software> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/softwareMaintainers> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/softwareProcesses> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/data/supportActors> ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/def/> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/Software>
+  rdfs:subClassOf <http://data.nationalarchives.gov.uk/formatregistry/def/Registry> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/activity>
+  skos:prefLabel "activity relationship" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/activity.On>
+  skos:prefLabel "activity on" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Country>
+  skos:prefLabel "has address in Country" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Registry>
+  skos:prefLabel "for RegistryThing" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.ByteSequence>
+  skos:prefLabel "used by byteSequence" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.FileFormat>
+  skos:prefLabel "used by fileFormat" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder>
+  skos:prefLabel "uses byteOrder" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition>
+  skos:prefLabel "is in position" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ContainerFile>
+  skos:prefLabel "referenced by containerFile" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLength>
+  skos:prefLabel "indirect offset length" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLocation>
+  skos:prefLabel "indirect offset location" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.InternalSignature>
+  skos:prefLabel "used by internalSignature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.MaxOffset>
+  skos:prefLabel "max offset" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset>
+  skos:prefLabel "offset" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequencePosition.ByteSequence>
+  skos:prefLabel "used by byteSequence" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/classification.FileFormat>
+  skos:prefLabel "for fileFormat" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness>
+  skos:prefLabel "exhibits lossiness" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ByteSequence>
+  skos:prefLabel "requires byteSequence" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ContainerSignature>
+  skos:prefLabel "belongs to containerSignature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.FilePath>
+  skos:prefLabel "container signature file path" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerFile>
+  skos:prefLabel "for ContainerFile" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerType>
+  skos:prefLabel "registered for Container type" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat>
+  skos:prefLabel "maps to fileFormat" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerType.ContainerSignature>
+  skos:prefLabel "registration for Container Signature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.FileFormat>
+  skos:prefLabel "identifies fileFormat" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification>
+  skos:prefLabel "is classified as" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.CompressionType>
+  skos:prefLabel "compressionType" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerSignature>
+  skos:prefLabel "is identified with containerSignature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerType>
+  skos:prefLabel "triggers Container type" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Encoding>
+  skos:prefLabel "encoding" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FileFormat>
+  skos:prefLabel "fileFormat" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry>
+  skos:prefLabel "is contained in registry" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatRegistry.FormatIdentifier>
+  skos:prefLabel "is registry for formatIdentifier" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Actor>
+  skos:prefLabel "performedBy Actor" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>
+  skos:prefLabel "performs Activity" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/process>
+  skos:prefLabel "process relationship" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/relations>
+  skos:prefLabel "relations" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/relationship>
+  skos:prefLabel "file format relationship" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/relationships>
+  skos:prefLabel "relationships" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Activity>
+  skos:prefLabel "result of activity" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal>
+  skos:prefLabel "see external" ;
+.

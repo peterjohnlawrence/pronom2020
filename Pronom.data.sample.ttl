@@ -1,0 +1,347 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data
+# imports: http://data.nationalarchives.gov.uk/formatregistry/def/
+
+@prefix data: <http://data.nationalarchives.gov.uk/formatregistry/data/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pronom: <http://data.nationalarchives.gov.uk/formatregistry/def/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/data>
+  rdf:type owl:Ontology ;
+  owl:imports pronom: ;
+.
+pronom:FileFormat
+  rdfs:comment "The file formats which may be used to encode digital objects and which are associated with signatures so that they may be detected."@en ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/bigEndian>
+  skos:broader pronom:ByteOrder ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/littleEndian>
+  skos:broader pronom:ByteOrder ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/258_1>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/littleEndian> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 0 ;
+  pronom:byteSequenceOffset 0 ;
+  pronom:byteSequenceValue "504B0304{26}5B436F6E74656E745F54797065735D2E786D6C20A2*504B0102*504B0506" ;
+  rdfs:label "" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/278_1>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/littleEndian> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceOffset 0 ;
+  pronom:byteSequenceValue "66747970{0-64}(6D703432|6D703431|69736F6D|69736F32)*6D6F6F76" ;
+  rdfs:label "" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_1>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1582 ;
+  rdfs:comment "Offset 4: moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant1" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_2>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "6D646174*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1581 ;
+  rdfs:comment "Offset 4: mdat*moov{0-4096}(mvhd|cmov|rmra) Variants 2-8 cover the following pattern, which would be desirable to consolidate but is currently not possible due to limitations of the PRONOM signature engine: (mdat|cmov|ftypqt |pnot|skip|free|wide)*moov{0-4096}(mvhd|cmov|rmra) (6D646174|636D6F76|6674797071742020|706E6F74|736B6970|66726565|77696465)*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  rdfs:label "QuickTime variant2" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_3>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "636D6F76*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1580 ;
+  rdfs:comment "	Offset 4: cmov*moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant3" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_4>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "6674797071742020" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1579 ;
+  rdfs:comment "Offset 4: 'ftypqt ' only - assumption is that format is QuickTime if FTYP define as 'qt ' therefore no need to seek additional MOOV atom." ;
+  rdfs:label "QuickTime variant4" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_5>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "706E6F74*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1578 ;
+  rdfs:comment "Offset 4: pnot*moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant5" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_6>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "736B6970*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1577 ;
+  rdfs:comment "Offset 4: skip*moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant6" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_7>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "66726565*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1576 ;
+  rdfs:comment "Offset 4: free*moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant7" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_8>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 4 ;
+  pronom:byteSequenceOffset 4 ;
+  pronom:byteSequenceValue "77696465*6D6F6F76{0-4096}(6D766864|636D6F76|726D7261)" ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> 1575 ;
+  rdfs:comment "Offset 4: wide*moov{0-4096}(mvhd|cmov|rmra)" ;
+  rdfs:label "QuickTime variant8" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/CS28000-1-1>
+  rdf:type pronom:ByteSequence ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequencePosition/AbsoluteBOF> ;
+  pronom:byteSequenceMaxOffset 0 ;
+  pronom:byteSequenceOffset 0 ;
+  pronom:byteSequenceValue "'application/vnd.adobe.air-application-installer-package+zip'" ;
+  rdfs:label "CS28000-1-1" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ContainerFile/CS28000-1>
+  rdf:type pronom:ContainerFile ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/CS28000-1-1> ;
+  pronom:filePath "mimetype" ;
+  rdfs:label "CS28000-1" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ContainerFile/CS28000-2>
+  rdf:type pronom:ContainerFile ;
+  pronom:filePath "META-INF/AIR/application.xml" ;
+  rdfs:label "CS28000-2" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ContainerSignature/CS28000>
+  rdf:type pronom:ContainerSignature ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerFile> <http://reference.data.gov.uk/technical-registry/pronom/id/ContainerFile/CS28000-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerFile> <http://reference.data.gov.uk/technical-registry/pronom/id/ContainerFile/CS28000-2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerType> <http://reference.data.gov.uk/technical-registry/pronom/id/ContainerType/ZIP> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ID> 28000 ;
+  rdfs:comment "Adobe Air 1.0" ;
+  rdfs:label "CS28000" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ContainerType/OLE2>
+  rdf:type pronom:ContainerType ;
+  rdfs:label "OLE2" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ContainerType/ZIP>
+  rdf:type pronom:ContainerType ;
+  rdfs:label "ZIP" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/f4a>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "f4a" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/f4a"^^xsd:anyURI ;
+  rdfs:label "f4a" ;
+  skos:prefLabel "f4a" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/f4v>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "f4v" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/f4v"^^xsd:anyURI ;
+  rdfs:label "f4v" ;
+  skos:prefLabel "f4v" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/m4a>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "m4a" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/m4a"^^xsd:anyURI ;
+  rdfs:label "m4a" ;
+  skos:prefLabel "m4a" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/m4v>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "m4v" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/m4v"^^xsd:anyURI ;
+  rdfs:label "m4v" ;
+  skos:prefLabel "m4v" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/mov>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "mov" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/mov"^^xsd:anyURI ;
+  rdfs:label "mov" ;
+  skos:prefLabel "mov" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/mp4>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "mp4" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/mp4"^^xsd:anyURI ;
+  rdfs:label "mp4" ;
+  skos:prefLabel "mp4" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/qtm>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "qtm" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/qtm"^^xsd:anyURI ;
+  rdfs:label "qtm" ;
+  skos:prefLabel "qtm" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/zip>
+  rdf:type pronom:ExternalSignature ;
+  pronom:extension "zip" ;
+  pronom:seeExternal "https://www.file-extension.org/extensions/zip"^^xsd:anyURI ;
+  rdfs:label "zip" ;
+  skos:prefLabel "zip" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/application/mp4>
+  rdf:type pronom:FormatIdentifier ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/InternetMediaType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> 1276 ;
+  pronom:seeExternal "https://www.iana.org/assignments/media-types/application/mp4"^^xsd:anyURI ;
+  rdfs:label "application/mp4" ;
+  skos:prefLabel "application/mp4" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/application/zip>
+  rdf:type pronom:FormatIdentifier ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/InternetMediaType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> 256 ;
+  pronom:seeExternal "https://www.iana.org/assignments/media-types/application/zip"^^xsd:anyURI ;
+  rdfs:label "application/zip" ;
+  skos:prefLabel "application/zip" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/com.pkware.zip-archive>
+  rdf:type pronom:FormatIdentifier ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/UniformTypeIdentifier> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> 295 ;
+  rdfs:label "com.pkware.zip-archive" ;
+  skos:prefLabel "com.pkware.zip-archive" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/video/mp4>
+  rdf:type pronom:FormatIdentifier ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/InternetMediaType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> 1277 ;
+  pronom:seeExternal "https://www.iana.org/assignments/media-types/video/mp4"^^xsd:anyURI ;
+  rdfs:label "video/mp4" ;
+  skos:prefLabel "video/mp4" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/video/quicktime>
+  rdf:type pronom:FormatIdentifier ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/InternetMediaType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> 206 ;
+  pronom:seeExternal "https://www.iana.org/assignments/media-types/video/quicktime"^^xsd:anyURI ;
+  rdfs:label "video/quicktime" ;
+  skos:broader <http://reference.data.gov.uk/technical-registry/pronom/id/FormatRegistry/InternetMediaType> ;
+  skos:prefLabel "video/quicktime" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/258>
+  rdf:type pronom:InternalSignature ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteOrder> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/littleEndian> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/258_1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internal_signatures.ID> 258 ;
+  pronom:sequence "{0}'PK'0304{26}'[Content_Types].xml'20A2*'PK'0102*'PK'0506" ;
+  rdfs:comment "Signature represents a combination of OOXML specific bytes and a standard ZIP signature (taken verbatim from Zip format sig). Last two bytes of this signature represents a Microsoft Open Packaging growth hint which indentifies this as one of three OOXML document types so far."@en ;
+  rdfs:label "" ;
+  skos:broader pronom:InternalSignature ;
+  skos:prefLabel "" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/278>
+  rdf:type pronom:InternalSignature ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/278_1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internal_signatures.ID> 278 ;
+  pronom:sequence "{4}'ftyp'{0-64}('mp42'|'mp41'|'isom'|'iso2')*'moov'" ;
+  rdfs:label "" ;
+  skos:broader pronom:InternalSignature ;
+  skos:prefLabel "" ;
+.
+<http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/658>
+  rdf:type pronom:InternalSignature ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_4> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_5> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_6> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_7> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteSequence/658_8> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/internal_signatures.ID> 658 ;
+  pronom:sequence "{4}('mdat'|'cmov'|'pnot'|'skip'|'free'|'wide'|'ftypqt')*'moov'{0-4096}('mvhd'|'cmov'|'rmra')" ;
+  rdfs:label "" ;
+  skos:broader pronom:InternalSignature ;
+  skos:prefLabel "" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/189>
+  rdf:type pronom:FileFormat ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification> <http://reference.data.gov.uk/technical-registry/pronom/id/Classification/Aggregate> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerType> <http://reference.data.gov.uk/technical-registry/pronom/id/ContainerType/ZIP> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/258> ;
+  pronom:hasPriorityOver <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/263> ;
+  pronom:puid "fmt/189" ;
+  rdfs:comment "Microsoft developed office Open XML (OOXML) in 2007. It is an XML based format representing a departure from previous Microsoft Office suites, which were binary file based. Starting with Microsoft Office 2007, the Office Open XML file formats have become the default file format of Microsoft Office. The ISO standard for OOXML is ISO/IEC DIS 29500. An OOXML file format consists of a compressed zip archive that is designated according to which file type it is. OOXML uses three custom XML based languages to describe its’ three document types. WordProcessingML, SpreadsheetML and PresentationML are each used to describe Word, Excel and PowerPoint Presentation files respectively. OOXML is not an open format but the specification and development rights have been released under Microsoft’s Covenant not to Sue. OOXML is platform independent."@en ;
+  rdfs:label "Microsoft Office Open XML" ;
+  skos:broader pronom:FileFormat ;
+  skos:prefLabel "Microsoft Office Open XML" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/199>
+  rdf:type pronom:FileFormat ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/littleEndian> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/f4a> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/f4v> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/m4a> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/m4v> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/mp4> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/application/mp4> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/video/mp4> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/278> ;
+  pronom:hasPriorityOver <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/384> ;
+  pronom:puid "fmt/199" ;
+  rdfs:comment "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select Add an Entry."@en ;
+  rdfs:label "MPEG-4 Media File" ;
+  skos:broader pronom:FileFormat ;
+  skos:prefLabel "MPEG-4 Media File" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/263>
+  rdf:type pronom:FileFormat ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification> <http://reference.data.gov.uk/technical-registry/pronom/id/Classification/Aggregate> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerType> <http://reference.data.gov.uk/technical-registry/pronom/id/ContainerType/ZIP> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/zip> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/application/zip> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/com.pkware.zip-archive> ;
+  pronom:puid "x-fmt/263" ;
+  rdfs:comment "This is an outline record only, and requires further details, research or authentication to provide information that will enable users to further understand the format and to assess digital preservation risks associated with it if appropriate. If you are able to help by supplying any additional information concerning this entry, please return to the main PRONOM page and select Add an Entry."@en ;
+  rdfs:label "ZIP Format" ;
+  skos:broader pronom:FileFormat ;
+  skos:prefLabel "ZIP Format" ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/384>
+  rdf:type pronom:FileFormat ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder> <http://reference.data.gov.uk/technical-registry/pronom/id/ByteOrder/bigEndian> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/mov> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/ExternalSignature/qtm> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> <http://reference.data.gov.uk/technical-registry/pronom/id/FormatIdentifier/video/quicktime> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature> <http://reference.data.gov.uk/technical-registry/pronom/id/InternalSignature/658> ;
+  pronom:puid "x-fmt/384" ;
+  rdfs:comment "The QuickTime file format is a format for storing multimedia content, principally video, developed by Apple. The basic data unit in a QuickTime file is the atom. Each atom contains size and type information along with its data. The size field indicates the number of bytes in the atom, including the size and type fields. The type field specifies the type of data stored in the atom and, by implication, the format of that data. Atoms are hierarchical in nature. That is, one atom can contain one or more other atoms of varying types. For example, a movie atom contains one track atom for each track in the movie. The track atoms, in turn, contain one or more media atoms each, along with other atoms that define other track and movie characteristics. This hierarchical structure of atoms is referred to as a containment hierarchy. A QuickTime file is simply a collection of atoms. QuickTime does not impose any rules about the order of these atoms. Apple discontinued the support of Windows Media Player in the year 2016. Windows Media Player thus only supports file format versions 2.0, or earlier, of QuickTime Movie files. Newer QuickTime Movie files can be played on Windows with VLC Media Player."@en ;
+  rdfs:label "Quicktime" ;
+  skos:altLabel "MOV" ;
+  skos:altLabel "QT" ;
+  skos:broader pronom:FileFormat ;
+  skos:prefLabel "Quicktime" ;
+.

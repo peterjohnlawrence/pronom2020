@@ -1,0 +1,260 @@
+#Construct compressionTypes
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes>{
+#CONSTRUCT{
+	?compressionPuidIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+		rdfs:comment ?compressionTypeComment ;
+		rdfs:label ?compressionTypeLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/puid> ?puidLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?compressionTypeLabel ;
+		<http://www.w3.org/2004/02/skos/core#altLabel> ?compressionTypeAltLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 	?compressionTypeId ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness>  ?compressionTypeLossinessIRI  .
+}
+}
+#select *
+WHERE {
+	?compressionType a vocab:dbo_compression_types ;
+		vocab:dbo_compression_types_compression_name_text ?compressionTypeLabel ;
+		vocab:dbo_compression_types_compression_text ?compressionTypeComment ;
+		vocab:dbo_compression_types_lossiness_id  ?compressionTypeLossiness ;
+		vocab:dbo_compression_types_compression_id  ?compressionTypeId ;
+		vocab:dbo_compression_types_puid_value  ?puid ;
+		vocab:dbo_compression_types_puid_type_id  ?puidType .
+	?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+	BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+	OPTIONAL{
+		?compressionAlias 	vocab:dbo_compression_aliases_compression_id ?compressionType .
+		?compressionAlias vocab:dbo_compression_aliases_name_text ?compressionTypeAltLabel 
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-",  STR(?compressionTypeId))) as ?compressionTypeIRI)
+	BIND (IF(  ?compressionTypeLossiness =    db:lossiness_1, <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy>,<http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless>) as  ?compressionTypeLossinessIRI)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?compressionPuidIRI)
+}
+;
+
+#Construct classifications
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/classifications>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/classifications> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/classifications>{
+#CONSTRUCT{
+	?formatTypeIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Classification> ;
+		rdfs:comment ?formatTypeText ;
+		rdfs:label  ?formatTypeLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?formatTypeLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/format_types.ID> 	?formatTypeId ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Classification> .
+}
+}
+#select *
+WHERE {
+	?formatType a vocab:dbo_format_types ;
+		vocab:dbo_format_types_format_type_text ?formatTypeLabel ;
+		vocab:dbo_format_types_format_type_id  ?formatTypeId ;
+	OPTIONAL{ 
+		?formatType rdfs:comment  ?formatTypeText .}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Classification/C-",  STR(?formatTypeId))) as ?formatTypeIRI)
+}
+;
+
+#Construct formatFamilies
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatFamilies>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatFamilies> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatFamilies>{
+#CONSTRUCT{
+	?formatFamilyIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/FileFormatFamily> ;
+		rdfs:comment ?formatFamilyComment ;
+		rdfs:label  ?formatFamilyLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?formatFamilyLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/format_families.ID> 	?formatFamilyId ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/FileFormatFamily> .
+}
+}
+#select *
+WHERE {
+	?formatFamily a vocab:dbo_format_families  ;
+		vocab:dbo_format_families_name_text ?formatFamilyLabel ;
+		vocab:dbo_format_families_family_text ?formatFamilyComment ;
+	BIND ( STRAFTER(STR(?formatFamily),"families_") as ?formatFamilyId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-",  STR(?formatFamilyId))) as ?formatFamilyIRI)
+}
+;
+
+#Construct actorTypes
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actorTypes>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actorTypes> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actorTypes>{
+#CONSTRUCT{
+	?actorTypeIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ActorType> ;
+		rdfs:comment ?actorTypeLabel ;
+		rdfs:label  ?actorTypeLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?actorTypeLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor_type.ID> 	?actorTypeId ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/ActorType> .
+}
+}
+#select *
+WHERE {
+	?actorType a vocab:dbo_actor_types  ;
+		vocab:dbo_actor_types_actor_type_text  ?actorTypeLabel ;
+		vocab:dbo_actor_types_actor_type_id ?actorTypeId ;
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ActorType/AT-",  STR(?actorTypeId))) as ?actorTypeIRI)
+}
+;
+
+#Construct countries
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/countries>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/countries> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/countries>{
+#CONSTRUCT{
+	?countryIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+		rdfs:comment ?countryComment ;
+		rdfs:label  ?countryLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?countryLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> 	?countryLabel ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> .
+}
+}
+#select *
+WHERE {
+	?country  a vocab:dbo_countries  ;
+		vocab:dbo_countries_country_code_text  ?countryLabel ;
+		vocab:dbo_countries_country_name_text ?countryComment  ;
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-",  STR(?countryLabel))) as ?countryIRI)
+BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-",  STR(?countryLabel))) as ?countryIRI)
+}
+;
+
+#Construct documentTypes
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentTypes>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentTypes> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentTypes>{
+#CONSTRUCT{
+	?documentTypeIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/DocumentType> ;
+		rdfs:comment ?documentTypeLabel ;
+		rdfs:label  ?documentTypeLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?documentTypeLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/document_types.ID> 	?documentTypeId ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/DocumentType> .
+}
+}
+#select *
+WHERE {
+	?documentType a vocab:dbo_document_types  ;
+		vocab:dbo_document_types_document_type_text  ?documentTypeLabel ;
+		vocab:dbo_document_types_document_type_id ?documentTypeId ;
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-",  STR(?documentTypeId))) as ?documentTypeIRI)
+}
+;
+
+#Construct encoding
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/encoding>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/encoding> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/encoding>{
+#CONSTRUCT{
+	?encodingPuidIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;
+		rdfs:comment ?encodingComment ;
+		rdfs:label ?encodingLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/puid> ?encodingpuidLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?encodingLabel ;
+		<http://www.w3.org/2004/02/skos/core#altLabel> ?encodingAltLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID> 	?encodingId ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/encoding.Source.Actor> ?sourceActorIRI .
+}
+}
+#select *
+WHERE {
+	?encodingType a vocab:dbo_encoding ;
+		vocab:dbo_encoding_encoding_name_text ?encodingLabel;
+
+ 		vocab:dbo_encoding_encoding_id ?encodingId  ;
+  		vocab:dbo_encoding_encoding_text ?encodingComment ;
+  		vocab:dbo_encoding_source_id  ?sourceActor ;
+		vocab:dbo_encoding_puid_value  ?encodingPuid ;
+		vocab:dbo_encoding_puid_type_id  ?encodingPuidType .
+	OPTIONAL{?encodingType vocab:dbo_encoding_note_text ?encodingAltLabel}
+	?encodingPuidType  vocab:dbo_puid_type_puid_type  ?encodingPuidPrefix .
+	BIND( CONCAT( REPLACE(?encodingPuidPrefix," ",""), "/",STR(?encodingPuid)) as ?encodingPuidLabel)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?encodingPuidLabel)) as ?encodingPuidIRI)
+	BIND ( STRAFTER(STR(?sourceActor),"actors_") as ?sourceActorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?sourceActorId))) as ?sourceActorIRI)
+}
+;
+
+
+#Construct softwareTypes
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes>{
+#CONSTRUCT{
+	?softwareTypeIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SoftwareType> ;
+		rdfs:comment ?softwareTypeLabel ;
+		rdfs:label  ?softwareTypeLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?softwareTypeLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/software_types.ID> 	?softwareTypeId ;
+		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/SoftwareType> .
+}
+}
+#select *
+WHERE {
+	?softwareType a vocab:dbo_software_types  ;
+		vocab:dbo_software_types_software_type_text  ?softwareTypeLabel ;
+		vocab:dbo_software_types_software_type_id ?softwareTypeId ;
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/SoftwareType/ST-",  STR(?softwareTypeId))) as ?softwareTypeIRI)
+}
+;
+
+#Construct processTypes
+# use reified relationship instead
+
+#DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/processTypes>{?s ?p ?o }}
+#WHERE
+#{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareTypes> {?s ?p ?o }}
+#;
+#INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/processTypes>{
+##CONSTRUCT{
+#	?processTypeIRI
+#		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ProcessType> ;
+#		rdfs:comment ?processTypeLabel ;
+#		rdfs:label  ?processTypeLabel ;
+#		<http://www.w3.org/2004/02/skos/core#prefLabel> ?processTypeLabel ;
+#		<http://data.nationalarchives.gov.uk/formatregistry/def/process_types.ID> 	?processTypeId ;
+#		<http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/ProcessType> .
+#}
+#}
+##select *
+#WHERE {
+#	?processType a vocab:dbo_process_types  ;
+#		vocab:dbo_process_types_process_type_text  ?processTypeLabel ;
+#		vocab:dbo_process_types_process_type_id ?processTypeId ;
+#	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ProcessType/PT-",  STR(?processTypeId))) as ?processTypeIRI)
+#}
+#;

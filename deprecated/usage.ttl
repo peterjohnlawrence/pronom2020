@@ -1,0 +1,124 @@
+@base          <http://reference.data.gov.uk/technical-registry/> .
+@prefix skostemplate: <http://topbraid.org/spin/skostemplates#> .
+@prefix metadata: <http://topbraid.org/metadata#> .
+@prefix tagger: <http://evn.topbraidlive.org/tagger#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix ontologyprojects: <http://teamwork.topbraidlive.org/ontologyprojects#> .
+@prefix tops:  <http://www.topbraid.org/tops#> .
+@prefix swaclasses: <http://topbraid.org/swaclasses#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix endian: <http://reference.data.gov.uk/technical-registry/endianness/> .
+@prefix spif:  <http://spinrdf.org/spif#> .
+@prefix lossy: <http://reference.data.gov.uk/technical-registry/lossiness/> .
+@prefix tables: <http://topbraid.org/tables#> .
+@prefix crosswalkprojects: <http://teamwork.topbraidlive.org/crosswalkprojects#> .
+@prefix ui:    <http://uispin.org/ui#> .
+@prefix swaeditor: <http://topbraid.org/swaeditor#> .
+@prefix sm2wsdl: <http://topbraid.org/sparqlmotion/sm2wsdl.sms#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix html:  <http://uispin.org/html#> .
+@prefix shaclify: <http://topbraid.org/shacl/shaclify#> .
+@prefix spinmapl: <http://topbraid.org/spin/spinmapl#> .
+@prefix tasks: <http://topbraid.org/tasks#> .
+@prefix skosspin: <http://topbraid.org/spin/skosspin#> .
+@prefix edg:   <http://edg.topbraid.solutions/model/> .
+@prefix tbladmin: <http://server.topbraidlive.org/system-applications/tbladmin#> .
+@prefix spl:   <http://spinrdf.org/spl#> .
+@prefix jfn:   <java:org.apache.jena.sparql.function.library.> .
+@prefix spr:   <http://spinrdf.org/spr#> .
+@prefix taxonomies: <http://evn.topbraidlive.org/evnprojects#> .
+@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix connectset-templates: <http://tbi.topbraidlive.org/system/connectset-templates#> .
+@prefix fn:    <http://www.w3.org/2005/xpath-functions#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix sharepoint: <http://topbraid.org/sharepoint#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix smf:   <http://topbraid.org/sparqlmotionfunctions#> .
+@prefix evnconstraints: <http://topbraid.org/spin/evnconstraints#> .
+@prefix swauml: <http://topbraid.org/swauml#> .
+@prefix tablesmap: <http://topbraid.org/spin/tablesmap#> .
+@prefix backspin: <http://topbraid.org/backspin#> .
+@prefix search: <http://topbraid.org/search#> .
+@prefix crosswalk: <http://topbraid.org/crosswalk#> .
+@prefix sml:   <http://topbraid.org/sparqlmotionlib#> .
+@prefix sm:    <http://topbraid.org/sparqlmotion#> .
+@prefix spinmap: <http://spinrdf.org/spinmap#> .
+@prefix sp:    <http://spinrdf.org/sp#> .
+@prefix raci:  <http://topbraid.org/raci#> .
+@prefix uix:   <http://topbraidlive.org/uix#> .
+@prefix pronom: <http://reference.data.gov.uk/technical-registry/> .
+@prefix afn:   <http://jena.hpl.hp.com/ARQ/function#> .
+@prefix owlrl: <http://topbraid.org/spin/owlrl#> .
+@prefix softwareprojects: <http://teamwork.topbraidlive.org/software/softwareprojects#> .
+@prefix tosh.ui: <http://topbraid.org/tosh.ui#> .
+@prefix swon:  <http://uispin.org/swon#> .
+@prefix teamwork: <http://topbraid.org/teamwork#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix pf:    <http://jena.hpl.hp.com/ARQ/property#> .
+@prefix evnui: <http://evn.topbraidlive.org/ui#> .
+@prefix spin:  <http://spinrdf.org/spin#> .
+@prefix spra:  <http://spinrdf.org/spra#> .
+@prefix swa:   <http://topbraid.org/swa#> .
+
+pronom:PageDescription
+        a             <pronom/Usage> ;
+        rdfs:comment  "A textual or binary data stream that can be run through an interpreter to generate an image, such as PostScript in creating a PDF (Portable Document Format).  As a language it is used to encode documents by precisely describing their appearance when rendered for print or display."@en ;
+        rdfs:label    "Page Description"@en .
+
+pronom:Email  a       <pronom/Usage> ;
+        rdfs:comment  "Electronic mail formats used for the transmission and storage of memo-like content and documents across disparate networked environments, e.g. MSG, PST."@en ;
+        rdfs:label    "Email"@en .
+
+pronom:MarkupText  a  <pronom/Usage> ;
+        rdfs:comment  "Text which includes a mark-up scheme to be interpreted specifically for other applications. It is used for annotating text in a way that is syntactically distinguishable from that text. Mark-up text is machine-readable and is typically absent from the version of the text which is displayed for end-user consumption."@en ;
+        rdfs:label    "Mark-up Text"@en .
+
+pronom:Gis  a         <pronom/Usage> ;
+        rdfs:comment  "Indicates a format used within a Geographic Information System. The format may facilitate the capture, storage, manipulation, analysis, display and retrieval of data linked to geographic locations. It enables the linking of geographically referenced data to textual attributes held in a database."@en ;
+        rdfs:label    "GIS"@en .
+
+pronom:Presentation  a  <pronom/Usage> ;
+        rdfs:comment  "Indicates a format that represents interactive presentation content. Used by a presentation program to edit, manipulate and/or display visual information. A presentation file often contains both text and graphic elements, and is created with the intention of conveying information to a group of people all at once."@en ;
+        rdfs:label    "Presentation"@en .
+
+pronom:Database  a    <pronom/Usage> ;
+        rdfs:comment  "Indicates a format that consists of an organised collection of information in a suitable database management system format and easily accessed by a software application. Binary in nature and characterised by being difficult to open in a text editor, and mostly used by an application specific for the purpose of opening."@en ;
+        rdfs:label    "Database"@en .
+
+pronom:Spreadsheet  a  <pronom/Usage> ;
+        rdfs:comment  "Indicates a tabular format that allows users to enter numerical data and often manipulate that data into new spreadsheets or graphical representations. Typically uses a software program to record, maintain and display numerical data in rows and columns. Each row and each column is assigned a value, and the intersection of these values is a cell, representing a particular location within the spreadsheet."@en ;
+        rdfs:label    "Spreadsheet"@en .
+
+pronom:RasterImage  a  <pronom/Usage> ;
+        rdfs:comment  "A raster image is a data structure that allows the representation of an image from a series of bits of information. It is intended that the bits are translated into pixels for representation on a display medium. Each pixel is assigned a specific value which determines its colour, and these pixels create an overall finished image."@en ;
+        rdfs:label    "Raster Image"@en .
+
+pronom:Audio  a       <pronom/Usage> ;
+        rdfs:comment  "Audio encoded in a digital form which can be decoded and output via a computer. They are digital representations of audio waveforms, and are files that are intended to be heard rather than read. An audio file may be a raw bitstream, but is often presented as part of a multimedia format."@en ;
+        rdfs:label    "Audio"@en .
+
+pronom:Aggregate  a   <pronom/Usage> ;
+        rdfs:comment  "Indicates a format that represents aggregations of arbitrary content drawn from multiple con-tent genre categories. A ZIP file could be a useful example of such an aggregate format, wherein it may contain a wide range and large number of different file format types."@en ;
+        rdfs:label    "Aggregate"@en .
+
+pronom:VectorImage  a  <pronom/Usage> ;
+        rdfs:comment  "Images created using geometric primitives such as lines, arcs, and circles and commonly stored using mathematical equations and coordinates. A vector image defines points and the paths that connect them to form a digital representation of an image. Usually contains very little data, but typically includes the starting point (pixel) of the object, the kind of object it is, its size, and colour."@en ;
+        rdfs:label    "Vector Image"@en .
+
+pronom:Dataset  a     <pronom/Usage> ;
+        rdfs:comment  "Indicates a format that represents non database management system data, e.g. NetCDF (Network common data form), SAS XPORT, FITS, and CSV. A dataset can be primarily text oriented which can be opened in a text editor but might also be rendered in an application. A dataset may also be binary i.e. a dataset that isn�t a database or traditional spreadsheet data, NetCDF being an example of this." ;
+        rdfs:label    "Dataset"@en .
+
+pronom:Video  a       <pronom/Usage> ;
+        rdfs:comment  "Formats that allow the time-based presentation of still images to give the illusion of movement. A video file may be presented alongside other file types, such as audio content, as part of a multimedia format."@en ;
+        rdfs:label    "Video"@en .
+
+pronom:UnstructuredText
+        a             <pronom/Usage> ;
+        rdfs:comment  "Unformatted, plain text files that do not fit with a predefined data model, and do not fit well into relational tables. Typically it is text-heavy, and may contain dates and numbers."@en ;
+        rdfs:label    "Unstructured Text"@en .
+
+pronom:WordprocessedText
+        a             <pronom/Usage> ;
+        rdfs:comment  "Formatted text and additional content for presentation purposes. Used by a word processor software application to create, edit, format, save and print files. Wordprocessed text may be presented alongside other file types, such as graphics and photographs. Wordprocessed text files typically record presentation information such as character style and size, or other details that specify the appearance of a finished document."@en ;
+        rdfs:label    "Wordprocessed Text"@en .

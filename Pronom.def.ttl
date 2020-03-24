@@ -1,0 +1,1537 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/def/
+# prefix: pronom2020
+
+@prefix chr: <http://www.nationalarchives.gov.uk/PRONOM/chr/> .
+@prefix cmp: <http://www.nationalarchives.gov.uk/PRONOM/cmp/> .
+@prefix fmt: <http://www.nationalarchives.gov.uk/PRONOM/fmt/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pronom: <http://data.nationalarchives.gov.uk/formatregistry/id/> .
+@prefix pronom.Activity: <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/> .
+@prefix pronom.Actor: <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/> .
+@prefix pronom.ActorType: <http://data.nationalarchives.gov.uk/formatregistry/id/ActorType/> .
+@prefix pronom.Alias: <http://data.nationalarchives.gov.uk/formatregistry/id/Alias/> .
+@prefix pronom.ByteOrder: <http://data.nationalarchives.gov.uk/formatregistry/id/ByteOrder/> .
+@prefix pronom.ByteSequence: <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequence/> .
+@prefix pronom.ByteSequencePosition: <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/> .
+@prefix pronom.Classification: <http://data.nationalarchives.gov.uk/formatregistry/id/Classification/> .
+@prefix pronom.CompressionType: <http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/> .
+@prefix pronom.Container: <http://data.nationalarchives.gov.uk/formatregistry/id/Container/> .
+@prefix pronom.ContainerFile: <http://data.nationalarchives.gov.uk/formatregistry/id/ContainerFile/> .
+@prefix pronom.ContainerSignature: <http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/> .
+@prefix pronom.ContainerType: <http://data.nationalarchives.gov.uk/formatregistry/id/ContainerType/> .
+@prefix pronom.Country: <http://data.nationalarchives.gov.uk/formatregistry/id/Country/> .
+@prefix pronom.Document: <http://data.nationalarchives.gov.uk/formatregistry/id/Document/> .
+@prefix pronom.DocumentType: <http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/> .
+@prefix pronom.Encoding: <http://data.nationalarchives.gov.uk/formatregistry/id/Encoding/> .
+@prefix pronom.ExternalSignature: <http://data.nationalarchives.gov.uk/formatregistry/id/ExternalSignature/> .
+@prefix pronom.FileFormat: <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormat/> .
+@prefix pronom.FileFormatFamily: <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/> .
+@prefix pronom.FormatIdentifier: <http://data.nationalarchives.gov.uk/formatregistry/id/FormatIdentifier/> .
+@prefix pronom.FormatRegistry: <http://data.nationalarchives.gov.uk/formatregistry/id/FormatRegistry/> .
+@prefix pronom.InternalSignature: <http://data.nationalarchives.gov.uk/formatregistry/id/InternalSignature/> .
+@prefix pronom.Lossiness: <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/> .
+@prefix pronom.Process: <http://data.nationalarchives.gov.uk/formatregistry/id/Process/> .
+@prefix pronom.ProcessType: <http://data.nationalarchives.gov.uk/formatregistry/id/ProcessType/> .
+@prefix pronom.Relationship: <http://data.nationalarchives.gov.uk/formatregistry/id/Relationship/> .
+@prefix pronom.Software: <http://data.nationalarchives.gov.uk/formatregistry/id/Software/> .
+@prefix pronom.SoftwareType: <http://data.nationalarchives.gov.uk/formatregistry/id/SoftwareType/> .
+@prefix pronom2020: <http://data.nationalarchives.gov.uk/formatregistry/def/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sfw: <http://www.nationalarchives.gov.uk/PRONOM/sfw/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix x-chr: <http://www.nationalarchives.gov.uk/PRONOM/x-chr/> .
+@prefix x-cmp: <http://www.nationalarchives.gov.uk/PRONOM/x-cmp/> .
+@prefix x-fmt: <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/> .
+@prefix x-sfw: <http://www.nationalarchives.gov.uk/PRONOM/x-sfw/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+pronom2020:
+  rdf:type owl:Ontology ;
+  owl:priorVersion <http://data.nationalarchives.gov.uk/formatregistry/def/0.7/> ;
+  owl:versionIRI <http://data.nationalarchives.gov.uk/formatregistry/def/0.8/> ;
+.
+pronom2020:Activity
+  rdf:type owl:Class ;
+  rdfs:comment "The group of relationships associated with activities by actors with other entities"@en ;
+  rdfs:label "Activity relationship"@en ;
+  rdfs:subClassOf pronom2020:Relation ;
+  skos:prefLabel "Activity relationship"@en ;
+.
+pronom2020:Actor
+  rdf:type owl:Class ;
+  rdfs:comment "Actors that perform some role with respect to fileFormats, documentation, etc"@en ;
+  rdfs:label "Actor"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  skos:prefLabel "Actor"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ActorType
+  rdf:type owl:Class ;
+  rdfs:comment "defines the capacity within which an actor functions"@en ;
+  rdfs:label "ActorType"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "ActorType"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Alias
+  rdf:type owl:Class ;
+  rdfs:comment "An alias of an entry in the Registry"@en ;
+  rdfs:label "Alias"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  skos:prefLabel "Alias"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:AuthoringActivity
+  rdf:type owl:Class ;
+  rdfs:label "Authoring activity" ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:ByteOrder
+  rdf:type owl:Class ;
+  rdfs:comment "Classification for the byteOrder (endianess) types used."@en ;
+  rdfs:label "Byte order"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "Byte order" ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ByteSequence
+  rdf:type owl:Class ;
+  rdfs:comment "The individual byteSequences which form an internal or container signature."@en ;
+  rdfs:label "Byte sequence"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Value> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLength> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLocation> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.MaxOffset> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset> ;
+    ] ;
+  skos:prefLabel "Byte sequence"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ByteSequencePosition
+  rdf:type owl:Class ;
+  rdfs:comment "Classification for the position within the bytestream of the bytesequence pattern."@en ;
+  rdfs:label "Byte sequence position"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "Byte sequence position"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:CanBeContainedByRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Can be contained by Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Can be contained by Relationship"@en ;
+.
+pronom2020:CanContainRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Can contain"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Can contain"@en ;
+.
+pronom2020:Classification
+  rdf:type owl:Class ;
+  rdfs:comment "The use to which a file format is put" ;
+  rdfs:label "Classification"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "Classification"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:CompressionType
+  rdf:type owl:Class ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/Data_compression"^^xsd:anyURI ;
+  rdfs:comment "A method of encoding binary data that reduces its overall size. Compression may be lossless or lossy. Lossless compression stores information more efficiently, but ensures the data is the same decoded as it was before encoding. Lossy compression techniques remove information considered to be irrelevant to the representation, meaning that the file is different when decoded to how it was before encoding. Compression is possible because most digital objects contain superfluous data that is not essential to represent the digital object. This superfluous data is known as redundancy. A digital object may be uncompressed."@en ;
+  rdfs:label "CompressionType"@en ;
+  rdfs:subClassOf pronom2020:Registry ;
+  skos:definition "A method of encoding binary data that reduces its overall size. Compression may be lossless or lossy. Lossless compression stores information more efficiently, but ensures the data is the same decoded as it was before encoding. Lossy compression techniques remove information considered to be irrelevant to the representation, meaning that the file is different when decoded to how it was before encoding. Compression is possible because most digital objects contain superfluous data that is not essential to represent the digital object. This superfluous data is known as redundancy. A digital object may be uncompressed."@en ;
+  skos:prefLabel "CompressionType"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ContainerFile
+  rdf:type owl:Class ;
+  rdfs:comment "A description of one of the files that are anticipated within the associated containerType"@en ;
+  rdfs:label "ContainerFile"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  skos:prefLabel "ContainerFile"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ContainerSignature
+  rdf:type owl:Class ;
+  rdfs:comment "The signature of a containers contents"@en ;
+  rdfs:label "Container signature"@en ;
+  rdfs:subClassOf pronom2020:Signature ;
+  skos:prefLabel "Container signature"@en ;
+.
+pronom2020:ContainerType
+  rdf:type owl:Class ;
+  rdfs:comment "A category of containers which will have one or more fileFormats with which it is associated. If any of these associated fileFormats are recognozed, then that should aslo trigger the associated container matching"@en ;
+  rdfs:label "ContainerType"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "ContainerType"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Country
+  rdf:type owl:Class ;
+  rdfs:comment "Countries that perform some role with respect to fileFormats, documentaion, etc"@en ;
+  rdfs:label "Country"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "Country"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:CreateProcess
+  rdf:type owl:Class ;
+  rdfs:label "Create process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Create process relationship" ;
+.
+pronom2020:DevelopingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Developing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:Document
+  rdf:type owl:Class ;
+  rdfs:comment "Documents that perform some role with respect to fileFormats, documentation, etc"@en ;
+  rdfs:label "Document"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  skos:prefLabel "Document"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:DocumentType
+  rdf:type owl:Class ;
+  rdfs:comment "The statii of the usage of a document: authoritive, informative, and speculative"@en ;
+  rdfs:label "DocumentType"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "DocumentType"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Encoding
+  rdf:type owl:Class ;
+  pronom2020:seeExternal "http://www.unicode.org/reports/tr17/"^^xsd:anyURI ;
+  rdfs:comment "This entity models character encodings (character maps) employed by file formats. Defined in Whistler, K and Davis, M, 2000, Character Encoding Model, Unicode Technical Report, 17 " ;
+  rdfs:label "Encoding" ;
+  rdfs:subClassOf pronom2020:Registry ;
+  skos:prefLabel "Encoding" ;
+.
+pronom2020:EquivalentToRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Equivalent to Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Equivalent to Relationship"@en ;
+.
+pronom2020:ExternalSignature
+  rdf:type owl:Class ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/Filename_extension"^^xsd:anyURI ;
+  pronom2020:seeExternal "https://www.file-extension.org"^^xsd:anyURI ;
+  rdfs:comment "A file extension is a suffix to the name of a computer file applied to indicate the type of file format. It gives a human readable identifier for the file; such that users can quickly understand the type of file it is without having to open it. The filename extension associates the file with certain software packages, helping an application program recognise whether it is of a type that it can work with. In some operating systems, such as DOS, a file extension is required, but in others, such as Unix, it is optional. Some operating systems limit the length of the extension and some are case sensitive. On Windows computers, extensions consist of a dot '.' at the end of a file name, typically followed by three letters to identify the type of file. On a Unix based system, the file name is a single string, with the '.' being just another character, and with the file name being of variable-length. A file extension is not a reliable identifier of the format of the file. An extension may be linked to more than one program; they are not assigned by a controlling authority, and can be easily changed."@en ;
+  rdfs:label "External Signature"@en ;
+  rdfs:subClassOf pronom2020:Signature ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.Extension> ;
+    ] ;
+  skos:prefLabel "External Signature"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ExtractMetadataProcess
+  rdf:type owl:Class ;
+  rdfs:label "Extract Metadata process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Extract Metadata process" ;
+.
+pronom2020:Family
+  rdf:type owl:Class ;
+  rdfs:comment "A collection or family of things with a feature in common."@en ;
+  rdfs:label "Family"@en ;
+  rdfs:subClassOf skos:Collection ;
+  skos:inScheme pronom2020:PRONOM ;
+  skos:prefLabel "Family"@en ;
+.
+pronom2020:FileFormat
+  rdf:type owl:Class ;
+  rdfs:label "File Format"@en ;
+  rdfs:subClassOf pronom2020:Registry ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/registry.puid> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder> ;
+    ] ;
+  skos:prefLabel "File Format"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:FileFormatFamily
+  rdf:type owl:Class ;
+  rdfs:comment "A collection of file formats with a common feature"@en ;
+  rdfs:label "File format family"@en ;
+  rdfs:subClassOf pronom2020:Family ;
+  skos:prefLabel "File format family"@en ;
+.
+pronom2020:FormatIdentifier
+  rdf:type owl:Class ;
+  rdfs:comment "External identifier of the file format  registered with an external registry of formats"@en ;
+  rdfs:label "Format identifier"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> ;
+    ] ;
+  skos:prefLabel "Format identifier"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:FormatRegistry
+  rdf:type owl:Class ;
+  rdfs:comment "An external registry/catalog of file formats"@en ;
+  rdfs:label "Format Registry" ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "Format Registry"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:HasPriorityOverRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Has priority over Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Has priority over Relationship"@en ;
+.
+pronom2020:ID
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The superproperty that contains the properties that reference the SQL primary keys for the purpose of maintaining a crosss reference with the legacy database."@en ;
+  rdfs:label "ID"@en ;
+.
+pronom2020:IdentifyProcess
+  rdf:type owl:Class ;
+  rdfs:label "Identify process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Identify process" ;
+.
+pronom2020:InternalSignature
+  rdf:type owl:Class ;
+  rdfs:comment "In PRONOM, we attempt to associate each file format it with a binary signature, termed an internal signature. Internal signatures are created from unique byte sequences that are com-mon within digital objects of the same type. The internal signature is a representation of these byte sequences using hexadecimal notation and simple regular expression features that allow signature developers to create more precise signatures. A signature byte sequence is mod-elled by describing its starting position within a bitstream and its value. The starting position can be either absolute (the byte sequence starts at a fixed position within the bitstream) or variable (the byte sequence starts at any offset within the bitstream). By definition, a file for-mat specification imposes a specific structure upon the content of the bitstream, which is consistent between all digital objects in that format. The characteristics of this structure may therefore be used as a signature for identifying the format."@en ;
+  rdfs:label "Internal signature"@en ;
+  rdfs:subClassOf pronom2020:Signature ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:maxCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.Sequence> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> ;
+    ] ;
+  skos:prefLabel "Internal signature"@en ;
+.
+pronom2020:Lossiness
+  rdf:type owl:Class ;
+  rdfs:comment "Lossless compression is a class of data compression algorithms that allows the original data to be perfectly reconstructed from the compressed data. By contrast, lossy compression permits reconstruction only of an approximation of the original data, though usually with greatly improved compression rates (and therefore reduced media sizes)."@en ;
+  rdfs:label "Lossiness"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:definition "Lossless compression is a class of data compression algorithms that allows the original data to be perfectly reconstructed from the compressed data. By contrast, lossy compression permits reconstruction only of an approximation of the original data, though usually with greatly improved compression rates (and therefore reduced media sizes)."@en ;
+  skos:prefLabel "Lossiness"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:MaintainingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Maintaining activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:PRONOM
+  rdf:type skos:ConceptScheme ;
+  rdfs:comment "PRONOM (Public Record Office and Nôm 喃) [1] is a web-based technical registry to support digital preservation services, developed by The National Archives of the United Kingdom." ;
+  rdfs:label "PRONOM" ;
+  skos:prefLabel "PRONOM" ;
+.
+pronom2020:PriorVersionOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Prior version of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Prior version of Relationship"@en ;
+.
+pronom2020:Process
+  rdf:type owl:Class ;
+  rdfs:comment "The group of relationships associated with processes by software and fileFormats"@en ;
+  rdfs:label "Process"@en ;
+  rdfs:subClassOf pronom2020:Relation ;
+  skos:prefLabel "Process relationship" ;
+.
+pronom2020:PublishingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Publishing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:Reference
+  rdf:type owl:Class ;
+  rdfs:comment "The superclass of all reference things"@en ;
+  rdfs:label "Reference"@en ;
+  rdfs:subClassOf skos:Concept ;
+  skos:prefLabel "Reference"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Registry
+  rdf:type owl:Class ;
+  rdfs:comment "The superclass of all registry things, aka things that have been given a PUID"@en ;
+  rdfs:label "Registry"@en ;
+  rdfs:subClassOf skos:Concept ;
+  skos:prefLabel "Registry"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Related
+  rdf:type owl:Class ;
+  rdfs:comment "The superclass of things associated with Registry entities, providing additional information"@en ;
+  rdfs:label "Related"@en ;
+  rdfs:subClassOf skos:Concept ;
+  skos:prefLabel "Related"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Relation
+  rdf:type owl:Class ;
+  rdfs:comment "The superclass of relations between entities. It is not intended that this should be instantiated, an abstract  entity"@en ;
+  rdfs:label "Relation"@en ;
+  rdfs:subClassOf skos:Concept ;
+  skos:prefLabel "Relation"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Relationship
+  rdf:type owl:Class ;
+  rdfs:comment "The group of relationships between fileFormats"@en ;
+  rdfs:label "File format relationship"@en ;
+  rdfs:subClassOf pronom2020:Relation ;
+  skos:prefLabel "File format relationship" ;
+.
+pronom2020:RenderProcess
+  rdf:type owl:Class ;
+  rdfs:label "Render process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Render process" ;
+.
+pronom2020:Signature
+  rdf:type owl:Class ;
+  rdfs:comment "The superclass of all signatures: container, external, and internal."@en ;
+  rdfs:label "Signature"@en ;
+  rdfs:subClassOf pronom2020:Related ;
+  skos:prefLabel "Signature"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:Software
+  rdf:type owl:Class ;
+  rdfs:comment "Software related to the fileFormats"@en ;
+  rdfs:label "Software"@en ;
+  rdfs:subClassOf pronom2020:Registry ;
+  skos:prefLabel "Software"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:SoftwareType
+  rdf:type owl:Class ;
+  rdfs:comment "Generic software type: the purpose to which the software might be put"@en ;
+  rdfs:label "SoftwareType"@en ;
+  rdfs:subClassOf pronom2020:Reference ;
+  skos:prefLabel "SoftwareType"@en ;
+  skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:SourcingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Sourcing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:SubTypeOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Subtype of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Subtype of Relationship"@en ;
+.
+pronom2020:SubsequentVersionOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Subsequent version of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Subsequent version of Relationship"@en ;
+.
+pronom2020:SuperTypeOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Supertype of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Supertype of Relationship"@en ;
+.
+pronom2020:SupportingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Supporting activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:ValidateProcess
+  rdf:type owl:Class ;
+  rdfs:label "Validate process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Validate process" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/about.Relationship>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "about Relationship"@en ;
+  rdfs:range pronom2020:Relationship ;
+  rdfs:subPropertyOf pronom2020:relationship ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/with.FileFormat> ;
+  skos:prefLabel "about Relationship"@en ;
+.
+pronom2020:activity
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Abstract property solely to act as a super property of similarly related properties" ;
+  rdfs:label "activity relationship"@en ;
+  rdfs:subPropertyOf pronom2020:relationships ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/activity.On>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Activity ;
+  rdfs:label "activity on" ;
+  rdfs:range pronom2020:Actor ;
+  rdfs:range pronom2020:Document ;
+  rdfs:range pronom2020:Registry ;
+  rdfs:subPropertyOf pronom2020:activity ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Activity> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Address>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The address of the actor"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "address"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "address"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Contact>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the contact or department within the actor organization"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "contact"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "contact"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Country>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Country within which actor resides/operates"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "has address in Country"@en ;
+  rdfs:range pronom2020:Country ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/country.Actor> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Email>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The email of the actor"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "email Address"@en ;
+  rdfs:range xsd:anyURI ;
+  skos:prefLabel "email Address"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Support.Website>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The support website of the actor"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "support website"@en ;
+  rdfs:range xsd:anyURI ;
+  skos:prefLabel "support website"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Telephone>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The telephone of the actor"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "telephone"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "telephone"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Website>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The website of the actor"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "website"@en ;
+  rdfs:range xsd:anyURI ;
+  skos:prefLabel "website"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actor_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: actor_types"@en ;
+  rdfs:domain pronom2020:ActorType ;
+  rdfs:label "actor_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/actors.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: actors"@en ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "actors.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Registry>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Alias ;
+  rdfs:label "for RegistryThing" ;
+  rdfs:range pronom2020:Registry ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Version>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The version of the alias"@en ;
+  rdfs:domain pronom2020:Alias ;
+  rdfs:label "version"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "version"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.ByteSequence>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "ByteSequences that use this byteOrder"@en ;
+  rdfs:label "used by byteSequence"@en ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "FileFormats that use this byteOrder"@en ;
+  rdfs:domain pronom2020:ByteOrder ;
+  rdfs:label "used by fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteOrder>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Allowable byte orders for the byteSequence"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "uses byteOrder"@en ;
+  rdfs:range pronom2020:ByteOrder ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.ByteSequence> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Indicates whether the sequence occurs at a absolute or variable offset within the bitstream"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "is in position"@en ;
+  rdfs:range pronom2020:ByteSequencePosition ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequencePosition.ByteSequence> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ContainerFile>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "A byte sequence that forms part of the containerFile signature within a containerSignature"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "referenced by containerFile"@en ;
+  rdfs:range pronom2020:ContainerFile ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ByteSequence> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLength>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment """If Byte Sequence Position Type is “Absolute from BOF”: offset in bytes from the beginning of the bitstream (offset 0) at which the sequence begins
+
+If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from the end of the bitstream (offset 0) at which the sequence ends"""@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "indirect offset length" ;
+  rdfs:range xsd:integer ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLocation>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Defines the location of the indirect offset within the byte stream."@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "indirect offset location"@en ;
+  rdfs:range xsd:integer ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.InternalSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Internal signature that uses this byteSequence"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "used by internalSignature" ;
+  rdfs:range pronom2020:InternalSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.MaxOffset>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Maximum permissable offset"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "max offset"@en ;
+  rdfs:range xsd:integer ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment """If Byte Sequence Position Type is “Absolute from BOF”: offset in bytes from the beginning of the bitstream (offset 0) at which the sequence begins
+
+If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from the end of the bitstream (offset 0) at which the sequence ends"""@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "offset"@en ;
+  rdfs:range xsd:integer ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Value>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Value of the sequence, expressed as hexadecimal byte values and regular expressions"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "value"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "value" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequencePosition.ByteSequence>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Byte sequence poistion used by byteSequences"@en ;
+  rdfs:domain pronom2020:ByteSequencePosition ;
+  rdfs:label "used by byteSequence"@en ;
+  rdfs:range pronom2020:ByteSequence ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byte_orders.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: byte_orders"@en ;
+  rdfs:domain pronom2020:ByteOrder ;
+  rdfs:label "byte_orders.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: byte_sequences"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "byte_sequences.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/classification.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "The fileFormats that belong to this classification."@en ;
+  rdfs:label "for fileFormat"@en ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Fileformats that used this CompressionType@en}" ;
+  rdfs:domain pronom2020:CompressionType ;
+  rdfs:label "used by fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.CompressionType> ;
+  skos:prefLabel "used by fileFormat"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Lossiness class of this compressionType"@en ;
+  rdfs:domain pronom2020:CompressionType ;
+  rdfs:label "exhibits lossiness"@en ;
+  rdfs:range pronom2020:Lossiness ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/lossiness.CompressionType> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/compression_aliases.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: compression_aliases"@en ;
+  rdfs:domain pronom2020:Alias ;
+  rdfs:label "compression_aliases.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: compression_types"@en ;
+  rdfs:domain pronom2020:CompressionType ;
+  rdfs:label "compression_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ByteSequence>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "ByteSequence required for this file within a containerSignature"@en ;
+  rdfs:domain pronom2020:ContainerFile ;
+  rdfs:label "requires byteSequence"@en ;
+  rdfs:range pronom2020:ByteSequence ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ContainerFile> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ContainerSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies the containerSignature that is associated with this containerFile pattern"@en ;
+  rdfs:domain pronom2020:ContainerFile ;
+  rdfs:label "belongs to containerSignature"@en ;
+  rdfs:range pronom2020:ContainerSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerFile> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.FilePath>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The filepath of the file within the container that is the subject/focus  of the signature."@en ;
+  rdfs:domain pronom2020:ContainerFile ;
+  rdfs:label "container signature file path"@en ;
+  rdfs:range xsd:string ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerFile>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies the containerFile that is anticipated in this containerSignature"@en ;
+  rdfs:domain pronom2020:ContainerSignature ;
+  rdfs:label "for ContainerFile"@en ;
+  rdfs:range pronom2020:ContainerFile ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerFile.ContainerSignature> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerType>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies the containerType to which this containerSignature is registered"@en ;
+  rdfs:domain pronom2020:ContainerSignature ;
+  rdfs:label "registered for Container type"@en ;
+  rdfs:range pronom2020:ContainerType ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerType.ContainerSignature> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies the fileFormat to which this containerSignature maps."@en ;
+  rdfs:domain pronom2020:ContainerSignature ;
+  rdfs:label "maps to fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerSignature> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating container-signature XML element: containerSignature"@en ;
+  rdfs:domain pronom2020:ContainerSignature ;
+  rdfs:label "containerSignature.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerType.ContainerSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Registration for Container Signature"@en ;
+  rdfs:domain pronom2020:ContainerType ;
+  rdfs:label "registration for Container Signature"@en ;
+  rdfs:range pronom2020:ContainerSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.ContainerType> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/containerType.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Refers to a fileFomat that belongs to this container type and will therefore trigger associated container scanning"@en ;
+  rdfs:domain pronom2020:ContainerType ;
+  rdfs:label "triggering fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerType> ;
+  skos:prefLabel "triggering fileFormat"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/country.Actor>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Country ;
+  rdfs:label "of Actor" ;
+  rdfs:range pronom2020:Actor ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/actor.Country> ;
+  skos:prefLabel "of Actor" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/country.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: country"@en ;
+  rdfs:domain pronom2020:Country ;
+  rdfs:label "country.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The availability of the document"@en ;
+  rdfs:domain pronom2020:Document ;
+  rdfs:label "availability"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "availability"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Document ;
+  rdfs:label "has trust"@en ;
+  rdfs:range pronom2020:DocumentType ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/documentType.Document> ;
+  skos:prefLabel "has trust"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/document.Registry>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Document ;
+  rdfs:label "documents"@en ;
+  rdfs:range pronom2020:Registry ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> ;
+  skos:prefLabel "documents"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/documentType.Document>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:DocumentType ;
+  rdfs:label "of Document"@en ;
+  rdfs:range pronom2020:Document ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType> ;
+  skos:prefLabel "of Document"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/document_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: document_types"@en ;
+  rdfs:domain pronom2020:DocumentType ;
+  rdfs:label "document_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: documents"@en ;
+  rdfs:domain pronom2020:Document ;
+  rdfs:label "documents.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/encoding.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Encoding ;
+  rdfs:label "file formats using this encoding"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Encoding> ;
+  skos:prefLabel "file formats using this encoding"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/encoding.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: encoding"@en ;
+  rdfs:domain pronom2020:Encoding ;
+  rdfs:label "encoding.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.Extension>
+  rdf:type owl:DatatypeProperty ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/Filename_extension"^^xsd:anyURI ;
+  pronom2020:seeExternal "https://www.file-extension.org"^^xsd:anyURI ;
+  rdfs:comment "A file extension is a suffix to the name of a computer file applied to indicate the type of file format. It gives a human readable identifier for the file; such that users can quickly understand the type of file it is without having to open it. The filename extension associates the file with certain software packages, helping an application program recognise whether it is of a type that it can work with. In some operating systems, such as DOS, a file extension is required, but in others, such as Unix, it is optional. Some operating systems limit the length of the extension and some are case sensitive. On Windows computers, extensions consist of a dot '.' at the end of a file name, typically followed by three letters to identify the type of file. On a Unix based system, the file name is a single string, with the '.' being just another character, and with the file name being of variable-length. A file extension is not a reliable identifier of the format of the file. An extension may be linked to more than one program; they are not assigned by a controlling authority, and can be easily changed.{@en }" ;
+  rdfs:domain pronom2020:ExternalSignature ;
+  rdfs:label "has extension"@en ;
+  rdfs:range xsd:string ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  skos:prefLabel "has extension"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "File formats that use this externalSignature"@en ;
+  rdfs:domain pronom2020:ExternalSignature ;
+  rdfs:label "identifies fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/external_signatures.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: external_signatures"@en ;
+  rdfs:domain pronom2020:ExternalSignature ;
+  rdfs:label "external_signatures.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Refers to the byte orders for the format"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "uses byteOrder"@en ;
+  rdfs:range pronom2020:ByteOrder ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteOrder.FileFormat> ;
+  skos:prefLabel "uses byteOrder" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "The scheme of the classification value to which the fileFormat can be put."@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "is classified as"@en ;
+  rdfs:range pronom2020:Classification ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/classification.FileFormat> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.CompressionType>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Compression type used by this fileFormat"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "compressionType"@en ;
+  rdfs:range pronom2020:CompressionType ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.FileFormat> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Specifies that the fileFormat maybe located in a container with this containerSignature."@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "is identified with containerSignature"@en ;
+  rdfs:range pronom2020:ContainerSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ContainerType>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Registers a ContainerType whose scanning will be triggered by this fileFormat"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "triggers Container type"@en ;
+  rdfs:range pronom2020:ContainerType ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/containerType.FileFormat> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Encoding>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Encoding used by this fileFormat"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "encoding"@en ;
+  rdfs:range pronom2020:Encoding ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/encoding.FileFormat> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Refers to an External signature which may be used to identify the file format"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "associated with externalSignature"@en ;
+  rdfs:range pronom2020:ExternalSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.FileFormat> ;
+  skos:prefLabel "associated with externalSignature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "belongs to file format family"@en ;
+  rdfs:range pronom2020:FileFormatFamily ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormatFamily.FileFormat> ;
+  skos:prefLabel "belongs to file format family"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "has format identifier"@en ;
+  rdfs:range pronom2020:FormatIdentifier ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FileFormat> ;
+  skos:prefLabel "has format identifier"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "In PRONOM, we attempt to associate each file format it with a binary signature, termed an internal signature. Internal signatures are created from unique byte sequences that are com-mon within digital objects of the same type. The internal signature is a representation of these byte sequences using hexadecimal notation and simple regular expression features that allow signature developers to create more precise signatures. A signature byte sequence is mod-elled by describing its starting position within a bitstream and its value. The starting position can be either absolute (the byte sequence starts at a fixed position within the bitstream) or variable (the byte sequence starts at any offset within the bitstream). By definition, a file for-mat specification imposes a specific structure upon the content of the bitstream, which is consistent between all digital objects in that format. The characteristics of this structure may therefore be used as a signature for identifying the format."@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "has internal Signature"@en ;
+  rdfs:range pronom2020:InternalSignature ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.FileFormat> ;
+  skos:prefLabel "has internal Signature" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Version>
+  rdf:type owl:DatatypeProperty ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/PRONOM_technical_registry#The_PRONOM_Persistent_Unique_Identifier_.28PUID.29_scheme"^^xsd:anyURI ;
+  rdfs:comment "The version of the fileFormat"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "version"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "version"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormatFamily.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormatFamily ;
+  rdfs:label "has member fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf skos:member ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> ;
+  skos:prefLabel "has member fileFormat"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/file_formats.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: file_formats"@en ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "file_formats ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FormatIdentifier ;
+  rdfs:label "fileFormat" ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Refers to the format registry/catalog where the identifier is registered/catalogued."@en ;
+  rdfs:domain pronom2020:FormatIdentifier ;
+  rdfs:label "is contained in registry"@en ;
+  rdfs:range pronom2020:FormatRegistry ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/formatRegistry.FormatIdentifier> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/formatRegistry.FormatIdentifier>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Registry/catalog where this identifier is registered/catalogued."@en ;
+  rdfs:domain pronom2020:FormatRegistry ;
+  rdfs:label "is registry for formatIdentifier"@en ;
+  rdfs:range pronom2020:FormatIdentifier ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/format_aliases.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: format_aliases"@en ;
+  rdfs:domain pronom2020:Alias ;
+  rdfs:label "format_aliases.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/format_families.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: format_families"@en ;
+  rdfs:domain pronom2020:FileFormatFamily ;
+  rdfs:label "format_families.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: format_identifiers"@en ;
+  rdfs:domain pronom2020:FormatIdentifier ;
+  rdfs:label "format_identifiers.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/format_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: format_types"@en ;
+  rdfs:domain pronom2020:Classification ;
+  rdfs:label "format_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/has.Relationship>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "has file format relationship"@en ;
+  rdfs:range pronom2020:Relationship ;
+  rdfs:subPropertyOf pronom2020:relationship ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/of.FileFormat> ;
+  skos:prefLabel "has file format relationship"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteOrder>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Refers to the byte orders for the internal signature"@en ;
+  rdfs:domain pronom2020:InternalSignature ;
+  rdfs:label "uses byteOrder"@en ;
+  rdfs:range pronom2020:ByteOrder ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  skos:prefLabel "uses byteOrder" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Byte sequence which forms the signature"@en ;
+  rdfs:domain pronom2020:InternalSignature ;
+  rdfs:label "has byte sequence"@en ;
+  rdfs:range pronom2020:ByteSequence ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.InternalSignature> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "file format that uses this Internal signature for identification."@en ;
+  rdfs:domain pronom2020:InternalSignature ;
+  rdfs:label "is used as signature for"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature> ;
+  skos:prefLabel "file format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating container-signature  XML element: internalSignature"@en ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "internalSignature.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.Sequence>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Defines the sequence using the consolidated/revised expression format. This revised format allows multiples byteSequences to be consolidated into a single expression."@en ;
+  rdfs:domain pronom2020:InternalSignature ;
+  rdfs:label "sequence" ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "sequence" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/internal_signatures.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: internal_signatures"@en ;
+  rdfs:domain pronom2020:InternalSignature ;
+  rdfs:label "internal_signatures.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/lossiness.CompressionType>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Lossiness ;
+  rdfs:label "applies to compression type"@en ;
+  rdfs:range pronom2020:CompressionType ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> ;
+  skos:prefLabel "applies to compression type"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/of.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Relationship ;
+  rdfs:label "of fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relationship ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/has.Relationship> ;
+  skos:prefLabel "file format relationship.File format" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/on.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Process ;
+  rdfs:label "on fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:process ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Process> ;
+  skos:prefLabel "on fileFormat"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Actor>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Activity ;
+  rdfs:label "performedBy Actor"@en ;
+  rdfs:range pronom2020:Actor ;
+  rdfs:subPropertyOf pronom2020:activity ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Software>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Process ;
+  rdfs:label "performedBy Software"@en ;
+  rdfs:range pronom2020:Software ;
+  rdfs:subPropertyOf pronom2020:process ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Process> ;
+  skos:prefLabel "performedBy Software"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:label "performs activity" ;
+  rdfs:range pronom2020:Activity ;
+  rdfs:subPropertyOf pronom2020:activity ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Actor> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/performs.Process>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Software ;
+  rdfs:label "performs Process"@en ;
+  rdfs:range pronom2020:Process ;
+  rdfs:subPropertyOf pronom2020:process ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Software> ;
+  skos:prefLabel "performs Process"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: position_types"@en ;
+  rdfs:domain pronom2020:ByteSequencePosition ;
+  rdfs:label "position_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+pronom2020:process
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Abstract property solely to act as a super property of similarly related properties" ;
+  rdfs:label "process relationship"@en ;
+  rdfs:subPropertyOf pronom2020:relationships ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "has alias"@en ;
+  rdfs:range pronom2020:Alias ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/alias.Registry> ;
+  skos:prefLabel "has alias"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "has documentation"@en ;
+  rdfs:range pronom2020:Document ;
+  rdfs:subPropertyOf pronom2020:relations ;
+  rdfs:subPropertyOf skos:semanticRelation ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/document.Registry> ;
+  skos:prefLabel "has documentation"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.Note>
+  rdf:type owl:AnnotationProperty ;
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "A general note, for any purpose."@en ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "Note"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "Note"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.puid>
+  rdf:type owl:DatatypeProperty ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/PRONOM_technical_registry#The_PRONOM_Persistent_Unique_Identifier_.28PUID.29_scheme"^^xsd:anyURI ;
+  rdfs:comment "The PRONOM Persistent Unique Identifier (PUID) is an extensible scheme for providing persistent, unique and unambiguous identifiers for records in the PRONOM registry. Such identifiers are fundamental to the exchange and management of digital objects, by allowing human or automated user agents to unambiguously identify, and share that identification of, the representation information required to support access to an object. A PUID is assigned on entry to PRONOM, and every identifier is unique within the namespace, and is persistently and unambiguously bound to a single registry entry. The PUID type element identifies the type of registry entry; for a file format it is fmt or x-fmt; for a character encoding it is chr or x-chr; for a compression encoding it is cmp or x-cmp; for a software package it is sfw or x-sfw. The integer value that follows is the identifier element and denotes an instance of that type within PRONOM."@en ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "PUID"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "PUID"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.puidIndex>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The index number of the PUID"@en ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "PUID Index"@en ;
+  rdfs:range xsd:integer ;
+  skos:prefLabel "PUID"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/registry.puidType>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The type of the PUID fmt, x-fmt, cmp, x-cmp, sfw, x-sfw, chr, x-chr"@en ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "PUID Type"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "PUID"@en ;
+.
+pronom2020:relations
+  rdf:type rdf:Property ;
+  rdfs:comment "The superproperty of objectproperties between entities. It is not intended that this should be instantiated, an abstract  property"@en ;
+  rdfs:label "relations"@en ;
+.
+pronom2020:relationship
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Abstract property solely to act as a super property of similarly related properties" ;
+  rdfs:label "file format relationship"@en ;
+  rdfs:subPropertyOf pronom2020:relationships ;
+.
+pronom2020:relationships
+  rdf:type rdf:Property ;
+  rdfs:comment "The superproperty of relations between entities. It is not intended that this should be instantiated, an abstract  property"@en ;
+  rdfs:label "relationships"@en ;
+  rdfs:subPropertyOf pronom2020:relations ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Activity>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Actor ;
+  rdfs:domain pronom2020:Document ;
+  rdfs:domain pronom2020:Registry ;
+  rdfs:label "result of activity" ;
+  rdfs:range pronom2020:Activity ;
+  rdfs:subPropertyOf pronom2020:activity ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Process>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:FileFormat ;
+  rdfs:label "result of process"@en ;
+  rdfs:range pronom2020:Process ;
+  rdfs:subPropertyOf pronom2020:process ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Software> ;
+  skos:prefLabel "result of process"@en ;
+.
+pronom2020:seeExternal
+  rdf:type owl:AnnotationProperty ;
+  rdfs:domain rdfs:Resource ;
+  rdfs:label "see external" ;
+  rdfs:range xsd:anyURI ;
+  rdfs:subPropertyOf rdfs:seeAlso ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/software.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: software"@en ;
+  rdfs:domain pronom2020:Software ;
+  rdfs:label "software.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/software.Version>
+  rdf:type owl:DatatypeProperty ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/PRONOM_technical_registry#The_PRONOM_Persistent_Unique_Identifier_.28PUID.29_scheme"^^xsd:anyURI ;
+  rdfs:comment "The version of the software"@en ;
+  rdfs:domain pronom2020:Software ;
+  rdfs:label "version"@en ;
+  rdfs:range xsd:string ;
+  skos:prefLabel "version"@en ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/software_aliases.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: software_aliases"@en ;
+  rdfs:domain pronom2020:Alias ;
+  rdfs:label "software_aliases.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/software_types.ID>
+  rdf:type owl:AnnotationProperty ;
+  rdfs:comment "The key value of the originating SQL table: software_types"@en ;
+  rdfs:domain pronom2020:SoftwareType ;
+  rdfs:label "software_types.ID"@en ;
+  rdfs:range xsd:integer ;
+  rdfs:subPropertyOf pronom2020:ID ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/with.FileFormat>
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain pronom2020:Relationship ;
+  rdfs:label "with fileFormat"@en ;
+  rdfs:range pronom2020:FileFormat ;
+  rdfs:subPropertyOf pronom2020:relationship ;
+  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/about.Relationship> ;
+  skos:prefLabel "file format relationship.With.File format" ;
+.
+pronom.ByteOrder:bigEndian
+  rdf:type pronom2020:ByteOrder ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_orders.ID> 2 ;
+  rdfs:comment "Endianness refers to a representation method for storing or transmitting binary data.  There are four other forms of endianness.  Big endian is a representation in which the most significant bit or byte is presented first.  An important illustration of endianness is the understanding of integer values. Given the integer, 32,500 in hexadecimal this is represented as 0x7EF4.  This is a big-endian ordering. If it is read in hexadecimal with the bytes swapped around, i.e. little-endian, it would be read as 0xF47E which is 62,590 in decimal."@en ;
+  rdfs:label "Big Endian"@en ;
+  skos:broader pronom2020:ByteOrder ;
+  skos:prefLabel "big endian" ;
+.
+pronom.ByteOrder:littleEndian
+  rdf:type pronom2020:ByteOrder ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/byte_orders.ID> 1 ;
+  rdfs:comment "Endianness refers to a representation method for storing or transmitting binary data. There are four other forms of endianness.  Little endian is a representation in which the least significant bit or byte is presented first.  An important illustration of endianness is the understanding of integer values. Given the integer, 32,500 in hexadecimal this is represented as 0x7EF4.  This is a big-endian ordering. If it is read in hexadecimal with the bytes swapped around, i.e. little-endian, it would be read as 0xF47E which is 62,590 in decimal."@en ;
+  rdfs:label "Little Endian"@en ;
+  skos:broader pronom2020:ByteOrder ;
+  skos:prefLabel "little endian" ;
+.
+pronom.ByteSequencePosition:AbsoluteBOF
+  rdf:type pronom2020:ByteSequencePosition ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID> 1 ;
+  rdfs:label "Absolute from BOF" ;
+  skos:broader pronom2020:ByteSequencePosition ;
+.
+pronom.ByteSequencePosition:AbsoluteEOF
+  rdf:type pronom2020:ByteSequencePosition ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID> 2 ;
+  rdfs:label "Absolute from EOF" ;
+  skos:broader pronom2020:ByteSequencePosition ;
+.
+pronom.ByteSequencePosition:IndirectBOF
+  rdf:type pronom2020:ByteSequencePosition ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID> 4 ;
+  rdfs:label "Indirect from BOF" ;
+  skos:broader pronom2020:ByteSequencePosition ;
+.
+pronom.ByteSequencePosition:IndirectEOF
+  rdf:type pronom2020:ByteSequencePosition ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID> 5 ;
+  rdfs:label "Indirect from EOF" ;
+  skos:broader pronom2020:ByteSequencePosition ;
+.
+pronom.ByteSequencePosition:Variable
+  rdf:type pronom2020:ByteSequencePosition ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/position_types.ID> 3 ;
+  rdfs:label "Variable" ;
+  skos:broader pronom2020:ByteSequencePosition ;
+.
+pronom.FormatRegistry:InternetMediaType
+  rdf:type pronom2020:FormatRegistry ;
+  pronom2020:seeExternal "http://dbpedia.org/resource/Internet_media_type"^^xsd:anyURI ;
+  pronom2020:seeExternal "https://www.iana.org/assignments/media-types/media-types.xhtml"^^xsd:anyURI ;
+  rdfs:comment "Internet Media Type formerly MIME (Multipurpose Internet Mail Extensions) types describe the media type of content either in email or served by web servers or web applications and are intended to help guide a web browser in how the content is to be processed and displayed. Not all formats have an associated MIME type, but this is specified where it is known. MIME is an acronym for Multipurpose Internet Mail Extensions, and is written to allow MIME to be extended in certain ways, without having to revise the standard. MIME types consist of a standardised system of identifiers consisting of a type and a sub-type, separated by a slash, such as text/html. This provides a procedure for maintaining and extending these sets of values by registering them with the Internet Assigned Numbers Authority."@en ;
+  rdfs:label "Internet Media Type"@en ;
+  skos:broader pronom2020:FormatRegistry ;
+  skos:prefLabel "MIME Type" ;
+.
+pronom.FormatRegistry:LibraryOfCongress
+  rdf:type pronom2020:FormatRegistry ;
+  pronom2020:seeExternal "http://www.loc.gov/preservation/digital/formats/fdd/descriptions.shtml"^^xsd:anyURI ;
+  rdfs:label "Library of Congress File Format Description" ;
+  skos:broader pronom2020:FormatRegistry ;
+.
+pronom.FormatRegistry:UniformTypeIdentifier
+  rdf:type pronom2020:FormatRegistry ;
+  rdfs:label "Uniform type identifier" ;
+  skos:broader pronom2020:FormatRegistry ;
+.
+pronom.Lossiness:Lossless
+  rdf:type pronom2020:Lossiness ;
+  rdfs:comment "Lossless compression is a class of data compression algorithms that allows the original data to be perfectly reconstructed from the compressed data."@en ;
+  rdfs:label "Lossless"@en ;
+  skos:broader pronom2020:Lossiness ;
+  skos:prefLabel "Lossless"@en ;
+.
+pronom.Lossiness:Lossy
+  rdf:type pronom2020:Lossiness ;
+  rdfs:comment "Lossy compression permits reconstruction only of an approximation of the original data, though usually with greatly improved compression rates (and therefore reduced media sizes)."@en ;
+  rdfs:label "Lossy"@en ;
+  skos:broader pronom2020:Lossiness ;
+  skos:prefLabel "Lossy"@en ;
+.

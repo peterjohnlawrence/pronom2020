@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FFSignatureFile DateCreated="$this.isoDateTimeNow()" Version="$this.getReportOption('Version')[0]" xmlns="http://www.nationalarchives.gov.uk/pronom/SignatureFile" params="$this.getReportOption('pathParts')[2]">
+    <InternalSignatureCollection>
+        $this.queryTransformer(
+        "http://localhost:8080/odata2sparql/pronom2020/
+        InternalSignature?
+        $select=
+        internal_signatures_ID
+        &$expand=
+        internalSignature_ByteSequence(
+        $select=
+        byteSequenceIndirectOffsetLength,
+        byteSequenceIndirectOffsetLocation,
+        byteSequenceMaxOffset,
+        byteSequenceOffset,
+        byteSequenceValue; 
+        $expand=byteSequence_ByteSequencePosition($select=label))
+        &$format=application/json;odata.metadata=minimal",
+        "InternalSignatureCollection.xsl"
+        )
+    </InternalSignatureCollection>
+    <FileFormatCollection>
+        $this.queryTransformer("http://localhost:8080/odata2sparql/pronom2020/
+        FileFormat?
+        $select=
+        file_formats_ID,label,puid,version
+        &$expand=
+        fileFormat_InternalSignature(
+        $select=
+        internal_signatures_ID),
+        fileFormat_ExternalSignature(
+        $select=
+        extension),
+        hasPriorityOver(
+        $select=
+        file_formats_ID),
+        fileFormat_FormatIdentifier(
+        $select=
+        label;
+        $expand=
+        formatIdentifier_FormatRegistry(
+        $select=
+        label))
+        &$format=application/json;odata.metadata=minimal",
+        "FileFormatCollection.xsl"
+        )       
+    </FileFormatCollection>
+</FFSignatureFile>
+

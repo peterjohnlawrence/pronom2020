@@ -1,0 +1,827 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers
+# prefix: softwareDevelopers
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix softwareDevelopers: <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/sfw/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-158> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-161> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/sfw/2>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-169> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/10>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/101>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/102>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/103>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/104>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/106>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/107>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/108>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/109>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/11>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/111>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/112>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/113>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/114>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/115>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/116>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/117>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/118>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/119>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/12>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/120>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/121>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/122>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/123>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/124>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/125>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/126>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/127>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/128>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/129>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/13>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/130>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/131>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/132>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-80> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/133>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-80> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/134>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-80> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/135>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-80> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/136>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-80> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/137>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/138>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/139>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/14>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/140>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/141>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/142>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/143>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/144>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/145>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/146>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/147>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-8> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/148>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-40> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/149>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-40> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/15>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/150>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/151>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/152>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/153>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/154>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/155>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/156>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-43> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/157>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-43> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/158>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-41> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/159>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-41> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/16>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/160>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-41> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/161>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/162>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-17> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/163>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-90> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/164>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-90> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/165>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/166>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/167>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/168>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/169>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/17>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/170>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/171>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/172>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/173>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/174>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/175>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/176>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/177>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/178>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/179>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-48> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/18>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/180>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-86> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/181>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-62> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/182>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-101> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/183>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-101> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/184>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/185>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/186>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/187>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/188>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/189>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/19>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/190>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/191>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/192>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/193>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/194>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/195>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/196>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/197>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/198>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/199>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/2>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/20>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/200>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/201>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-52> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/202>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-52> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/203>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-52> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/204>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/205>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/206>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/207>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-66> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/208>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/209>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/21>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/210>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/211>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/212>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/213>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/214>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/215>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/216>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/217>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/218>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/219>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/22>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/220>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/221>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/222>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/223>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/224>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/225>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/226>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/227>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/228>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/229>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/23>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/230>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/231>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/232>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/233>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/234>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/235>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/236>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/237>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/238>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/239>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/24>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/240>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/241>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/242>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-51> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/243>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-89> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/244>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-47> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/245>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-47> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/246>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-47> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/247>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-67> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/248>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-72> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/249>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/25>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/250>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/251>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/252>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-102> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/254>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/255>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-128> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/256>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/257>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/258>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/259>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/26>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/260>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/261>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/262>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/263>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/264>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/265>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/266>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/267>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/268>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-71> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/269>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/27>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/270>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/276>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-102> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/278>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/28>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/29>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/3>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/30>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/31>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/32>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/33>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/34>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/35>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/36>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/37>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/38>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/39>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/4>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-94> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/40>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/41>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/42>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/43>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/44>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/45>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/46>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/47>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/48>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/49>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/5>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/50>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/51>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/52>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-42> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/53>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/54>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/55>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/56>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/57>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-86> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/58>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-42> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/59>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-42> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/6>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/60>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/61>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/62>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/63>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/64>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/65>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/66>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/67>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/68>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/69>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/7>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/70>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/71>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/72>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/73>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/74>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/75>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/76>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/77>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/78>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-86> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/79>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-86> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/8>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/80>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-100> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/81>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/82>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/83>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-50> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/84>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/85>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/86>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/87>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/89>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/9>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/90>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-52> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/91>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/92>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/93>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-53> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/94>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/95>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/96>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-20> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/97>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/98>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/99>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-36> ;
+.

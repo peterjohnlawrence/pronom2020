@@ -1,0 +1,1379 @@
+<data>{
+    "@odata.context": "http://localhost:8080/odata2sparql/pronom2020/$metadata#ContainerSignature(comment,containerSignature_ID,label,subjectId,containerSignature_ContainerFile(filePath,subjectId,containerFile_ByteSequence(byteSequenceIndirectOffsetLength,byteSequenceIndirectOffsetLocation,byteSequenceMaxOffset,byteSequenceOffset,byteSequenceValue,subjectId,byteSequence_ByteSequencePosition(label,subjectId))))",
+    "value": [
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1000')",
+            "comment": "Microsoft Word 6.0/95 OLE2",
+            "containerSignature_ID": 1000,
+            "label": "Microsoft Word 6.0/95 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-1000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1000-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1000-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1000-1')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-1000-1",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1000-306')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "40102410 00 00 00 'Word.Document.' ['6'-'7']\n                      00",
+                            "subjectId": "pronom.ByteSequence~BS-1000-306",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-10000')",
+            "comment": "Java Archive Format",
+            "containerSignature_ID": 10000,
+            "label": "Java Archive Format",
+            "subjectId": "pronom.ContainerSignature~CS-10000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-10000-0')",
+                    "filePath": "META-INF/MANIFEST.MF",
+                    "subjectId": "pronom.ContainerFile~CF-10000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-10000-400')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "00'Manifest-Version:'",
+                            "subjectId": "pronom.ByteSequence~BS-10000-400",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1020')",
+            "comment": "Microsoft Word 97 OLE2",
+            "containerSignature_ID": 1020,
+            "label": "Microsoft Word 97 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-1020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1020-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1020-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1020-1')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-1020-1",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1020-300')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "40102410 00 00 00 'Word.Document.8' 00",
+                            "subjectId": "pronom.ByteSequence~BS-1020-300",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1030')",
+            "comment": "Microsoft Word OOXML",
+            "containerSignature_ID": 1030,
+            "label": "Microsoft Word OOXML",
+            "subjectId": "pronom.ContainerSignature~CS-1030",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1030-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1030-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1030-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 32768,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "032768'ContentType=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml\"'",
+                            "subjectId": "pronom.ByteSequence~BS-1030-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1040')",
+            "comment": "Microsoft Word OOXML (little endian unicode)",
+            "containerSignature_ID": 1040,
+            "label": "Microsoft Word OOXML (little endian unicode)",
+            "subjectId": "pronom.ContainerSignature~CS-1040",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1040-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1040-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1040-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 32768,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "032768'C'00 'o'00 'n'00 't'00 'e'00 'n'00 't'00 'T'00\n                      'y'00 'p'00 'e'00 '='00 '\"'00 'a'00 'p'00 'p'00 'l'00\n                      'i'00 'c'00 'a'00 't'00 'i'00 'o'00 'n'00 '/'00 'v'00\n                      'n'00 'd'00 '.'00 'o'00 'p'00 'e'00 'n'00 'x'00 'm'00\n                      'l'00 'f'00 'o'00 'r'00 'm'00 'a'00 't'00 's'00 '-'00\n                      'o'00 'f'00 'f'00 'i'00 'c'00 'e'00 'd'00 'o'00 'c'00\n                      'u'00 'm'00 'e'00 'n'00 't'00 '.'00 'w'00 'o'00 'r'00\n                      'd'00 'p'00 'r'00 'o'00 'c'00 'e'00 's'00 's'00 'i'00\n                      'n'00 'g'00 'm'00 'l'00 '.'00 'd'00 'o'00 'c'00 'u'00\n                      'm'00 'e'00 'n'00 't'00 '.'00 'm'00 'a'00 'i'00 'n'00\n                      '+'00 'x'00 'm'00 'l'00 '\"'00",
+                            "subjectId": "pronom.ByteSequence~BS-1040-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1050')",
+            "comment": "Microsoft Word OOXML (big endian unicode)",
+            "containerSignature_ID": 1050,
+            "label": "Microsoft Word OOXML (big endian unicode)",
+            "subjectId": "pronom.ContainerSignature~CS-1050",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1050-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1050-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1050-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 32768,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "03276800'C' 00'o' 00'n' 00't' 00'e' 00'n' 00't' 00'T'\n                      00'y' 00'p' 00'e' 00'=' 00'\"' 00'a' 00'p' 00'p' 00'l'\n                      00'i' 00'c' 00'a' 00't' 00'i' 00'o' 00'n' 00'/' 00'v'\n                      00'n' 00'd' 00'.' 00'o' 00'p' 00'e' 00'n' 00'x' 00'm'\n                      00'l' 00'f' 00'o' 00'r' 00'm' 00'a' 00't' 00's' 00'-'\n                      00'o' 00'f' 00'f' 00'i' 00'c' 00'e' 00'd' 00'o' 00'c'\n                      00'u' 00'm' 00'e' 00'n' 00't' 00'.' 00'w' 00'o' 00'r'\n                      00'd' 00'p' 00'r' 00'o' 00'c' 00'e' 00's' 00's' 00'i'\n                      00'n' 00'g' 00'm' 00'l' 00'.' 00'd' 00'o' 00'c' 00'u'\n                      00'm' 00'e' 00'n' 00't' 00'.' 00'm' 00'a' 00'i' 00'n'\n                      00'+' 00'x' 00'm' 00'l' 00'\"'",
+                            "subjectId": "pronom.ByteSequence~BS-1050-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1060')",
+            "comment": "Microsoft Word Macro enabled OOXML",
+            "containerSignature_ID": 1060,
+            "label": "Microsoft Word Macro enabled OOXML",
+            "subjectId": "pronom.ContainerSignature~CS-1060",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1060-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1060-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1070')",
+            "comment": "Microsoft Word OOXML Template",
+            "containerSignature_ID": 1070,
+            "label": "Microsoft Word OOXML Template",
+            "subjectId": "pronom.ContainerSignature~CS-1070",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1070-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1070-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1080')",
+            "comment": "Microsoft Word OOXML Macro-Enabled Document Template",
+            "containerSignature_ID": 1080,
+            "label": "Microsoft Word OOXML Macro-Enabled Document Template",
+            "subjectId": "pronom.ContainerSignature~CS-1080",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1080-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-1080-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1090')",
+            "comment": "Microsoft Word (Generic) 6.0-2003 OLE2",
+            "containerSignature_ID": 1090,
+            "label": "Microsoft Word (Generic) 6.0-2003 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-1090",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1090-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1090-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1100')",
+            "comment": "Microsoft Word 97 OLE2 Template",
+            "containerSignature_ID": 1100,
+            "label": "Microsoft Word 97 OLE2 Template",
+            "subjectId": "pronom.ContainerSignature~CS-1100",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1100-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1100-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1100-1')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-1100-1",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1100-1100')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 10,
+                            "byteSequenceOffset": 10,
+                            "byteSequenceValue": "1010[&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1100-1100",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1100-2')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1100-2",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1100-1100')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 10,
+                            "byteSequenceOffset": 10,
+                            "byteSequenceValue": "1010[&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1100-1100",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1105')",
+            "comment": "Microsoft Word 97 OLE2 Template Password Protected",
+            "containerSignature_ID": 1105,
+            "label": "Microsoft Word 97 OLE2 Template Password Protected",
+            "subjectId": "pronom.ContainerSignature~CS-1105",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1105-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1105-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1105-1')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-1105-1",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1105-1105')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 10,
+                            "byteSequenceOffset": 10,
+                            "byteSequenceValue": "1010[&01][&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1105-1105",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1105-2')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1105-2",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1105-1105')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 10,
+                            "byteSequenceOffset": 10,
+                            "byteSequenceValue": "1010[&01][&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1105-1105",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1110')",
+            "comment": "Microsoft Word 97 OLE2 Password Protected",
+            "containerSignature_ID": 1110,
+            "label": "Microsoft Word 97 OLE2 Password Protected",
+            "subjectId": "pronom.ContainerSignature~CS-1110",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1110-0')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1110-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1110-1')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-1110-1",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1110-1110')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 11,
+                            "byteSequenceOffset": 11,
+                            "byteSequenceValue": "1111[&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1110-1110",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-1110-2')",
+                    "filePath": "WordDocument",
+                    "subjectId": "pronom.ContainerFile~CF-1110-2",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1110-1110')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 11,
+                            "byteSequenceOffset": 11,
+                            "byteSequenceValue": "1111[&01]",
+                            "subjectId": "pronom.ByteSequence~BS-1110-1110",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-12000')",
+            "comment": "Microsoft Outlook Email Message",
+            "containerSignature_ID": 12000,
+            "label": "Microsoft Outlook Email Message",
+            "subjectId": "pronom.ContainerSignature~CS-12000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-12000-0')",
+                    "filePath": "__properties_version1.0",
+                    "subjectId": "pronom.ContainerFile~CF-12000-0",
+                    "containerFile_ByteSequence": []
+                },
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-12000-1')",
+                    "filePath": "__nameid_version1.0",
+                    "subjectId": "pronom.ContainerFile~CF-12000-1",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13000')",
+            "comment": "Microsoft Visio Document (generic)",
+            "containerSignature_ID": 13000,
+            "label": "Microsoft Visio Document (generic)",
+            "subjectId": "pronom.ContainerSignature~CS-13000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13000-0')",
+                    "filePath": "VisioDocument",
+                    "subjectId": "pronom.ContainerFile~CF-13000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-13000-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "00'Visio (TM) Drawing'0D0A",
+                            "subjectId": "pronom.ByteSequence~BS-13000-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13010')",
+            "comment": "Microsoft Visio Document 2000",
+            "containerSignature_ID": 13010,
+            "label": "Microsoft Visio Document 2000",
+            "subjectId": "pronom.ContainerSignature~CS-13010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13010-0')",
+                    "filePath": "VisioDocument",
+                    "subjectId": "pronom.ContainerFile~CF-13010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-13010-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "00'Visio (TM) Drawing'0D0A",
+                            "subjectId": "pronom.ByteSequence~BS-13010-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13020')",
+            "comment": "Microsoft Visio Document 2003-2010",
+            "containerSignature_ID": 13020,
+            "label": "Microsoft Visio Document 2003-2010",
+            "subjectId": "pronom.ContainerSignature~CS-13020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13020-0')",
+                    "filePath": "VisioDocument",
+                    "subjectId": "pronom.ContainerFile~CF-13020-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-13020-302')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "00'Visio (TM) Drawing'0D0A",
+                            "subjectId": "pronom.ByteSequence~BS-13020-302",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13030')",
+            "comment": "Microsoft Visio Document 2013",
+            "containerSignature_ID": 13030,
+            "label": "Microsoft Visio Document 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13030",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13030-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13030-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13040')",
+            "comment": "Microsoft Visio Stencil 2013",
+            "containerSignature_ID": 13040,
+            "label": "Microsoft Visio Stencil 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13040",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13040-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13040-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13050')",
+            "comment": "Microsoft Visio Template 2013",
+            "containerSignature_ID": 13050,
+            "label": "Microsoft Visio Template 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13050",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13050-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13050-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13060')",
+            "comment": "Microsoft Visio Macro-Enabled Document 2013",
+            "containerSignature_ID": 13060,
+            "label": "Microsoft Visio Macro-Enabled Document 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13060",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13060-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13060-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13070')",
+            "comment": "Microsoft Visio Macro-Enabled Stencil 2013",
+            "containerSignature_ID": 13070,
+            "label": "Microsoft Visio Macro-Enabled Stencil 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13070",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13070-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13070-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-13080')",
+            "comment": "Microsoft Visio Macro-Enabled Template 2013",
+            "containerSignature_ID": 13080,
+            "label": "Microsoft Visio Macro-Enabled Template 2013",
+            "subjectId": "pronom.ContainerSignature~CS-13080",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-13080-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-13080-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-14000')",
+            "comment": "Apple iBook Format",
+            "containerSignature_ID": 14000,
+            "label": "Apple iBook Format",
+            "subjectId": "pronom.ContainerSignature~CS-14000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-14000-0')",
+                    "filePath": "mimetype",
+                    "subjectId": "pronom.ContainerFile~CF-14000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-14000-14000')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "01024'application/x-ibooks+zip'",
+                            "subjectId": "pronom.ByteSequence~BS-14000-14000",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-14010')",
+            "comment": "ePub format",
+            "containerSignature_ID": 14010,
+            "label": "ePub format",
+            "subjectId": "pronom.ContainerSignature~CS-14010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-14010-0')",
+                    "filePath": "mimetype",
+                    "subjectId": "pronom.ContainerFile~CF-14010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-14010-14010')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "01024'application/epub+zip'",
+                            "subjectId": "pronom.ByteSequence~BS-14010-14010",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-15000')",
+            "comment": "Microsoft Works Word Processor for Windows 3-4 Document",
+            "containerSignature_ID": 15000,
+            "label": "Microsoft Works Word Processor for Windows 3-4 Document",
+            "subjectId": "pronom.ContainerSignature~CS-15000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-15000-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-15000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-15000-5000')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 28,
+                            "byteSequenceValue": "28102400 00 00 'Microsoft Works' 00",
+                            "subjectId": "pronom.ByteSequence~BS-15000-5000",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-15010')",
+            "comment": "Microsoft Works Word Processor 5-6 Document",
+            "containerSignature_ID": 15010,
+            "label": "Microsoft Works Word Processor 5-6 Document",
+            "subjectId": "pronom.ContainerSignature~CS-15010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-15010-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-15010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-15010-5001')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 1024,
+                            "byteSequenceOffset": 28,
+                            "byteSequenceValue": "28102400 00 00 'Quill96 Story Group Class' 00",
+                            "subjectId": "pronom.ByteSequence~BS-15010-5001",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-15020')",
+            "comment": "Microsoft Works Spreadsheet 6-9",
+            "containerSignature_ID": 15020,
+            "label": "Microsoft Works Spreadsheet 6-9",
+            "subjectId": "pronom.ContainerSignature~CS-15020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-15020-0')",
+                    "filePath": "Workbook",
+                    "subjectId": "pronom.ContainerFile~CF-15020-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-15020-15020')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 128,
+                            "byteSequenceOffset": 1,
+                            "byteSequenceValue": "1128'MS Works'",
+                            "subjectId": "pronom.ByteSequence~BS-15020-15020",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-15025')",
+            "comment": "Microsoft Works Spreadsheet 6-9",
+            "containerSignature_ID": 15025,
+            "label": "Microsoft Works Spreadsheet 6-9",
+            "subjectId": "pronom.ContainerSignature~CS-15025",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-15025-0')",
+                    "filePath": "Workbook",
+                    "subjectId": "pronom.ContainerFile~CF-15025-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-15025-15025')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 128,
+                            "byteSequenceOffset": 1,
+                            "byteSequenceValue": "1128'M'00'S'002000'W'00'o'00'r'00'k'00's'",
+                            "subjectId": "pronom.ByteSequence~BS-15025-15025",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-16000')",
+            "comment": "Microsoft Office 2007 and later encrypted document",
+            "containerSignature_ID": 16000,
+            "label": "Microsoft Office 2007 and later encrypted document",
+            "subjectId": "pronom.ContainerSignature~CS-16000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-16000-0')",
+                    "filePath": "EncryptedPackage",
+                    "subjectId": "pronom.ContainerFile~CF-16000-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-16010')",
+            "comment": "Microsoft Thumbs.db XP",
+            "containerSignature_ID": 16010,
+            "label": "Microsoft Thumbs.db XP",
+            "subjectId": "pronom.ContainerSignature~CS-16010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-16010-0')",
+                    "filePath": "Catalog",
+                    "subjectId": "pronom.ContainerFile~CF-16010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-16010-16010')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "0010 00 07 00 [00:FF] [00:FF] 00",
+                            "subjectId": "pronom.ByteSequence~BS-16010-16010",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-17000')",
+            "comment": "Kodak FlashPix Image",
+            "containerSignature_ID": 17000,
+            "label": "Kodak FlashPix Image",
+            "subjectId": "pronom.ContainerSignature~CS-17000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-17000-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-17000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-17000-17000')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 12,
+                            "byteSequenceValue": "1264'FlashPix Object'",
+                            "subjectId": "pronom.ByteSequence~BS-17000-17000",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-17005')",
+            "comment": "Kodak FlashPix Image",
+            "containerSignature_ID": 17005,
+            "label": "Kodak FlashPix Image",
+            "subjectId": "pronom.ContainerSignature~CS-17005",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-17005-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-17005-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-17005-17005')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 12,
+                            "byteSequenceValue": "1264'56616700-C154-11CE-8553-00AA00A1F95B'",
+                            "subjectId": "pronom.ByteSequence~BS-17005-17005",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-17010')",
+            "comment": "Microsoft PhotoDraw",
+            "containerSignature_ID": 17010,
+            "label": "Microsoft PhotoDraw",
+            "subjectId": "pronom.ContainerSignature~CS-17010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-17010-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-17010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-17010-17010')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 32,
+                            "byteSequenceOffset": 32,
+                            "byteSequenceValue": "3232'Microsoft PhotoDraw version 1 Picture'",
+                            "subjectId": "pronom.ByteSequence~BS-17010-17010",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-17015')",
+            "comment": "Microsoft Picture It! Image File",
+            "containerSignature_ID": 17015,
+            "label": "Microsoft Picture It! Image File",
+            "subjectId": "pronom.ContainerSignature~CS-17015",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-17015-0')",
+                    "filePath": "CompObj",
+                    "subjectId": "pronom.ContainerFile~CF-17015-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-17015-17015')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 32,
+                            "byteSequenceOffset": 32,
+                            "byteSequenceValue": "3232'Microsoft Picture It! version 1 Picture'",
+                            "subjectId": "pronom.ByteSequence~BS-17015-17015",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-17020')",
+            "comment": "Micrografx Designer",
+            "containerSignature_ID": 17020,
+            "label": "Micrografx Designer",
+            "subjectId": "pronom.ContainerSignature~CS-17020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-17020-0')",
+                    "filePath": "DesignerDoc",
+                    "subjectId": "pronom.ContainerFile~CF-17020-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-17020-17020')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 0,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "00'DESIGNERDOC'",
+                            "subjectId": "pronom.ByteSequence~BS-17020-17020",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-18000')",
+            "comment": "Bentley V8 DGN",
+            "containerSignature_ID": 18000,
+            "label": "Bentley V8 DGN",
+            "subjectId": "pronom.ContainerSignature~CS-18000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-18000-0')",
+                    "filePath": "Dgn~H",
+                    "subjectId": "pronom.ContainerFile~CF-18000-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-18010')",
+            "comment": "3MF 3D Manufacturing Format",
+            "containerSignature_ID": 18010,
+            "label": "3MF 3D Manufacturing Format",
+            "subjectId": "pronom.ContainerSignature~CS-18010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-18010-0')",
+                    "filePath": "[Content_Types].xml",
+                    "subjectId": "pronom.ContainerFile~CF-18010-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19000')",
+            "comment": "GeoGebra 2",
+            "containerSignature_ID": 19000,
+            "label": "GeoGebra 2",
+            "subjectId": "pronom.ContainerSignature~CS-19000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19000-0')",
+                    "filePath": "geogebra.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19000-19000')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "4064'geogebra format=\"2'",
+                            "subjectId": "pronom.ByteSequence~BS-19000-19000",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19010')",
+            "comment": "GeoGebra 1.X",
+            "containerSignature_ID": 19010,
+            "label": "GeoGebra 1.X",
+            "subjectId": "pronom.ContainerSignature~CS-19010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19010-0')",
+                    "filePath": "geogebra.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19010-19010')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "4064'geogebra format=\"1'",
+                            "subjectId": "pronom.ByteSequence~BS-19010-19010",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19020')",
+            "comment": "GeoGebra 3",
+            "containerSignature_ID": 19020,
+            "label": "GeoGebra 3",
+            "subjectId": "pronom.ContainerSignature~CS-19020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19020-0')",
+                    "filePath": "geogebra.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19020-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19020-19020')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "4064'geogebra format=\"3'",
+                            "subjectId": "pronom.ByteSequence~BS-19020-19020",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19030')",
+            "comment": "GeoGebra 4",
+            "containerSignature_ID": 19030,
+            "label": "GeoGebra 4",
+            "subjectId": "pronom.ContainerSignature~CS-19030",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19030-0')",
+                    "filePath": "geogebra.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19030-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19030-19030')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "4064'geogebra format=\"4'",
+                            "subjectId": "pronom.ByteSequence~BS-19030-19030",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19040')",
+            "comment": "GeoGebra 5",
+            "containerSignature_ID": 19040,
+            "label": "GeoGebra 5",
+            "subjectId": "pronom.ContainerSignature~CS-19040",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19040-0')",
+                    "filePath": "geogebra.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19040-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19040-19040')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 40,
+                            "byteSequenceValue": "4064'geogebra format=\"5'",
+                            "subjectId": "pronom.ByteSequence~BS-19040-19040",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19050')",
+            "comment": "SPSS Output File (spv)",
+            "containerSignature_ID": 19050,
+            "label": "SPSS Output File (spv)",
+            "subjectId": "pronom.ContainerSignature~CS-19050",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19050-0')",
+                    "filePath": "outputViewer0000000000.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19050-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19050-19050')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 256,
+                            "byteSequenceOffset": 1,
+                            "byteSequenceValue": "1256'xml.spss.com/spss/viewer'",
+                            "subjectId": "pronom.ByteSequence~BS-19050-19050",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19060')",
+            "comment": "SPSS Output File (spv)",
+            "containerSignature_ID": 19060,
+            "label": "SPSS Output File (spv)",
+            "subjectId": "pronom.ContainerSignature~CS-19060",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19060-0')",
+                    "filePath": "outputViewer0000000000_heading.xml",
+                    "subjectId": "pronom.ContainerFile~CF-19060-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19060-19060')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 256,
+                            "byteSequenceOffset": 1,
+                            "byteSequenceValue": "1256'xml.spss.com/spss/viewer'",
+                            "subjectId": "pronom.ByteSequence~BS-19060-19060",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-19070')",
+            "comment": "Keyhole Markup Language",
+            "containerSignature_ID": 19070,
+            "label": "Keyhole Markup Language",
+            "subjectId": "pronom.ContainerSignature~CS-19070",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-19070-0')",
+                    "filePath": "doc.kml",
+                    "subjectId": "pronom.ContainerFile~CF-19070-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-19070-19070')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 64,
+                            "byteSequenceOffset": 1,
+                            "byteSequenceValue": "164'kml xmlns='",
+                            "subjectId": "pronom.ByteSequence~BS-19070-19070",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-2000')",
+            "comment": "Microsoft Excel 5.0/95 OLE2",
+            "containerSignature_ID": 2000,
+            "label": "Microsoft Excel 5.0/95 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-2000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-2000-0')",
+                    "filePath": "Book",
+                    "subjectId": "pronom.ContainerFile~CF-2000-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-2000-2000')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 4,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "0400 05 05 00",
+                            "subjectId": "pronom.ByteSequence~BS-2000-2000",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-20000')",
+            "comment": "Open XML Paper Specification",
+            "containerSignature_ID": 20000,
+            "label": "Open XML Paper Specification",
+            "subjectId": "pronom.ContainerSignature~CS-20000",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-20000-0')",
+                    "filePath": "FixedDocumentSequence.fdseq",
+                    "subjectId": "pronom.ContainerFile~CF-20000-0",
+                    "containerFile_ByteSequence": []
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-2010')",
+            "comment": "Microsoft Excel 97 OLE2",
+            "containerSignature_ID": 2010,
+            "label": "Microsoft Excel 97 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-2010",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-2010-0')",
+                    "filePath": "Workbook",
+                    "subjectId": "pronom.ContainerFile~CF-2010-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-2010-2010')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 4,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "0400 06 05 00",
+                            "subjectId": "pronom.ByteSequence~BS-2010-2010",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-2020')",
+            "comment": "Microsoft Excel 97 OLE2",
+            "containerSignature_ID": 2020,
+            "label": "Microsoft Excel 97 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-2020",
+            "containerSignature_ContainerFile": [
+                {
+                    "@odata.id": "ContainerFile('pronom.ContainerFile~CF-2020-0')",
+                    "filePath": "Book",
+                    "subjectId": "pronom.ContainerFile~CF-2020-0",
+                    "containerFile_ByteSequence": [
+                        {
+                            "@odata.id": "ByteSequence('pronom.ByteSequence~BS-2020-2020')",
+                            "byteSequenceIndirectOffsetLength": 0,
+                            "byteSequenceIndirectOffsetLocation": 0,
+                            "byteSequenceMaxOffset": 4,
+                            "byteSequenceOffset": 0,
+                            "byteSequenceValue": "0400 06 05 00",
+                            "subjectId": "pronom.ByteSequence~BS-2020-2020",
+                            "byteSequence_ByteSequencePosition": {
+                                "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                                "label": "Absolute from BOF",
+                                "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}</data>

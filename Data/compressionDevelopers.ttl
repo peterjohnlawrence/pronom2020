@@ -1,0 +1,41 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Developing-x-cmp-11>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/DevelopingActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/x-cmp/11> ;
+  rdfs:label "Actor-112-Developing-x-cmp/11" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-112-Developing-x-cmp/11" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-121-Developing-x-cmp-12>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/DevelopingActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/x-cmp/12> ;
+  rdfs:label "Actor-121-Developing-x-cmp/12" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-121-Developing-x-cmp/12" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Developing-x-cmp-14>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/DevelopingActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/x-cmp/14> ;
+  rdfs:label "Actor-124-Developing-x-cmp/14" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-124-Developing-x-cmp/14" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Developing-x-cmp-15>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/DevelopingActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/x-cmp/15> ;
+  rdfs:label "Actor-124-Developing-x-cmp/15" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-124-Developing-x-cmp/15" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-112>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Developing-x-cmp-11> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-121>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-121-Developing-x-cmp-12> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-124>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Developing-x-cmp-14> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Developing-x-cmp-15> ;
+.

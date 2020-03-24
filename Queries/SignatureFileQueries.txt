@@ -1,0 +1,89 @@
+#SignatureQuery
+
+<FileFormatCollection>
+
+http://localhost:8080/odata2sparql/pronom2020/
+FileFormat?
+	$select=
+		file_formats_ID,label,puid
+	&$expand=
+		fileFormat_InternalSignature(
+			$select=
+				internal_signatures_ID),
+		fileFormat_ExternalSignature(
+			$select=
+				extension),
+		hasPriorityOver(
+			$select=
+				file_formats_ID),
+		fileFormat_FormatIdentifier(
+			$select=
+				label;
+			$expand=
+				formatIdentifier_FormatRegistry(
+					$select=
+						label))
+	&$top=5
+	&$format=application/json;odata.metadata=minimal
+
+<InternalSignatureCollection>
+
+http://localhost:8080/odata2sparql/pronom2020/
+InternalSignature?
+	$select=
+		internal_signatures_ID
+	&$expand=
+		internalSignature_ByteSequence(
+			$select=
+				byteSequenceIndirectOffsetLength,
+				byteSequenceIndirectOffsetLocation,
+				byteSequenceMaxOffset,
+				byteSequenceOffset,
+				byteSequenceValue; 
+			$expand=byteSequence_ByteSequencePosition($select=label))
+	&$top=5
+	&$format=application/json;odata.metadata=minimal
+	
+#ContainerQuery
+
+<TriggerPuids>
+http://localhost:8080/odata2sparql/pronom2020/
+ContainerType?
+	$select=
+		label
+	&$expand=
+		containerType_FileFormat(
+			$select=
+				puid)
+	&$top=5
+	&$format=application/json;odata.metadata=minimal
+	
+	###Following doe snot work### inverse of fileFormat_ContainerType issue
+	http://localhost:8080/odata2sparql/pronom2020/FileFormat?$select=puid&expand=fileFormat_ContainerType($select=*)&$top=500&$format=application/json;odata.metadata=minimal
+	
+<ContainerSignatures> && <FileFormatMappings>
+ 
+http://localhost:8080/odata2sparql/pronom2020/
+ContainerSignature?
+	$select=
+		label,
+		comment,
+		containerSignature_ID
+	&$expand=containerSignature_ContainerFile(
+		$select=filePath;
+		$expand=containerFile_ByteSequence(
+			$select=
+				byteSequenceIndirectOffsetLength,
+				byteSequenceIndirectOffsetLocation,
+				byteSequenceMaxOffset,
+				byteSequenceOffset,
+				byteSequenceValue;
+			$expand=byteSequence_ByteSequencePosition(
+				$select=label)))
+	&$top=5
+	&$format=application/json;odata.metadata=minimal
+ 
+ 
+ 
+ 
+ 

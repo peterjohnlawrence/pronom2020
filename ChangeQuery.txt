@@ -1,0 +1,153 @@
+#browse query
+
+select distinct ?change ?created ?added ?addedSubject ?addedPredicate  ?addedObject ?addedGraph ?deleted ?deletedSubject ?deletedPredicate ?deletedObject ?deletedGraph ?reversible
+where{ 
+	service <http://localhost:8080/rdf4j-server/repositories/northwind> 
+	{
+		graph <http://inova8.com/odata4sparql/change>{
+			?change a <http://inova8.com/odata4sparql#Change> ;
+				<http://inova8.com/odata4sparql#created> ?created .
+			OPTIONAL{ 
+				?change  <http://inova8.com/odata4sparql#added> ?added .   
+				?added <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+					<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+					<http://inova8.com/odata4sparql#object> ?addedObject  ;
+					<http://inova8.com/odata4sparql#graph> ?addedGraph .
+			}
+			OPTIONAL{ 
+				?change  <http://inova8.com/odata4sparql#deleted> ?deleted .   
+				?deleted <http://inova8.com/odata4sparql#subject> ?deletedSubject ;
+					<http://inova8.com/odata4sparql#predicate> ?deletedPredicate ;
+					<http://inova8.com/odata4sparql#object> ?deletedObject ;
+					<http://inova8.com/odata4sparql#graph> ?deletedGraph .
+			}
+			OPTIONAL{{
+				?laterChange a <http://inova8.com/odata4sparql#Change> ;
+				  <http://inova8.com/odata4sparql#created> ?laterCreated .	
+				?laterChange  <http://inova8.com/odata4sparql#deleted> ?laterDeleted .   
+				?laterDeleted <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+					<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+					<http://inova8.com/odata4sparql#object> ?addedObject  ;
+					<http://inova8.com/odata4sparql#graph> ?laterDeletedGraph .
+				}
+				FILTER(?created  < ?laterCreated )
+			}
+      BIND( COALESCE( (?created  > ?laterCreated ), true) as ?reversible)
+		}
+	} 
+} order by  ?created
+
+#roll back named change
+
+DELETE{
+	GRAPH ?addedGraph
+	{
+		?addedSubject ?addedPredicate ?addedObject
+	}
+	GRAPH <http://inova8.com/odata4sparql/change>
+	{
+		?change a <http://inova8.com/odata4sparql#Change> ;
+			<http://inova8.com/odata4sparql#created> ?created .
+		?change  <http://inova8.com/odata4sparql#added> ?added .   
+		?added <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+			<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+			<http://inova8.com/odata4sparql#object> ?addedObject  ;
+			<http://inova8.com/odata4sparql#graph> ?addedGraph .
+		?change  <http://inova8.com/odata4sparql#deleted> ?deleted .   
+		?deleted <http://inova8.com/odata4sparql#subject> ?deletedSubject ;
+			<http://inova8.com/odata4sparql#predicate> ?deletedPredicate;
+			<http://inova8.com/odata4sparql#object> ?deletedObject ;
+			<http://inova8.com/odata4sparql#graph> ?deletedGraph .
+	}
+}
+INSERT{
+	GRAPH ?addedGraph
+	{
+		?deletedSubject ?deletedPredicate ?deletedObject
+	}
+}
+where{
+	BIND(<http://change/b7f577d7a8aacb9241bc0696bd2da2adc9eade29-2020-02-27T16:10:47.102Z> as ?change)
+	graph <http://inova8.com/odata4sparql/change>{
+		?change a <http://inova8.com/odata4sparql#Change> ;
+			<http://inova8.com/odata4sparql#created> ?created .
+		OPTIONAL{ 
+			?change  <http://inova8.com/odata4sparql#added> ?added .   
+			?added <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+				<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+				<http://inova8.com/odata4sparql#object> ?addedObject  ;
+				<http://inova8.com/odata4sparql#graph> ?addedGraph .
+		}
+		OPTIONAL{ 
+			?change  <http://inova8.com/odata4sparql#deleted> ?deleted .   
+			?deleted <http://inova8.com/odata4sparql#subject> ?deletedSubject ;
+				<http://inova8.com/odata4sparql#predicate> ?deletedPredicate;
+				<http://inova8.com/odata4sparql#object> ?deletedObject ;
+				<http://inova8.com/odata4sparql#graph> ?deletedGraph .
+		}
+	}
+}
+#rollback all
+
+DELETE{
+	GRAPH ?addedGraph
+	{
+		?addedSubject ?addedPredicate ?addedObject
+	}
+	GRAPH <http://inova8.com/odata4sparql/change>
+	{
+		?change a <http://inova8.com/odata4sparql#Change> ;
+			<http://inova8.com/odata4sparql#created> ?created .
+		?change  <http://inova8.com/odata4sparql#added> ?added .   
+		?added <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+			<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+			<http://inova8.com/odata4sparql#object> ?addedObject  ;
+			<http://inova8.com/odata4sparql#graph> ?addedGraph .
+		?change  <http://inova8.com/odata4sparql#deleted> ?deleted .   
+		?deleted <http://inova8.com/odata4sparql#subject> ?deletedSubject ;
+			<http://inova8.com/odata4sparql#predicate> ?deletedPredicate;
+			<http://inova8.com/odata4sparql#object> ?deletedObject ;
+			<http://inova8.com/odata4sparql#graph> ?deletedGraph .
+	}
+}
+INSERT{
+	GRAPH ?addedGraph
+	{
+		?deletedSubject ?deletedPredicate ?deletedObject
+	}
+}
+where{
+	select ?change ?created ?added ?addedSubject ?addedPredicate ?addedObject ?addedGraph  ?deleted ?deletedSubject ?deletedPredicate ?deletedObject ?deletedGraph  {
+		graph <http://inova8.com/odata4sparql/change>{
+			?change a <http://inova8.com/odata4sparql#Change> ;
+				<http://inova8.com/odata4sparql#created> ?created .
+			OPTIONAL{ 
+				?change  <http://inova8.com/odata4sparql#added> ?added .   
+				?added <http://inova8.com/odata4sparql#subject> ?addedSubject ;
+					<http://inova8.com/odata4sparql#predicate> ?addedPredicate;
+					<http://inova8.com/odata4sparql#object> ?addedObject  ;
+					<http://inova8.com/odata4sparql#graph> ?addedGraph .
+			}
+			OPTIONAL{ 
+				?change  <http://inova8.com/odata4sparql#deleted> ?deleted .   
+				?deleted <http://inova8.com/odata4sparql#subject> ?deletedSubject ;
+					<http://inova8.com/odata4sparql#predicate> ?deletedPredicate ;
+					<http://inova8.com/odata4sparql#object> ?deletedObject ;
+					<http://inova8.com/odata4sparql#graph> ?deletedGraph .
+			}
+		}
+	}	order by ?created desc
+} 
+#archive
+
+MOVE SILENT GRAPH <http://inova8.com/odata4sparql/change/1>  TO GRAPH <http://inova8.com/odata4sparql/change/2>
+
+CLEAR SILENT GRAPH <http://inova8.com/odata4sparql/change/DT-2020Z> ;
+INSERT {  GRAPH <http://inova8.com/odata4sparql/change/DT-2020Z> { ?s ?p ?o } } 
+WHERE {  GRAPH <http://inova8.com/odata4sparql/change>   { ?s ?p ?o } } ;
+CLEAR GRAPH <http://inova8.com/odata4sparql/change> ;
+
+#clear
+
+DROP SILENT GRAPH <http://inova8.com/odata4sparql/change> 
+

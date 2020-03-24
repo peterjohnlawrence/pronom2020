@@ -1,0 +1,220 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/141>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/142>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/143>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/151>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-8> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/2>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/21>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/22>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/23>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/24>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/25>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/26>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/27>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/28>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/29>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/30>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/31>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/32>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/33>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/337>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-8> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/34>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/35>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/36>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-6> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/45>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/463>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-8> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/50>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/52>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/527>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/53>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/569>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-9> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/573>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-9> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/6>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/63>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/64>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/65>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/66>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/67>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/68>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/69>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/70>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/703>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/704>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/705>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/706>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/707>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/708>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/709>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/71>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/710>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/711>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/712>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/713>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/72>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/73>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/74>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/75>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/76>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/77>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/78>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/79>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/80>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/81>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/82>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/83>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/84>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/85>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-4> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/969>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/389>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/392>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-8> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/396>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/397>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> <http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-1> ;
+.

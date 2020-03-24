@@ -1,0 +1,184 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/compressionTypes
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-11>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 11 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/11" ;
+  rdfs:comment "The JPEG compression algorithm was developed in 1990 by the Joint Photographic Experts Group of ISO and CCITT, for the transmission of colour and greyscale images. It is a lossy technique which provides best compression rates with complex 24-bit (True Colour) images. It achieves its effect by discarding image data which is imperceptible to the human eye, using a technique called Discrete Cosine Transform (DCT). It then applies Huffman encoding to achieve further compression. The JPEG specification allows users to set the degree of compression, using an abstract Quality Setting. This provides a trade-off between compression rate and image quality. It is important to note that the Quality Setting is not an absolute value, with different JPEG encoders use different scales, and that even the maximum quality setting for baseline JPEG involves some loss. JPEG compression is most commonly used in the JPEG File Interchange Format (JFIF), SPIFF and TIFF." ;
+  rdfs:label "Baseline JPEG" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "DCT" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "Discrete Cosine Transform" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "JPEG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Baseline JPEG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-12>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 12 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/12" ;
+  rdfs:comment "The Lempel-Ziv-Welch compression algorithm was developed by Terry Welch in 1984, as a modification of the LZ78 compressor. It is a lossless technique which can be applied to almost any type of data, but is most commonly used for image compression. LZW compression is effective on images with colour depths from 1-bit (monochrome) to 24-bit (True Colour). LZW compression is encountered in a range of common graphics file formats, including TIFF and GIF." ;
+  rdfs:label "Lempel-Ziv-Welch" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "LZW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Lempel-Ziv-Welch" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-13>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 13 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/13" ;
+  rdfs:comment "Run length encoding (RLE) is perhaps the simplest image compression technique in common use. RLE algorithms are lossless, and work by searching for runs of bits, bytes, or pixels of the same value, and encoding the length and value of the run. As such, RLE achieves best results with images containing large areas of contiguous colour, and especially monochrome images. Complex colour images, such as photographs, do not compress well â€“ in some cases, RLE can actually increase the file size. There are a number of RLE variants in common use, which are encountered in the TIFF, PCX and BMP graphics formats." ;
+  rdfs:label "Run Length Encoding" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "RLE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Run Length Encoding" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-14>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 14 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/14" ;
+  rdfs:comment "Officially known as CCITT T.4, Group 3 is a compression algorithm developed by the International Telegraph and Telephone Consultative Committee in 1985 for encoding and compressing 1-bit (monochrome) image data. Its primary use has been in fax transmission, and it is optimised for scanned printed or handwritten documents. Group 3 is a lossless algorithm, of which two forms exist: one-dimensional (which is a modified version of Huffman encoding) and two-dimensional, which offers superior compression rates. Due to its origin as a data transmission protocol, Group 3 encoding incorporates error detection codes. Group 3 compression is most commonly used in the TIFF file format." ;
+  rdfs:label "CCITT T.4" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "CCITT Group 3" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CCITT T.4" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-15>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 15 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/15" ;
+  rdfs:comment "Officially known as CCITT T.6, Group 4 is a compression algorithm developed by the International Telegraph and Telephone Consultative Committee as a development of the two-dimensional Group 3 standard for encoding and compressing 1-bit (monochrome) image data. It is faster, and offers compression rates which are typically double those of Group 3. Like Group 3, it is lossless and designed for 1-bit images. However, being designed as a storage rather than transmission format, it does not incorporate the error detection and correction functions of Group 3 compression. Group 4 compression is most commonly used in the TIFF file format." ;
+  rdfs:label "CCITT T.6" ;
+  <http://www.w3.org/2004/02/skos/core#altLabel> "CCITT Group 4" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CCITT T.6" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-16>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 16 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/16" ;
+  rdfs:comment "Deflate is a lossless algorithm based on LZ77 and Huffman encoding. It was developed by Phil Katz in 1996 for use in the PKZIP compressed archive format, and forms the basis for PNG compression. It is also the compression algorithm used by the GZIP file format." ;
+  rdfs:label "Deflate" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Deflate" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-17>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 17 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/17" ;
+  rdfs:comment "LZ compressors are a group of lossless compression schemes developed by Abraham Lempel and Jakob Ziv in 1977-8.  LZ77 compression underlies the Deflate algorithm, which is used in compressed archive formats such as PKZIP and the PNG compression algorithm." ;
+  rdfs:label "LZ77" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LZ77" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-18>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 18 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/18" ;
+  rdfs:comment "LZ compressors are a group of lossless compression schemes developed by Abraham Lempel and Jakob Ziv in 1977-8. LZ78 compression is most commonly used for images, and forms the basis of the LZW algorithm." ;
+  rdfs:label "LZ78" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LZ78" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-19>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 19 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/19" ;
+  rdfs:comment "Developed by David Huffman in 1952, Huffman encoding is one of the oldest and most established compression algorithms. It is lossless and is used to provide a final compression stage in a number of more modern compression schemes, such as Baseline JPEG and Deflate. In modified form, it is also used in CCITT Group 3 compression." ;
+  rdfs:label "Huffman Encoding" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Huffman Encoding" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-20>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 20 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/20" ;
+  rdfs:comment "PNG compression was developed in 1996 as part of the PNG file format, to provide a non-proprietary alternative to the LZW compression employed by GIF and other file formats. PNG compression uses the Deflate compression method. It is lossless algorithm and is effective with colour depths from 1-bit (monochrome) to 48-bit (True Colour). PNG compression is unencumbered by patent and free to use. It is implemented only in the PNG file format." ;
+  rdfs:label "PNG Compression" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PNG Compression" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-3>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 3 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/3" ;
+  rdfs:comment "Uncompressed audio encoding method, which uses linear sampling at a wide range of sampling frequencies and resolutions." ;
+  rdfs:label "Pulse Code Modulation" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Pulse Code Modulation" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-4>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 4 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/4" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 32-448 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-1 Audio Layer 1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-1 Audio Layer 1" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-5>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 5 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/5" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 32-384 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-1 Audio Layer 2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-1 Audio Layer 2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-6>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 6 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/6" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 32-320 kbits/sec, and sampling frequencies of 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-1 Audio Layer 3" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-1 Audio Layer 3" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-7>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 7 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/7" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 32-448 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-2 Audio Layer 1" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-2 Audio Layer 1" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-8>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 8 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/8" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 32-384 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-2 Audio Layer 2" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-2 Audio Layer 2" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-9>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness> <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 9 ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/puid> "x-cmp/9" ;
+  rdfs:comment "Compressed audio encoding method which supports bitrates of 8-320 kbits/sec, and sampling frequencies of 8, 16, 22.05, 24, 32, 44.1 and 48 kHz." ;
+  rdfs:label "MPEG-2 Audio Layer 3" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/CompressionType> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MPEG-2 Audio Layer 3" ;
+.

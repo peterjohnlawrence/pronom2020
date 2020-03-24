@@ -1,0 +1,1156 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/supportActors
+# prefix: supportActors
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix supportActors: <http://data.nationalarchives.gov.uk/formatregistry/data/supportActors#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1009>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/104>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1042>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1043>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1044>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1045>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-72> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1046>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1049>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1051>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1053>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1054>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1055>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1056>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-226> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1057>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-226> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1058>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-226> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/106>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/107>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1071>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1073>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1074>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1075>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1076>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1077>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1078>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1079>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/108>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1081>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1082>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1085>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-45> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1088>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1089>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/109>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1092>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1093>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1103>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1126>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1127>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1144>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-108> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1167>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1168>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1169>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1170>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1171>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1172>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1174>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-45> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1175>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1184>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1185>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1187>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1190>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1191>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1192>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1196>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-143> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1203>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1207>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1212>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-45> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1216>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-95> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1220>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1221>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/1222>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/131>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/142>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/161>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-143> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/189>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/190>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/191>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-228> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/214>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/215>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/216>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/244>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/255>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-151> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/274>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/289>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-162> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-164> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/318>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-151> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/341>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/346>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/395>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/40>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/400>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/412>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/416>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/417>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/418>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/419>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/420>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/422>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/423>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/433>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/434>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/435>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/450>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-211> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/451>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-211> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/473>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/482>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/494>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/500>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/501>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/503>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/505>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/506>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/507>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/509>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/510>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/511>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/512>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/513>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/514>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/515>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/516>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/517>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-189> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/519>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-45> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/520>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/521>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/523>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/524>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/525>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/526>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/531>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/532>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/533>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/534>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/535>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/536>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/537>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/538>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/539>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/544>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/545>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/546>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/547>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/548>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/549>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/55>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/550>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/551>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/552>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/553>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/554>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/555>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/556>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/557>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/558>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/559>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/56>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/560>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/561>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/562>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/563>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/564>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/565>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/566>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/567>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/568>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/57>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/570>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/571>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/572>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/573>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/58>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/583>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/584>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/589>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/59>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/590>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/592>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-197> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/593>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-197> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/594>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/595>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/596>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/597>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/598>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/599>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/609>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/614>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/616>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-200> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/617>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/618>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/619>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/620>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/621>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/622>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-203> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/623>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-201> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/627>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/628>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/629>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/630>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/631>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/632>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/633>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/634>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/636>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/637>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/638>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/641>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-38> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/646>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/647>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/650>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/651>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/652>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/660>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/667>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/682>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/683>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-210> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/684>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-211> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/685>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/686>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-211> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/692>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/693>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/694>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/695>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/724>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/725>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/726>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/730>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/736>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/737>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/738>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/739>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/740>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/741>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/742>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/743>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/744>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/745>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/746>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/747>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/748>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/749>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/750>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/751>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/752>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/753>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/754>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/755>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/757>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/758>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/759>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/760>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/761>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/762>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/763>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/764>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/765>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/766>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/767>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/768>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/769>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/770>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/771>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/772>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/773>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/774>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/775>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/776>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/777>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/778>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/781>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-63> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/796>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/797>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/800>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/824>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/825>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/834>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/835>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/836>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/837>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/838>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/839>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/845>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/846>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/847>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/848>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/849>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/857>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/858>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/859>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/860>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/861>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/862>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/863>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/864>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/866>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/867>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/871>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/875>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-200> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/877>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/878>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/881>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/884>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/893>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/899>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/900>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/901>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/912>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/913>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/914>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/923>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/924>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/925>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/926>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/927>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/928>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/929>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/936>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/937>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/942>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/943>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/949>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-35> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/954>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-190> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/956>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/957>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/958>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/966>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/967>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/968>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/969>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/970>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-219> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/971>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/977>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/985>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-222> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/986>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/987>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/988>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-221> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/989>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-221> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/990>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-221> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/995>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-143> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/996>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/997>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-46> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/119>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/126>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/153>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/17>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/182>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-91> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/19>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/20>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/214>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/302>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/333>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-95> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/406>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/407>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/408>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/410>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/414>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/432>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/433>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/434>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/435>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/436>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-135> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/437>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-135> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/438>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-135> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/439>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-135> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/440>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-135> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/441>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/442>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-140> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/443>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/444>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/445>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/446>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/447>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/448>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/45>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/450>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/451>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/452>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-141> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/453>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/454>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/455>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/53>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/64>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/65>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/80>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/91>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-fmt/92>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.

@@ -1,0 +1,12 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding
+# prefix: fileFormatEncoding
+
+@prefix fileFormatEncoding: <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/fmt/289>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Encoding> <http://www.nationalarchives.gov.uk/PRONOM/chr/1> ;
+.

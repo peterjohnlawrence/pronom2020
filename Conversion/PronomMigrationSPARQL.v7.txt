@@ -1,0 +1,1036 @@
+#Script applied to the PRONOM database converted to RDF
+
+
+#Construct bytesequences
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/byteSequences>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/byteSequences> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/byteSequences>{
+	?byteSequenceIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ByteSequence>;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/ByteSequence>;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.MaxOffset> ?max_offset ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset> ?offset ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLength> ?offset_length ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLocation> ?offset_location ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> ?positionType ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Value> ?byte_sequence ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byte_sequences.ID> ?byte_sequenceId .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select *
+where {
+	?byteSequence vocab:dbo_byte_sequences_signature_id 	?internalSignature ;
+		vocab:dbo_byte_sequences_byte_sequence ?byte_sequence ;
+		vocab:dbo_byte_sequences_byte_sequence_id ?byte_sequenceId ;
+		vocab:dbo_byte_sequences_position_type_id ?sequencePositionType ;
+	OPTIONAL{
+		?byteSequence vocab:dbo_byte_sequences_indirect_offset_length ?offset_length
+	}
+	OPTIONAL{
+		?byteSequence vocab:dbo_byte_sequences_indirect_offset_location ?offset_location
+	}
+	OPTIONAL{
+		?byteSequence vocab:dbo_byte_sequences_offset ?offset 
+	}
+	OPTIONAL{
+		?byteSequence vocab:dbo_byte_sequences_max_offset  ?max_offset 
+	}
+	OPTIONAL{
+			?internalSignature  vocab:dbo_internal_signatures_signature_id ?signatureId
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/InternalSignature/IS-",  STR(?signatureId))) as ?internalSignatureIRI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequence/BS-",  STR(?byte_sequenceId))) as ?byteSequenceIRI)
+	BIND( 
+		IF( ?sequencePositionType =<http://reference.data.gov.uk/technical-registry/data/mssql#position_types_1>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/AbsoluteBOF> ,
+		IF( ?sequencePositionType =<http://reference.data.gov.uk/technical-registry/data/mssql#position_types_2>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/AbsoluteEOF> ,
+		IF( ?sequencePositionType =<http://reference.data.gov.uk/technical-registry/data/mssql#position_types_3>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/Variable> ,
+		IF( ?sequencePositionType =<http://reference.data.gov.uk/technical-registry/data/mssql#position_types_4>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/IndirectBOF> ,
+		IF( ?sequencePositionType =<http://reference.data.gov.uk/technical-registry/data/mssql#position_types_5>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/IndirectEOF> ,		
+		"")))))  as ?positionType)
+}
+;
+#Construct file extensions and link to fileformat
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileExtension>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileExtension> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileExtension>{
+#CONSTRUCT{
+	?externalSignature
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/ExternalSignature> ;
+		<http://www.w3.org/2004/02/skos/core#broader>   <http://data.nationalarchives.gov.uk/formatregistry/def/ExternalSignature> ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/externalSignature.Extension> ?extension ;
+		<http://www.w3.org/2000/01/rdf-schema#label> ?extension ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> ?seeExternal  ; 
+		<http://data.nationalarchives.gov.uk/formatregistry/def/external_signatures.ID> ?external_signatureId  ; 
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?extension ;
+		<http://purl.org/dc/terms/source> ?fileExtension .
+	?puidIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ExternalSignature>  ?externalSignature .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select *
+where {
+	?fileExtension a vocab:dbo_external_signatures ;
+		vocab:dbo_external_signatures_signature_text ?extension ;
+		vocab:dbo_external_signatures_external_signature_id ?external_signatureId ;
+		vocab:dbo_external_signatures_file_format_id ?fileFormat .
+	?fileFormat   vocab:dbo_file_formats_puid_value  ?puid .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( xsd:anyURI(CONCAT("https://www.file-extension.org/extensions/",  ?extension)) as ?seeExternal)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ExternalSignature/ES-",  ENCODE_FOR_URI(?extension))) as ?externalSignature)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+}
+;
+#Construct fileformat 
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormat>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormat> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormat>{
+#CONSTRUCT{
+	?puidIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/FileFormat> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/FileFormat> ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.ByteOrder> ?byteOrder ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/puid> ?puidLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.version> ?version ;
+		rdfs:comment ?comment ;
+		rdfs:label ?label ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?label ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.CompressionType>  ?compressionPuidIRI ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/file_formats.ID> ?file_formatId  .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select *
+where {
+	?fileFormat a vocab:dbo_file_formats  ;
+		vocab:dbo_file_formats_format_name_text ?label ;
+		vocab:dbo_file_formats_format_text ?comment ;
+		vocab:dbo_file_formats_file_format_id ?file_formatId ;
+		vocab:dbo_file_formats_puid_value  ?puid .
+		OPTIONAL{?fileFormat vocab:dbo_file_formats_version_text  ?version }
+		OPTIONAL{  
+			?fct a vocab:dbo_format_compression_types .
+			?fct vocab:dbo_format_compression_types_file_format_id ?fileFormat ;
+				vocab:dbo_format_compression_types_compression_id ?compressionType. 
+			?compressionType vocab:dbo_compression_types_compression_id ?compressionTypeId ;
+				vocab:dbo_compression_types_puid_value  ?compressionPuid ;
+				vocab:dbo_compression_types_puid_type_id  ?compressionPuidType .
+			?compressionPuidType  vocab:dbo_puid_type_puid_type  ?compressionPuidPrefix .
+			BIND( CONCAT( REPLACE(?compressionPuidPrefix," ",""), "/",STR(?compressionPuid)) as ?compressionPuidLabel).
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?compressionPuidLabel)) as ?compressionPuidIRI)
+		} 
+ 		OPTIONAL{  
+			?byteOrderLink a vocab:dbo_format_byte_order_link ;
+					vocab:dbo_format_byte_order_link_file_format_id ?fileFormat ;
+					vocab:dbo_format_byte_order_link_byte_order_id ?byteOrderType .
+			BIND( IF( ?byteOrderType =<http://reference.data.gov.uk/technical-registry/data/mssql#byte_orders_1>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteOrder/littleEndian> ,
+						IF( ?byteOrderType =<http://reference.data.gov.uk/technical-registry/data/mssql#byte_orders_1>, <http://data.nationalarchives.gov.uk/formatregistry/id/ByteOrder/bigEndian> ,
+						""))   as ?byteOrder)
+		}
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+}
+;
+#Construct file format types and link to fileformat
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatIdentifiers>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatIdentifiers> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/formatIdentifiers>{
+#CONSTRUCT{
+	?formatIdentifierURI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/FormatIdentifier> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/FormatIdentifier> ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/formatIdentifier.FormatRegistry> ?formatRegistry ;
+		rdfs:label ?formatText ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal> ?seeExternal; 
+		<http://data.nationalarchives.gov.uk/formatregistry/def/format_identifiers.ID> ?format_identifiersId ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?formatText .
+	?puidIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FormatIdentifier>  ?formatIdentifierURI .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select *
+where {
+	?formatIdentifier a vocab:dbo_format_identifiers  ;
+		vocab:dbo_format_identifiers_file_format_id ?fileFormat ;
+		vocab:dbo_format_identifiers_identifier_type_id ?formatType ;
+		vocab:dbo_format_identifiers_identifier_id ?format_identifiersId ;
+		vocab:dbo_format_identifiers_identifier_text   ?formatText .
+	?formatType vocab:dbo_format_identifier_types_identifier_type_text ?formatTypeText .
+	?fileFormat   vocab:dbo_file_formats_puid_value  ?puid .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IF(?formatTypeText="MIME", "MIME", 
+		IF(?formatTypeText ="Library of Congress Format Description Identifier", "LoC",
+		IF(?formatTypeText ="Apple Uniform Type Identifier", "UTI",
+		""))) as ?type)
+	BIND( IF(?formatTypeText="MIME", <http://data.nationalarchives.gov.uk/formatregistry/id/FormatRegistry/InternetMediaType>, 
+		IF(?formatTypeText ="Library of Congress Format Description Identifier", <http://data.nationalarchives.gov.uk/formatregistry/id/FormatRegistry/LibraryOfCongress>,
+		IF(?formatTypeText ="Apple Uniform Type Identifier", <http://data.nationalarchives.gov.uk/formatregistry/id/FormatRegistry/UniformTypeIdentifier>,
+		""))) as ?formatRegistry)
+	BIND( IF(?formatTypeText="MIME", xsd:anyURI(CONCAT("https://www.iana.org/assignments/media-types/",?formatText)), 
+		IF(?formatTypeText ="Library of Congress Format Description Identifier", xsd:anyURI(CONCAT("https://www.loc.gov/preservation/digital/formats/fdd/",?formatText,".shtml")), 
+		IF(?formatTypeText ="Apple Uniform Type Identifier", "" ,
+		""))) as ?seeExternal)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FormatIdentifier/FI-",  ENCODE_FOR_URI(?formatText))) as ?formatIdentifierURI)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+}
+;
+#Construct fileFormatRelationships
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatRelationships>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatRelationships> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatRelationships>{
+#CONSTRUCT{
+	#?sourcePuidIRI   ?relationshipPredicate ?targetPuidIRI .
+	?sourcePuidIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.In.FileFormatRelationship>  ?fileFormatRelationshipIRI . 
+	?fileFormatRelationshipIRI  a ?fileFormatRelationshipType  ;
+		rdfs:label ?fileFormatRelationshiplabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?fileFormatRelationshiplabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormatRelationship.With.FileFormat> ?targetPuidIRI .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select ?sourcePuidIRI ?relationshipType  ?relationshipPredicate ?targetPuidIRI
+where {
+?relationship  rdf:type vocab:dbo_format_relationships ;
+  vocab:dbo_format_relationships_relationship_type_id ?relationshipType;
+  vocab:dbo_format_relationships_source_id ?sourceFileFormat ;
+  vocab:dbo_format_relationships_target_id ?targetFileFormat .
+	BIND( IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_1>, <http://data.nationalarchives.gov.uk/formatregistry/def/SubsequentVersionOfFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_2>, <http://data.nationalarchives.gov.uk/formatregistry/def/PriorVersionOfFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_3>, <http://data.nationalarchives.gov.uk/formatregistry/def/SubTypeOfFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_4>, <http://data.nationalarchives.gov.uk/formatregistry/def/SuperTypeOfFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_5>, <http://data.nationalarchives.gov.uk/formatregistry/def/CanContainFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_6>, <http://data.nationalarchives.gov.uk/formatregistry/def/CanBeContainedByFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_7>, <http://data.nationalarchives.gov.uk/formatregistry/def/HasPriorityOverFileFormatRelationship> ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_8>, <http://data.nationalarchives.gov.uk/formatregistry/def/EquivalentToFileFormatRelationship> ,
+				""))))))))   as ?fileFormatRelationshipType)
+	BIND( IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_1>, "SubsequentVersionOf" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_2>, "PriorVersionOf" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_3>, "SubTypeOf" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_4>, "SuperTypeOf" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_5>, "CanContain" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_6>, "CanBeContainedBy" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_7>, "HasPriorityOver" ,
+				IF( ?relationshipType =<http://reference.data.gov.uk/technical-registry/data/mssql#format_relationship_types_8>, "EquivalentTo" ,
+				""))))))))   as ?fileFormatRelationshipTypeLabel)
+	{	select ?sourceFileFormat  ?sourcePuidPrefix ?sourcePuid ?sourcePuidLabel ?sourcePuidIRI
+		where {
+			?sourceFileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?sourcePuid ; 
+				vocab:dbo_file_formats_puid_type_id  ?sourcePuidType .
+			?sourcePuidType  vocab:dbo_puid_type_puid_type  ?sourcePuidPrefix .
+			BIND( CONCAT( REPLACE(?sourcePuidPrefix," ",""), "/",STR(?sourcePuid)) as ?sourcePuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?sourcePuidLabel)) as ?sourcePuidIRI)
+		}
+	}
+	{	select ?targetFileFormat ?targetPuidPrefix  ?targetPuid ?targetPuidLabel ?targetPuidIRI
+		where {
+			?targetFileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?targetPuid ; 
+				vocab:dbo_file_formats_puid_type_id  ?targetPuidType .
+			?targetPuidType  vocab:dbo_puid_type_puid_type  ?targetPuidPrefix .
+			BIND( CONCAT( REPLACE(?targetPuidPrefix," ",""), "/",STR(?targetPuid)) as ?targetPuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
+		}
+	}
+	BIND( CONCAT(?fileFormatRelationshipTypeLabel, "-", ?targetPuidLabel ) as ?fileFormatRelationshipLabel)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatRelationship/FFR-", REPLACE(?sourcePuidPrefix," ",""), "-", STR(?sourcePuid) , "-", ?fileFormatRelationshipTypeLabel, "-", REPLACE(?targetPuidPrefix," ",""), "-", STR(?targetPuid) )) as ?fileFormatRelationshipIRI)
+}
+;
+#Construct internalSignatures
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/signature>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/signature> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/signature>{
+#CONSTRUCT{
+	?internalSignatureIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/InternalSignature> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/InternalSignature> ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ByteSequence>  ?byteSequenceIRI ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/internal_signatures.ID>  ?signatureId ;
+		rdfs:comment ?signatureComment ;
+		rdfs:label ?signatureName ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?signatureName .
+	?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.InternalSignature> ?internalSignatureIRI .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select *
+where {
+	?internalSignature	vocab:dbo_internal_signatures_signature_name_text ?signatureName ;
+		vocab:dbo_internal_signatures_signature_id ?signatureId .
+	OPTIONAL{ ?internalSignature vocab:dbo_internal_signatures_note_text ?signatureComment .}
+	OPTIONAL{
+		?signatureLink a vocab:dbo_format_internal_signature_link ;
+			vocab:dbo_format_internal_signature_link_signature_id ?internalSignature ;
+			vocab:dbo_format_internal_signature_link_file_format_id  ?fileFormat .
+		OPTIONAL{
+			?byteSequence vocab:dbo_byte_sequences_signature_id 	?internalSignature ;
+				vocab:dbo_byte_sequences_byte_sequence ?byte_sequence ;
+				vocab:dbo_byte_sequences_byte_sequence_id ?byte_sequenceId ;
+				vocab:dbo_byte_sequences_position_type_id ?sequencePositionType .
+			?sequencePositionType  vocab:dbo_position_types_position_type_text  ?sequencePositionText .
+		}
+		?fileFormat a vocab:dbo_file_formats  ;
+			vocab:dbo_file_formats_puid_value  ?puid .
+		{	select ?fileFormat  ?puidLabel 
+			where {
+				?fileFormat a vocab:dbo_file_formats ;
+					vocab:dbo_file_formats_puid_value  ?puid ; 
+					vocab:dbo_file_formats_puid_type_id  ?puidType .
+				?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+				BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+			}
+		}
+		BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+		BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequence/BS-",  STR(?byte_sequenceId))) as ?byteSequenceIRI)
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/InternalSignature/IS-",  STR(?signatureId))) as ?internalSignatureIRI)
+	
+}
+;
+#Construct fileFormatClassifications
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatClassifications>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatClassifications> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatClassifications>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Classification> ?formatTypeIRI;
+.
+}
+}
+#select *
+WHERE {
+	?ftl a vocab:dbo_format_type_link ;
+		vocab:dbo_format_type_link_file_format_id   ?fileFormat ; 
+		vocab:dbo_format_type_link_format_type_id  ?formatType  . 
+	?formatType   vocab:dbo_format_types_format_type_id  ?formatTypeId .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Classification/C-",  STR(?formatTypeId))) as ?formatTypeIRI)
+}
+;
+
+#Construct fileFormatFamilies
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatFamilies>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.FileFormatFamily> ?formatFamilyIRI;
+.
+}
+}
+#select *
+WHERE {
+	?fffl a vocab:dbo_format_family_link;
+		vocab:dbo_format_family_link_file_format_id   ?fileFormat ;
+		vocab:dbo_format_family_link_family_id  ?formatFamily  . 
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+	BIND ( STRAFTER(STR(?formatFamily),"families_") as ?formatFamilyId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FileFormatFamily/FFF-",  STR(?formatFamilyId))) as ?formatFamilyIRI)
+}
+;
+
+#Construct actors
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actors>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actors> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/actors>{
+CONSTRUCT{
+	?actorIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Actor> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Actor> ;
+		rdfs:comment ?org ;
+		rdfs:label ?org;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?org ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actors.ID>   ?actorId  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Contact>  ?name ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Address>  ?actorAddress ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Email>  ?email ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Support.Website>   ?supportWebsite ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Telephone>   ?actorTel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Website>   ?website ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Country>   ?countryIRI ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/actor.Source>   ?actorSourceIRI ;
+}#select *
+WHERE {
+	?actor a vocab:dbo_actors .
+	OPTIONAL{ ?actor	vocab:dbo_actors_organisation_name_text  ?actorOrgName  }
+	OPTIONAL{ ?actor  vocab:dbo_actors_name_text   ?actorName }
+	BIND( COALESCE( ?actorOrgName, ?actorName) as ?org)
+	BIND(IF( ?org = ?actorName, "",  ?actorName) as ?name)
+	OPTIONAL{ ?actor vocab:dbo_actors_address_text  ?actorAddress }
+	OPTIONAL{ ?actor vocab:dbo_actors_contact_email_text  ?actorEmail . BIND( xsd:anyURI(STR(?actorEmail)) as ?email)}
+	OPTIONAL{ ?actor vocab:dbo_actors_support_website_text  ?actorSupportWebsite  . BIND( xsd:anyURI(STR(?actorSupportWebsite)) as ?supportWebsite) }
+	OPTIONAL{ ?actor vocab:dbo_actors_telephone_text  ?actorTel  }
+	OPTIONAL{ ?actor vocab:dbo_actors_website_text  ?actorWebsite . BIND( xsd:anyURI(STR(?actorWebsite)) as ?website) }
+#
+	OPTIONAL{ ?actor vocab:dbo_actors_actor_type_id  ?actorType .   ?actorType vocab:dbo_actor_types_actor_type_id ?actorTypeId  . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ActorType/AT-",  STR(?actorTypeId))) as ?actorTypeIRI)  } 
+	OPTIONAL{ ?actor vocab:dbo_actors_source_id ?actorSource . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/AT-",  STRAFTER(STR(?actorSource),"actors_"))) as ?actorSourceIRI)  } 
+	OPTIONAL{ ?actor vocab:dbo_actors_country_code_text  ?actorCountry  . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C--",  STRAFTER(STR(?actorCountry),"countries_"))) as ?countryIRI)   }
+#
+	BIND ( STRAFTER(STR(?actor),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI)
+}
+;
+
+#Construct developerActors
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/developerActors>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/developerActors> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/developerActors>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Development.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?actor a vocab:dbo_actors .
+	BIND ( STRAFTER(STR(?actor),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI)
+	{ ?fileFormatLink vocab:dbo_format_developers_developer_id  ?actor.
+     ?fileFormatLink   vocab:dbo_format_developers_file_format_id    ?fileFormat .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+ } 
+}
+;
+ 
+#Construct supportActors
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/supportActors>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/supportActors> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/supportActors>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Support.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?actor a vocab:dbo_actors .
+	BIND ( STRAFTER(STR(?actor),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI)
+	{ ?supportFileFormatLink vocab:dbo_format_support_support_id  ?actor.
+     ?supportFileFormatLink   vocab:dbo_format_support_file_format_id    ?fileFormat .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+ } 
+}
+;
+#Construct documents
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documents>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documents> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documents>{
+#CONSTRUCT{
+	?documentIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Document> ;
+		rdfs:comment ?documentComment ;
+		rdfs:label ?documentLabel;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?documentLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/documents.ID>   ?documentId  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/seeExternal>  ?identifier ;		
+		<http://data.nationalarchives.gov.uk/formatregistry/def/document.Availability>  ?availabilityLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/document.DocumentType>  ?documentTypeIRI  ;
+}
+}
+#select *
+WHERE {
+	?document a vocab:dbo_documents .
+	OPTIONAL{ ?document	vocab:dbo_documents_display_text  ?documentComment  }
+	OPTIONAL{ ?document	vocab:dbo_documents_title_text  ?documentLabel }
+	OPTIONAL{ ?di	vocab:dbo_document_identifiers_document_id  ?document ;
+		vocab:dbo_document_identifiers_identifier_text ?docID;
+		vocab:dbo_document_identifiers_identifier_type_id ?identifierId ;
+		BIND( IF( ?identifierId =db:document_identifier_types_1, CONCAT("ISBN:",?docID),  xsd:anyURI(CONCAT("http://",?docID))) as ?identifier)
+	}
+	OPTIONAL{?document  vocab:dbo_documents_availability_id  ?availabilityId  .
+		?availabilityId vocab:dbo_availability_availability_text    ?availabilityLabel .
+	}
+	OPTIONAL{ ?document 	vocab:dbo_documents_document_type_id  ?documentType ;
+		BIND ( STRAFTER(STR(?documentType),"document_types_") as ?documentTypeId)
+		BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/DocumentType/DT-",  STR(?documentTypeId))) as ?documentTypeIRI)
+	}
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI)
+}
+;
+
+#Construct documentAuthors
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors>{
+#CONSTRUCT{
+?documentIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?document a vocab:dbo_documents .
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI) 
+ 	?da vocab:dbo_document_authors_document_id  ?document ;
+		vocab:dbo_document_authors_author_id  ?author .
+	BIND ( STRAFTER(STR(?author),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI) 		
+}
+;
+#Construct documentPublishers
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentPublishers>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentPublishers> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/documentPublishers>{
+#CONSTRUCT{
+?documentIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Publisher.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?document a vocab:dbo_documents .
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI) 
+ 	?da vocab:dbo_document_publishers_document_id  ?document ;
+		vocab:dbo_document_publishers_publisher_id  ?publisher .
+	BIND ( STRAFTER(STR(?publisher),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI) 		
+}
+;
+#Construct fileFormatDocuments
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatDocuments>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatDocuments> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatDocuments>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> ?documentIRI;
+.
+}
+}
+#select *
+WHERE {
+	?document a vocab:dbo_documents .
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI)
+	{ ?dd vocab:dbo_format_documentation_document_id  ?document ;
+          vocab:dbo_format_documentation_file_format_id    ?fileFormat .
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+ } 
+}
+;
+
+
+#Construct fileFormatEncodings
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatEncoding>{
+#CONSTRUCT{
+?puidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.Encoding> ?encodingPuidIRI;
+.
+}
+}
+#select *
+WHERE {
+	?ftl a vocab:dbo_format_encodings ;
+		vocab:dbo_format_encodings_file_format_id  ?fileFormat ; 
+		vocab:dbo_format_encodings_encoding_id  ?encoding  . 
+	{	select ?fileFormat  ?puidLabel 
+		where {
+			?fileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?puid ; 
+				vocab:dbo_file_formats_puid_type_id  ?puidType .
+			?puidType  vocab:dbo_puid_type_puid_type  ?puidPrefix .
+			BIND( CONCAT( REPLACE(?puidPrefix," ",""), "/",STR(?puid)) as ?puidLabel)
+		}
+	}
+	{	select ?encoding  ?encodingPuidLabel 
+		where {
+			?encoding a vocab:dbo_encoding ;
+				vocab:dbo_encoding_puid_value  ?encodingPuid ; 
+				vocab:dbo_encoding_puid_type_id  ?encodingPuidType .
+			?encodingPuidType  vocab:dbo_puid_type_puid_type  ?encodingPuidPrefix .
+			BIND( CONCAT( REPLACE(?encodingPuidPrefix," ",""), "/",STR(?encodingPuid)) as ?encodingPuidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?encodingPuidLabel)) as ?encodingPuidIRI)
+}
+;
+
+#Construct software
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/software>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/software> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/software>{
+#CONSTRUCT{
+	?softwarePuidIRI
+		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Software> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Software> ;
+		rdfs:comment ?softwareComment ;
+		rdfs:label ?softwareLabel;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?softwareLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/software.ID>   ?softwareId  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/software.Version>   ?version ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/document.SoftwareType>  ?softwareTypeIRI  ;
+}
+}
+#select *
+WHERE {
+	?software a vocab:dbo_software .
+	{	select ?software  ?softwarePuidLabel 
+		where {
+			?software a vocab:dbo_software ;
+				vocab:dbo_software_puid_value  ?softwarePuid ; 
+				vocab:dbo_software_puid_type_id  ?softwarePuidType .
+			?softwarePuidType  vocab:dbo_puid_type_puid_type  ?softwarePuidPrefix .
+			BIND( CONCAT( REPLACE(?softwarePuidPrefix," ",""), "/",STR(?softwarePuid)) as ?softwarePuidLabel)
+		}
+	}
+	OPTIONAL{ ?software	vocab:dbo_software_software_text  ?softwareComment  }
+	OPTIONAL{ ?software	vocab:dbo_software_software_name_text  ?softwareLabel }
+	OPTIONAL{ ?software	 vocab:dbo_software_version_text   ?version}
+	OPTIONAL{ ?softwareTypeLink	vocab:dbo_software_type_link_software_id  ?software ;
+			vocab:dbo_software_type_link_software_type_id  ?softwareType ;
+		BIND ( STRAFTER(STR(?softwareType),"software_types_") as ?softwareTypeId)
+		BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/SoftwareType/ST-",  STR(?softwareTypeId))) as ?softwareTypeIRI)
+	}
+	BIND ( STRAFTER(STR(?software),"software_") as ?softwareId)
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)
+}
+;
+
+#Construct softwareDevelopers
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDevelopers>{
+#CONSTRUCT{
+?softwarePuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Development.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?sd a vocab:dbo_software_developers ;
+ 		vocab:dbo_software_developers_software_id  ?software ;
+		vocab:dbo_software_developers_developer_id  ?developer .
+	{	select ?software  ?softwarePuidLabel 
+		where {
+			?software a vocab:dbo_software ;
+				vocab:dbo_software_puid_value  ?softwarePuid ; 
+				vocab:dbo_software_puid_type_id  ?softwarePuidType .
+			?softwarePuidType  vocab:dbo_puid_type_puid_type  ?softwarePuidPrefix .
+			BIND( CONCAT( REPLACE(?softwarePuidPrefix," ",""), "/",STR(?softwarePuid)) as ?softwarePuidLabel)
+		}
+	}
+	BIND ( STRAFTER(STR(?developer),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI) 
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)		
+}
+;
+
+#Construct softwareMaintainers
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareMaintainers>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareMaintainers> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareMaintainers>{
+#CONSTRUCT{
+?softwarePuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/software.Maintenance.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?sd a vocab:dbo_software_maintainers ;
+ 		vocab:dbo_software_maintainers_software_id  ?software ;
+		vocab:dbo_software_maintainers_maintainer_id  ?maintainer .
+	{	select ?software  ?softwarePuidLabel 
+		where {
+			?software a vocab:dbo_software ;
+				vocab:dbo_software_puid_value  ?softwarePuid ; 
+				vocab:dbo_software_puid_type_id  ?softwarePuidType .
+			?softwarePuidType  vocab:dbo_puid_type_puid_type  ?softwarePuidPrefix .
+			BIND( CONCAT( REPLACE(?softwarePuidPrefix," ",""), "/",STR(?softwarePuid)) as ?softwarePuidLabel)
+		}
+	}
+	BIND ( STRAFTER(STR(?maintainer),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI) 
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)		
+}
+;
+
+#Construct softwareDocumentation
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation>{
+#CONSTRUCT{
+?softwarePuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> ?documentIRI;
+.
+}
+}
+#select *
+WHERE {
+	{ ?dd a vocab:dbo_software_documentation ;
+		vocab:dbo_software_documentation_document_id  ?document ;
+		vocab:dbo_software_documentation_software_id    ?software .
+ 	?document a vocab:dbo_documents .
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI)
+ 	{	select ?software  ?softwarePuidLabel 
+		where {
+			?software a vocab:dbo_software ;
+				vocab:dbo_software_puid_value  ?softwarePuid ; 
+				vocab:dbo_software_puid_type_id  ?softwarePuidType .
+			?softwarePuidType  vocab:dbo_puid_type_puid_type  ?softwarePuidPrefix .
+			BIND( CONCAT( REPLACE(?softwarePuidPrefix," ",""), "/",STR(?softwarePuid)) as ?softwarePuidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)	
+ } 
+}
+;
+
+#Construct compressionDevelopers
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDevelopers>{
+#CONSTRUCT{
+?compressionPuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Development.Actor> ?actorIRI;
+.
+}
+}
+#select *
+WHERE {
+	?sd a vocab:dbo_compression_developers ;
+ 		vocab:dbo_compression_developers_compression_id  ?compression ;
+		vocab:dbo_compression_developers_developer_id  ?developer .
+	{	select ?compression  ?compressionPuidLabel 
+		where {
+			?compression a vocab:dbo_compression_types ;
+				vocab:dbo_compression_types_puid_value  ?compressionPuid ; 
+				vocab:dbo_compression_types_puid_type_id  ?compressionPuidType .
+			?compressionPuidType  vocab:dbo_puid_type_puid_type  ?compressionPuidPrefix .
+			BIND( CONCAT( REPLACE(?compressionPuidPrefix," ",""), "/",STR(?compressionPuid)) as ?compressionPuidLabel)
+		}
+	}
+	BIND ( STRAFTER(STR(?developer),"actors_") as ?actorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?actorId))) as ?actorIRI) 
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?compressionPuidLabel)) as ?compressionPuidIRI)		
+}
+;
+
+#Construct compressionDocumentation
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDocumentation>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDocumentation> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compressionDocumentation>{
+#CONSTRUCT{
+?compressionPuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> ?documentIRI;
+.
+}
+}
+#select *
+WHERE {
+	{ ?dd a vocab:dbo_compression_documentation;
+		vocab:dbo_compression_documentation_document_id  ?document ;
+		vocab:dbo_compression_documentation_compression_id    ?compression .
+ 	?document a vocab:dbo_documents .
+	BIND ( STRAFTER(STR(?document),"documents_") as ?documentId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-",  STR(?documentId))) as ?documentIRI)
+ 	{	select ?compression  ?compressionPuidLabel 
+		where {
+			?compression a vocab:dbo_compression_types ;
+				vocab:dbo_compression_types_puid_value  ?compressionPuid ; 
+				vocab:dbo_compression_types_puid_type_id  ?compressionPuidType .
+			?compressionPuidType  vocab:dbo_puid_type_puid_type  ?compressionPuidPrefix .
+			BIND( CONCAT( REPLACE(?compressionPuidPrefix," ",""), "/",STR(?compressionPuid)) as ?compressionPuidLabel)
+		}
+	}
+	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?compressionPuidLabel)) as ?compressionPuidIRI)	
+ } 
+}
+;
+
+#Construct softwareProcesses
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareProcesses>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareProcesses> {?s ?p ?o }}
+;
+PREFIX vocab: <http://reference.data.gov.uk/technical-registry/schema/mssql#>
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwareProcesses>{
+#CONSTRUCT{
+	?softwarePuidIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/software.In.ProcessRelationship>  ?processRelationshipIRI . 
+	?processRelationshipIRI  a ?processRelationshipType  ;
+		rdfs:label ?processRelationshiplabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?processRelationshiplabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/processRelationship.With.FileFormat> ?targetPuidIRI .
+}
+}#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
+#select ?sourcePuidIRI ?relationshipType  ?relationshipPredicate ?targetPuidIRI
+where {
+?relationship  rdf:type vocab:dbo_processes ;
+  vocab:dbo_processes_process_type_id ?processType;
+  vocab:dbo_processes_software_id ?software ;
+  vocab:dbo_processes_file_format_id ?targetFileFormat .
+	BIND( IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_1>, <http://data.nationalarchives.gov.uk/formatregistry/def/CreateProcessRelationship> ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_2>, <http://data.nationalarchives.gov.uk/formatregistry/def/RenderProcessRelationship> ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_3>, <http://data.nationalarchives.gov.uk/formatregistry/def/IdentifyProcessRelationship> ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_4>, <http://data.nationalarchives.gov.uk/formatregistry/def/ValidateProcessRelationship> ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_5>, <http://data.nationalarchives.gov.uk/formatregistry/def/ExtractMetadataProcessRelationship> ,
+				"")))))   as ?processRelationshipType)
+	BIND( IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_1>, "Create" ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_2>, "Render" ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_3>, "Identify" ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_4>, "Validate" ,
+				IF( ?processType =<http://reference.data.gov.uk/technical-registry/data/mssql#process_types_5>, "ExatractMetadata" ,
+				"")))))   as ?processRelationshipTypeLabel)
+	{	select ?software  ?softwarePuidPrefix ?softwarePuid ?softwarePuidLabel ?softwarePuidIRI
+		where {
+			?software a vocab:dbo_software ;
+				vocab:dbo_software_puid_value  ?softwarePuid ; 
+				vocab:dbo_software_puid_type_id  ?softwarePuidType .
+			?softwarePuidType  vocab:dbo_puid_type_puid_type  ?softwarePuidPrefix .
+			BIND( CONCAT( REPLACE(?softwarePuidPrefix," ",""), "/",STR(?softwarePuid)) as ?softwarePuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)
+		}
+	}
+	{	select ?targetFileFormat ?targetPuidPrefix  ?targetPuid ?targetPuidLabel ?targetPuidIRI
+		where {
+			?targetFileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?targetPuid ; 
+				vocab:dbo_file_formats_puid_type_id  ?targetPuidType .
+			?targetPuidType  vocab:dbo_puid_type_puid_type  ?targetPuidPrefix .
+			BIND( CONCAT( REPLACE(?targetPuidPrefix," ",""), "/",STR(?targetPuid)) as ?targetPuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
+		}
+	}
+	BIND( CONCAT(?processRelationshipTypeLabel, "-", ?targetPuidLabel ) as ?processRelationshipLabel)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ProcessRelationship/PR-", REPLACE(?softwarePuidPrefix," ",""), "-", STR(?softwarePuid) , "-", ?processRelationshipTypeLabel, "-", REPLACE(?targetPuidPrefix," ",""), "-", STR(?targetPuid) )) as ?processRelationshipIRI)
+}
+;
+
+
+#Construct alias
+
+DELETE  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/alias>{?s ?p ?o }}
+WHERE
+{ GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/alias> {?s ?p ?o }}
+;
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/alias>{
+#CONSTRUCT{
+?targetPuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias> ?aliasIRI .
+?aliasIRI		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		rdfs:label ?aliasLabel;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?aliasLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/format_alias.ID>   ?aliasID  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Version>   ?version ;
+.
+}
+}
+#select *
+WHERE {
+	{ ?fa a vocab:dbo_format_aliases;
+		vocab:dbo_format_aliases_file_format_id   ?targetFileFormat ;
+		vocab:dbo_format_aliases_alias_id     ?aliasID ;
+	  	vocab:dbo_format_aliases_name_text ?aliasLabel .
+  	OPTIONAL{?fa	vocab:dbo_format_aliases_version_text ?version }
+	{	select ?targetFileFormat ?targetPuidPrefix  ?targetPuid ?targetPuidLabel ?targetPuidIRI
+		where {
+			?targetFileFormat a vocab:dbo_file_formats ;
+				vocab:dbo_file_formats_puid_value  ?targetPuid ; 
+				vocab:dbo_file_formats_puid_type_id  ?targetPuidType .
+			?targetPuidType  vocab:dbo_puid_type_puid_type  ?targetPuidPrefix .
+			BIND( CONCAT( REPLACE(?targetPuidPrefix," ",""), "/",STR(?targetPuid)) as ?targetPuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
+		}
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/AFF-", STR(?aliasID) )) as ?aliasIRI)
+ } 
+}
+;
+
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/alias>{
+#CONSTRUCT{
+?targetPuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias> ?aliasIRI .
+?aliasIRI		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		rdfs:label ?aliasLabel;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?aliasLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/compression_alias.ID>   ?aliasID  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Version>   ?version ;
+.
+}
+}
+#select *
+WHERE {
+	{ ?fa a vocab:dbo_compression_aliases;
+		vocab:dbo_compression_aliases_compression_id   ?targetCompression ;
+		vocab:dbo_compression_aliases_alias_id     ?aliasID ;
+	  	vocab:dbo_compression_aliases_name_text ?aliasLabel .
+  	OPTIONAL{?fa	vocab:dbo_compression_aliases_version_text ?version }
+	{	select ?targetCompression ?targetPuidPrefix  ?targetPuid ?targetPuidLabel ?targetPuidIRI
+		where {
+			?targetCompression 
+				vocab:dbo_compression_types_puid_value  ?targetPuid ; 
+				vocab:dbo_compression_types_puid_type_id  ?targetPuidType .
+			?targetPuidType  vocab:dbo_puid_type_puid_type  ?targetPuidPrefix .
+			BIND( CONCAT( REPLACE(?targetPuidPrefix," ",""), "/",STR(?targetPuid)) as ?targetPuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
+		}
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/ACT-", STR(?aliasID) )) as ?aliasIRI)
+ } 
+}
+;
+
+INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/alias>{
+#CONSTRUCT{
+?targetPuidIRI  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias> ?aliasIRI .
+?aliasIRI		rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		<http://www.w3.org/2004/02/skos/core#broader>  <http://data.nationalarchives.gov.uk/formatregistry/def/Alias> ;
+		rdfs:label ?aliasLabel;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?aliasLabel ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/software_alias.ID>   ?aliasID  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/alias.Version>   ?version ;
+.
+}
+}
+#select *
+WHERE {
+	{ ?fa a vocab:dbo_software_aliases;
+		vocab:dbo_software_aliases_software_id   ?targetsoftware ;
+		vocab:dbo_software_aliases_alias_id     ?aliasID ;
+	  	vocab:dbo_software_aliases_name_text ?aliasLabel .
+  	OPTIONAL{?fa	vocab:dbo_software_aliases_version_text ?version }
+	{	select ?targetsoftware ?targetPuidPrefix  ?targetPuid ?targetPuidLabel ?targetPuidIRI
+		where {
+			?targetsoftware 
+				vocab:dbo_software_puid_value  ?targetPuid ; 
+				vocab:dbo_software_puid_type_id  ?targetPuidType .
+			?targetPuidType  vocab:dbo_puid_type_puid_type  ?targetPuidPrefix .
+			BIND( CONCAT( REPLACE(?targetPuidPrefix," ",""), "/",STR(?targetPuid)) as ?targetPuidLabel)
+			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
+		}
+	}
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/ASW-", STR(?aliasID) )) as ?aliasIRI)
+ } 
+}
+;
+

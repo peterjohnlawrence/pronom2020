@@ -1,0 +1,75 @@
+<data>{
+    "@odata.context": "http://localhost:8080/odata2sparql/pronom2020/$metadata#ContainerSignature(comment,containerSignature_ID,label,subjectId,containerSignature_FileFormat(puid,subjectId))",
+    "value": [
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1000')",
+            "comment": "Microsoft Word 6.0/95 OLE2",
+            "containerSignature_ID": 1000,
+            "label": "Microsoft Word 6.0/95 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-1000",
+            "containerSignature_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~39')",
+                    "puid": "fmt/39",
+                    "subjectId": "fmt~39"
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-10000')",
+            "comment": "Java Archive Format",
+            "containerSignature_ID": 10000,
+            "label": "Java Archive Format",
+            "subjectId": "pronom.ContainerSignature~CS-10000",
+            "containerSignature_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('x-fmt~412')",
+                    "puid": "x-fmt/412",
+                    "subjectId": "x-fmt~412"
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1020')",
+            "comment": "Microsoft Word 97 OLE2",
+            "containerSignature_ID": 1020,
+            "label": "Microsoft Word 97 OLE2",
+            "subjectId": "pronom.ContainerSignature~CS-1020",
+            "containerSignature_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~40')",
+                    "puid": "fmt/40",
+                    "subjectId": "fmt~40"
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1030')",
+            "comment": "Microsoft Word OOXML",
+            "containerSignature_ID": 1030,
+            "label": "Microsoft Word OOXML",
+            "subjectId": "pronom.ContainerSignature~CS-1030",
+            "containerSignature_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~412')",
+                    "puid": "fmt/412",
+                    "subjectId": "fmt~412"
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerSignature('pronom.ContainerSignature~CS-1040')",
+            "comment": "Microsoft Word OOXML (little endian unicode)",
+            "containerSignature_ID": 1040,
+            "label": "Microsoft Word OOXML (little endian unicode)",
+            "subjectId": "pronom.ContainerSignature~CS-1040",
+            "containerSignature_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~412')",
+                    "puid": "fmt/412",
+                    "subjectId": "fmt~412"
+                }
+            ]
+        }
+    ]
+}</data>

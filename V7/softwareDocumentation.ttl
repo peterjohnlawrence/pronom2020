@@ -1,0 +1,27 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation
+# prefix: softwareDocumentation
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix softwareDocumentation: <http://data.nationalarchives.gov.uk/formatregistry/data/softwareDocumentation#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/PRONOM/sfw/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-92> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/1>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-1> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/254>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-64> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/255>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-76> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/256>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-77> ;
+.
+<http://www.nationalarchives.gov.uk/PRONOM/x-sfw/6>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Document> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-1> ;
+.

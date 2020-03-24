@@ -1,0 +1,1929 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/countries
+# prefix: countries
+
+@prefix countries: <http://data.nationalarchives.gov.uk/formatregistry/data/countries#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-00>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "00" ;
+  rdfs:comment "Not Known" ;
+  rdfs:label "00" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "00" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AD" ;
+  rdfs:comment "Andorra" ;
+  rdfs:label "AD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AE" ;
+  rdfs:comment "United Arab Emirates" ;
+  rdfs:label "AE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AF" ;
+  rdfs:comment "Afghanistan" ;
+  rdfs:label "AF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AG" ;
+  rdfs:comment "Antigua And Barbuda" ;
+  rdfs:label "AG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AI" ;
+  rdfs:comment "Anguilla" ;
+  rdfs:label "AI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AL" ;
+  rdfs:comment "Albania" ;
+  rdfs:label "AL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AM" ;
+  rdfs:comment "Armenia" ;
+  rdfs:label "AM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AN" ;
+  rdfs:comment "Netherlands Antilles" ;
+  rdfs:label "AN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AO" ;
+  rdfs:comment "Angola" ;
+  rdfs:label "AO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AQ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AQ" ;
+  rdfs:comment "Antarctica" ;
+  rdfs:label "AQ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AQ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AR" ;
+  rdfs:comment "Argentina" ;
+  rdfs:label "AR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AS" ;
+  rdfs:comment "American Samoa" ;
+  rdfs:label "AS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AT" ;
+  rdfs:comment "Austria" ;
+  rdfs:label "AT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AU" ;
+  rdfs:comment "Australia" ;
+  rdfs:label "AU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AW" ;
+  rdfs:comment "Aruba" ;
+  rdfs:label "AW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-AZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "AZ" ;
+  rdfs:comment "Azerbaijan" ;
+  rdfs:label "AZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "AZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BA" ;
+  rdfs:comment "Bosnia And Herzegovina" ;
+  rdfs:label "BA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BB>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BB" ;
+  rdfs:comment "Barbados" ;
+  rdfs:label "BB" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BB" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BD" ;
+  rdfs:comment "Bangladesh" ;
+  rdfs:label "BD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BE" ;
+  rdfs:comment "Belgium" ;
+  rdfs:label "BE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BF" ;
+  rdfs:comment "Burkina Faso" ;
+  rdfs:label "BF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BG" ;
+  rdfs:comment "Bulgaria" ;
+  rdfs:label "BG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BH" ;
+  rdfs:comment "Bahrain" ;
+  rdfs:label "BH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BI" ;
+  rdfs:comment "Burundi" ;
+  rdfs:label "BI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BJ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BJ" ;
+  rdfs:comment "Benin" ;
+  rdfs:label "BJ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BJ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BM" ;
+  rdfs:comment "Bermuda" ;
+  rdfs:label "BM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BN" ;
+  rdfs:comment "Brunei Darussalam" ;
+  rdfs:label "BN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BO" ;
+  rdfs:comment "Bolivia" ;
+  rdfs:label "BO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BR" ;
+  rdfs:comment "Brazil" ;
+  rdfs:label "BR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BS" ;
+  rdfs:comment "Bahamas" ;
+  rdfs:label "BS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BT" ;
+  rdfs:comment "Bhutan" ;
+  rdfs:label "BT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BV" ;
+  rdfs:comment "Bouvet Island" ;
+  rdfs:label "BV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BW" ;
+  rdfs:comment "Botswana" ;
+  rdfs:label "BW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BY" ;
+  rdfs:comment "Belarus" ;
+  rdfs:label "BY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-BZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "BZ" ;
+  rdfs:comment "Belize" ;
+  rdfs:label "BZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "BZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CA" ;
+  rdfs:comment "Canada" ;
+  rdfs:label "CA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CC" ;
+  rdfs:comment "Cocos (Keeling) Islands" ;
+  rdfs:label "CC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CF" ;
+  rdfs:comment "Central African Republic" ;
+  rdfs:label "CF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CG" ;
+  rdfs:comment "Congo" ;
+  rdfs:label "CG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CH" ;
+  rdfs:comment "Switzerland" ;
+  rdfs:label "CH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CI" ;
+  rdfs:comment "C'te D'ivoire" ;
+  rdfs:label "CI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CK" ;
+  rdfs:comment "Cook Islands" ;
+  rdfs:label "CK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CL" ;
+  rdfs:comment "Chile" ;
+  rdfs:label "CL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CM" ;
+  rdfs:comment "Cameroon" ;
+  rdfs:label "CM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CN" ;
+  rdfs:comment "China" ;
+  rdfs:label "CN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CO" ;
+  rdfs:comment "Colombia" ;
+  rdfs:label "CO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CR" ;
+  rdfs:comment "Costa Rica" ;
+  rdfs:label "CR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CU" ;
+  rdfs:comment "Cuba" ;
+  rdfs:label "CU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CV" ;
+  rdfs:comment "Cape Verde" ;
+  rdfs:label "CV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CX>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CX" ;
+  rdfs:comment "Christmas Island" ;
+  rdfs:label "CX" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CX" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CY" ;
+  rdfs:comment "Cyprus" ;
+  rdfs:label "CY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-CZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "CZ" ;
+  rdfs:comment "Czech Republic" ;
+  rdfs:label "CZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "CZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DE" ;
+  rdfs:comment "Germany" ;
+  rdfs:label "DE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DJ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DJ" ;
+  rdfs:comment "Djibouti" ;
+  rdfs:label "DJ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DJ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DK" ;
+  rdfs:comment "Denmark" ;
+  rdfs:label "DK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DM" ;
+  rdfs:comment "Dominica" ;
+  rdfs:label "DM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DO" ;
+  rdfs:comment "Dominican Republic" ;
+  rdfs:label "DO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-DZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "DZ" ;
+  rdfs:comment "Algeria" ;
+  rdfs:label "DZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "DZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-EC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "EC" ;
+  rdfs:comment "Ecuador" ;
+  rdfs:label "EC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-EE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "EE" ;
+  rdfs:comment "Estonia" ;
+  rdfs:label "EE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-EG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "EG" ;
+  rdfs:comment "Egypt" ;
+  rdfs:label "EG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-EH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "EH" ;
+  rdfs:comment "Western Sahara A" ;
+  rdfs:label "EH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "EH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ER>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ER" ;
+  rdfs:comment "Eritrea" ;
+  rdfs:label "ER" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ER" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ES>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ES" ;
+  rdfs:comment "Spain" ;
+  rdfs:label "ES" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ES" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ET>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ET" ;
+  rdfs:comment "Ethiopia" ;
+  rdfs:label "ET" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ET" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FI" ;
+  rdfs:comment "Finland" ;
+  rdfs:label "FI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FJ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FJ" ;
+  rdfs:comment "Fiji" ;
+  rdfs:label "FJ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FJ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FK" ;
+  rdfs:comment "Falkland Islands (Malvinas)" ;
+  rdfs:label "FK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FM" ;
+  rdfs:comment "Micronesia ('Federated States Of')" ;
+  rdfs:label "FM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FO" ;
+  rdfs:comment "Faroe Islands" ;
+  rdfs:label "FO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FR" ;
+  rdfs:comment "France" ;
+  rdfs:label "FR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-FX>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "FX" ;
+  rdfs:comment "France, Metropolitan" ;
+  rdfs:label "FX" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "FX" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GA" ;
+  rdfs:comment "Gabon" ;
+  rdfs:label "GA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GB>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GB" ;
+  rdfs:comment "United Kingdom" ;
+  rdfs:label "GB" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GB" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GD" ;
+  rdfs:comment "Grenada" ;
+  rdfs:label "GD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GE" ;
+  rdfs:comment "Georgia" ;
+  rdfs:label "GE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GF" ;
+  rdfs:comment "French Guiana" ;
+  rdfs:label "GF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GH" ;
+  rdfs:comment "Ghana" ;
+  rdfs:label "GH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GI" ;
+  rdfs:comment "Gibraltar" ;
+  rdfs:label "GI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GL" ;
+  rdfs:comment "Greenland" ;
+  rdfs:label "GL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GM" ;
+  rdfs:comment "Gambia" ;
+  rdfs:label "GM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GN" ;
+  rdfs:comment "Guinea" ;
+  rdfs:label "GN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GP" ;
+  rdfs:comment "Guadeloupe" ;
+  rdfs:label "GP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GQ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GQ" ;
+  rdfs:comment "Equatorial Guinea" ;
+  rdfs:label "GQ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GQ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GR" ;
+  rdfs:comment "Greece" ;
+  rdfs:label "GR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GS" ;
+  rdfs:comment "South Georgia And The South Sandwich Islands" ;
+  rdfs:label "GS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GT" ;
+  rdfs:comment "Guatemala" ;
+  rdfs:label "GT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GU" ;
+  rdfs:comment "Guam" ;
+  rdfs:label "GU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GW" ;
+  rdfs:comment "Guinea-bissau" ;
+  rdfs:label "GW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-GY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "GY" ;
+  rdfs:comment "Guyana" ;
+  rdfs:label "GY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "GY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HK" ;
+  rdfs:comment "Hong Kong" ;
+  rdfs:label "HK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HM" ;
+  rdfs:comment "Heard Island And Mcdonald Islands" ;
+  rdfs:label "HM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HN" ;
+  rdfs:comment "Honduras" ;
+  rdfs:label "HN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HR" ;
+  rdfs:comment "Croatia" ;
+  rdfs:label "HR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HT" ;
+  rdfs:comment "Haiti" ;
+  rdfs:label "HT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-HU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "HU" ;
+  rdfs:comment "Hungary" ;
+  rdfs:label "HU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "HU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ID>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ID" ;
+  rdfs:comment "Indonesia" ;
+  rdfs:label "ID" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ID" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IE" ;
+  rdfs:comment "Ireland" ;
+  rdfs:label "IE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IL" ;
+  rdfs:comment "Israel" ;
+  rdfs:label "IL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IN" ;
+  rdfs:comment "India" ;
+  rdfs:label "IN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IO" ;
+  rdfs:comment "British Indian Ocean Territory" ;
+  rdfs:label "IO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IQ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IQ" ;
+  rdfs:comment "Iraq" ;
+  rdfs:label "IQ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IQ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IR" ;
+  rdfs:comment "Iran (Islamic Republic Of)" ;
+  rdfs:label "IR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IS" ;
+  rdfs:comment "Iceland" ;
+  rdfs:label "IS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-IT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "IT" ;
+  rdfs:comment "Italy" ;
+  rdfs:label "IT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "IT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-JM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "JM" ;
+  rdfs:comment "Jamaica" ;
+  rdfs:label "JM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-JO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "JO" ;
+  rdfs:comment "Jordan" ;
+  rdfs:label "JO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-JP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "JP" ;
+  rdfs:comment "Japan" ;
+  rdfs:label "JP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "JP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KE" ;
+  rdfs:comment "Kenya" ;
+  rdfs:label "KE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KG" ;
+  rdfs:comment "Kyrgyzstan" ;
+  rdfs:label "KG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KH" ;
+  rdfs:comment "Cambodia" ;
+  rdfs:label "KH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KI" ;
+  rdfs:comment "Kiribati" ;
+  rdfs:label "KI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KM" ;
+  rdfs:comment "Comoros" ;
+  rdfs:label "KM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KN" ;
+  rdfs:comment "Saint Kitts And Nevis" ;
+  rdfs:label "KN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KP" ;
+  rdfs:comment "Korea, Democratic People's Republic Of" ;
+  rdfs:label "KP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KR" ;
+  rdfs:comment "Korea, Republic Of" ;
+  rdfs:label "KR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KW" ;
+  rdfs:comment "Kuwait" ;
+  rdfs:label "KW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KY" ;
+  rdfs:comment "Cayman Islands" ;
+  rdfs:label "KY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-KZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "KZ" ;
+  rdfs:comment "Kazakhstan" ;
+  rdfs:label "KZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "KZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LA" ;
+  rdfs:comment "Lao People's Democratic Republic" ;
+  rdfs:label "LA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LB>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LB" ;
+  rdfs:comment "Lebanon" ;
+  rdfs:label "LB" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LB" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LC" ;
+  rdfs:comment "Saint Lucia" ;
+  rdfs:label "LC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LI" ;
+  rdfs:comment "Liechtenstein" ;
+  rdfs:label "LI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LK" ;
+  rdfs:comment "Sri Lanka" ;
+  rdfs:label "LK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LR" ;
+  rdfs:comment "Liberia" ;
+  rdfs:label "LR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LS" ;
+  rdfs:comment "Lesotho" ;
+  rdfs:label "LS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LT" ;
+  rdfs:comment "Lithuania" ;
+  rdfs:label "LT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LU" ;
+  rdfs:comment "Luxembourg" ;
+  rdfs:label "LU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LV" ;
+  rdfs:comment "Latvia" ;
+  rdfs:label "LV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-LY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "LY" ;
+  rdfs:comment "Libyan Arab Jamahiriya" ;
+  rdfs:label "LY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "LY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MA" ;
+  rdfs:comment "Morocco" ;
+  rdfs:label "MA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MC" ;
+  rdfs:comment "Monaco" ;
+  rdfs:label "MC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MD" ;
+  rdfs:comment "Moldova, Republic Of" ;
+  rdfs:label "MD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MG" ;
+  rdfs:comment "Madagascar" ;
+  rdfs:label "MG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MH" ;
+  rdfs:comment "Marshall Islands" ;
+  rdfs:label "MH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MK" ;
+  rdfs:comment "The Former Yugoslav Republic Of Macedonia" ;
+  rdfs:label "MK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ML>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ML" ;
+  rdfs:comment "Mali" ;
+  rdfs:label "ML" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ML" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MM" ;
+  rdfs:comment "Myanmar" ;
+  rdfs:label "MM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MN" ;
+  rdfs:comment "Mongolia" ;
+  rdfs:label "MN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MO" ;
+  rdfs:comment "Macau" ;
+  rdfs:label "MO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MP" ;
+  rdfs:comment "Northern Mariana Islands" ;
+  rdfs:label "MP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MQ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MQ" ;
+  rdfs:comment "Martinique" ;
+  rdfs:label "MQ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MQ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MR" ;
+  rdfs:comment "Mauritania" ;
+  rdfs:label "MR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MS" ;
+  rdfs:comment "Montserrat" ;
+  rdfs:label "MS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MT" ;
+  rdfs:comment "Malta" ;
+  rdfs:label "MT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MU" ;
+  rdfs:comment "Mauritius" ;
+  rdfs:label "MU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MV" ;
+  rdfs:comment "Maldives" ;
+  rdfs:label "MV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MW" ;
+  rdfs:comment "Malawi" ;
+  rdfs:label "MW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MX>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MX" ;
+  rdfs:comment "Mexico" ;
+  rdfs:label "MX" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MX" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MY" ;
+  rdfs:comment "Malaysia" ;
+  rdfs:label "MY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-MZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "MZ" ;
+  rdfs:comment "Mozambique" ;
+  rdfs:label "MZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "MZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NA" ;
+  rdfs:comment "Namibia" ;
+  rdfs:label "NA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NC" ;
+  rdfs:comment "New Caledonia" ;
+  rdfs:label "NC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NE" ;
+  rdfs:comment "Niger" ;
+  rdfs:label "NE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NF" ;
+  rdfs:comment "Norfolk Island" ;
+  rdfs:label "NF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NG" ;
+  rdfs:comment "Nigeria" ;
+  rdfs:label "NG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NI" ;
+  rdfs:comment "Nicaragua" ;
+  rdfs:label "NI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NL" ;
+  rdfs:comment "Netherlands" ;
+  rdfs:label "NL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NO" ;
+  rdfs:comment "Norway" ;
+  rdfs:label "NO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NP" ;
+  rdfs:comment "Nepal" ;
+  rdfs:label "NP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NR" ;
+  rdfs:comment "Nauru" ;
+  rdfs:label "NR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NU" ;
+  rdfs:comment "Niue" ;
+  rdfs:label "NU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-NZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "NZ" ;
+  rdfs:comment "New Zealand" ;
+  rdfs:label "NZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "NZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-OM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "OM" ;
+  rdfs:comment "Oman" ;
+  rdfs:label "OM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "OM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PA" ;
+  rdfs:comment "Panama" ;
+  rdfs:label "PA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PE" ;
+  rdfs:comment "Peru" ;
+  rdfs:label "PE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PF" ;
+  rdfs:comment "French Polynesia" ;
+  rdfs:label "PF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PG" ;
+  rdfs:comment "Papua New Guinea" ;
+  rdfs:label "PG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PH" ;
+  rdfs:comment "Philippines" ;
+  rdfs:label "PH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PK" ;
+  rdfs:comment "Pakistan" ;
+  rdfs:label "PK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PL" ;
+  rdfs:comment "Poland" ;
+  rdfs:label "PL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PM" ;
+  rdfs:comment "Saint Pierre And Miquelon" ;
+  rdfs:label "PM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PN" ;
+  rdfs:comment "Pitcairn" ;
+  rdfs:label "PN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PR" ;
+  rdfs:comment "Puerto Rico" ;
+  rdfs:label "PR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PT" ;
+  rdfs:comment "Portugal" ;
+  rdfs:label "PT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PW" ;
+  rdfs:comment "Palau" ;
+  rdfs:label "PW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-PY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "PY" ;
+  rdfs:comment "Paraguay" ;
+  rdfs:label "PY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "PY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-QA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "QA" ;
+  rdfs:comment "Qatar" ;
+  rdfs:label "QA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "QA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-RE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "RE" ;
+  rdfs:comment "Râ€šunion" ;
+  rdfs:label "RE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "RE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-RO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "RO" ;
+  rdfs:comment "Romania" ;
+  rdfs:label "RO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "RO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-RU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "RU" ;
+  rdfs:comment "Russian Federation" ;
+  rdfs:label "RU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "RU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-RW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "RW" ;
+  rdfs:comment "Rwanda" ;
+  rdfs:label "RW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "RW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SA" ;
+  rdfs:comment "Saudi Arabia" ;
+  rdfs:label "SA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SB>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SB" ;
+  rdfs:comment "Solomon Islands" ;
+  rdfs:label "SB" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SB" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SC" ;
+  rdfs:comment "Seychelles" ;
+  rdfs:label "SC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SD" ;
+  rdfs:comment "Sudan" ;
+  rdfs:label "SD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SE" ;
+  rdfs:comment "Sweden" ;
+  rdfs:label "SE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SG" ;
+  rdfs:comment "Singapore" ;
+  rdfs:label "SG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SH" ;
+  rdfs:comment "Saint Helena" ;
+  rdfs:label "SH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SI" ;
+  rdfs:comment "Slovenia" ;
+  rdfs:label "SI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SJ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SJ" ;
+  rdfs:comment "Svalbard And Jan Mayen" ;
+  rdfs:label "SJ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SJ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SK" ;
+  rdfs:comment "Slovakia" ;
+  rdfs:label "SK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SL>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SL" ;
+  rdfs:comment "Sierra Leone" ;
+  rdfs:label "SL" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SL" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SM" ;
+  rdfs:comment "San Marino" ;
+  rdfs:label "SM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SN" ;
+  rdfs:comment "Senegal" ;
+  rdfs:label "SN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SO" ;
+  rdfs:comment "Somalia" ;
+  rdfs:label "SO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SR" ;
+  rdfs:comment "Suriname" ;
+  rdfs:label "SR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ST>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ST" ;
+  rdfs:comment "Sao Tome And Principe" ;
+  rdfs:label "ST" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ST" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SV" ;
+  rdfs:comment "El Salvador" ;
+  rdfs:label "SV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SY" ;
+  rdfs:comment "Syrian Arab Republic" ;
+  rdfs:label "SY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-SZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "SZ" ;
+  rdfs:comment "Swaziland" ;
+  rdfs:label "SZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "SZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TC" ;
+  rdfs:comment "Turks And Caicos Islands" ;
+  rdfs:label "TC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TD>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TD" ;
+  rdfs:comment "Chad" ;
+  rdfs:label "TD" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TD" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TF" ;
+  rdfs:comment "French Southern Territories" ;
+  rdfs:label "TF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TG" ;
+  rdfs:comment "Togo" ;
+  rdfs:label "TG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TH>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TH" ;
+  rdfs:comment "Thailand" ;
+  rdfs:label "TH" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TH" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TJ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TJ" ;
+  rdfs:comment "Tajikistan" ;
+  rdfs:label "TJ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TJ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TK>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TK" ;
+  rdfs:comment "Tokelau" ;
+  rdfs:label "TK" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TK" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TM" ;
+  rdfs:comment "Turkmenistan" ;
+  rdfs:label "TM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TN" ;
+  rdfs:comment "Tunisia" ;
+  rdfs:label "TN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TO>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TO" ;
+  rdfs:comment "Tonga" ;
+  rdfs:label "TO" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TO" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TP>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TP" ;
+  rdfs:comment "East Timor A)" ;
+  rdfs:label "TP" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TP" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TR" ;
+  rdfs:comment "Turkey" ;
+  rdfs:label "TR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TT" ;
+  rdfs:comment "Trinidad And Tobago" ;
+  rdfs:label "TT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TV>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TV" ;
+  rdfs:comment "Tuvalu" ;
+  rdfs:label "TV" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TV" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TW" ;
+  rdfs:comment "Taiwan, Province Of China" ;
+  rdfs:label "TW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TW" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-TZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "TZ" ;
+  rdfs:comment "Tanzania, United Republic Of" ;
+  rdfs:label "TZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "TZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-UA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "UA" ;
+  rdfs:comment "Ukraine" ;
+  rdfs:label "UA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-UG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "UG" ;
+  rdfs:comment "Uganda" ;
+  rdfs:label "UG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-UM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "UM" ;
+  rdfs:comment "United States Minor Outlying Islands" ;
+  rdfs:label "UM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-US>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "US" ;
+  rdfs:comment "United States" ;
+  rdfs:label "US" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "US" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-UY>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "UY" ;
+  rdfs:comment "Uruguay" ;
+  rdfs:label "UY" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UY" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-UZ>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "UZ" ;
+  rdfs:comment "Uzbekistan" ;
+  rdfs:label "UZ" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "UZ" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VA" ;
+  rdfs:comment "Vatican City State (Holy See)" ;
+  rdfs:label "VA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VC>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VC" ;
+  rdfs:comment "Saint Vincent And The Grenadines" ;
+  rdfs:label "VC" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VC" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VE" ;
+  rdfs:comment "Venezuela" ;
+  rdfs:label "VE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VG>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VG" ;
+  rdfs:comment "Virgin Islands (British)" ;
+  rdfs:label "VG" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VG" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VI>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VI" ;
+  rdfs:comment "Virgin Islands (U.S.)" ;
+  rdfs:label "VI" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VI" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VN>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VN" ;
+  rdfs:comment "Vietnam" ;
+  rdfs:label "VN" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VN" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-VU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "VU" ;
+  rdfs:comment "Vanuatu" ;
+  rdfs:label "VU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "VU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-WF>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "WF" ;
+  rdfs:comment "Wallis And Futuna Islands" ;
+  rdfs:label "WF" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "WF" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-WS>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "WS" ;
+  rdfs:comment "Samoa" ;
+  rdfs:label "WS" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "WS" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-YE>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "YE" ;
+  rdfs:comment "Yemen" ;
+  rdfs:label "YE" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "YE" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-YT>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "YT" ;
+  rdfs:comment "Mayotte" ;
+  rdfs:label "YT" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "YT" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-YU>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "YU" ;
+  rdfs:comment "Yugoslavia" ;
+  rdfs:label "YU" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "YU" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ZA>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ZA" ;
+  rdfs:comment "South Africa" ;
+  rdfs:label "ZA" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ZA" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ZM>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ZM" ;
+  rdfs:comment "Zambia" ;
+  rdfs:label "ZM" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ZM" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ZR>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ZR" ;
+  rdfs:comment "Zaire" ;
+  rdfs:label "ZR" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ZR" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-ZW>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/country.ID> "ZW" ;
+  rdfs:comment "Zimbabwe" ;
+  rdfs:label "ZW" ;
+  <http://www.w3.org/2004/02/skos/core#broader> <http://data.nationalarchives.gov.uk/formatregistry/def/Country> ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "ZW" ;
+.

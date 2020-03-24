@@ -1,0 +1,34 @@
+<data>{
+    "@odata.context": "http://localhost:8080/odata2sparql/pronom2020/$metadata#ContainerType(label,subjectId,containerType_FileFormat(puid,subjectId))",
+    "value": [
+        {
+            "@odata.id": "ContainerType('pronom.ContainerType~CT-OLE2')",
+            "label": "OLE2",
+            "subjectId": "pronom.ContainerType~CT-OLE2",
+            "containerType_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~111')",
+                    "puid": "fmt/111",
+                    "subjectId": "fmt~111"
+                }
+            ]
+        },
+        {
+            "@odata.id": "ContainerType('pronom.ContainerType~CT-ZIP')",
+            "label": "ZIP",
+            "subjectId": "pronom.ContainerType~CT-ZIP",
+            "containerType_FileFormat": [
+                {
+                    "@odata.id": "FileFormat('fmt~189')",
+                    "puid": "fmt/189",
+                    "subjectId": "fmt~189"
+                },
+                {
+                    "@odata.id": "FileFormat('x-fmt~263')",
+                    "puid": "x-fmt/263",
+                    "subjectId": "x-fmt~263"
+                }
+            ]
+        }
+    ]
+}</data>

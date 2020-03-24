@@ -1,0 +1,1019 @@
+<data>{
+	"@odata.context": "http://localhost:8080/odata2sparql/pronom2020/$metadata#FileFormat(fileFormat_Version,file_formats_ID,label,puid,subjectId,has_Relationship(label,subjectId,with_FileFormat(file_formats_ID,subjectId)),fileFormat_FormatIdentifier(label,subjectId,formatIdentifier_FormatRegistry(label,subjectId)),fileFormat_ExternalSignature(externalSignature_Extension,subjectId),fileFormat_InternalSignature(internal_signatures_ID,subjectId))",
+	"value": [{
+			"@odata.id": "FileFormat('fmt~100')",
+			"fileFormat_Version": "4.01",
+			"file_formats_ID": 642,
+			"label": "Hypertext Markup Language",
+			"puid": "fmt/100",
+			"subjectId": "fmt~100",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-100-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-100-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-100-SubsequentVersionOf-fmt-99')",
+					"label": "SubsequentVersionOf-fmt/99",
+					"subjectId": "pronom.Relationship~R-fmt-100-SubsequentVersionOf-fmt-99",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~99')",
+							"file_formats_ID": 641,
+							"subjectId": "fmt~99"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.html')",
+					"label": "public.html",
+					"subjectId": "pronom.FormatIdentifier~FI-public.html",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fhtml')",
+					"label": "text/html",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fhtml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-38')",
+					"internal_signatures_ID": 38,
+					"subjectId": "pronom.InternalSignature~IS-38"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~101')",
+			"fileFormat_Version": "1.0",
+			"file_formats_ID": 638,
+			"label": "Extensible Markup Language",
+			"puid": "fmt/101",
+			"subjectId": "fmt~101",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-100')",
+					"label": "HasPriorityOver-fmt/100",
+					"subjectId": "pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-100",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~100')",
+							"file_formats_ID": 642,
+							"subjectId": "fmt~100"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-97')",
+					"label": "HasPriorityOver-fmt/97",
+					"subjectId": "pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-97",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~97')",
+							"file_formats_ID": 639,
+							"subjectId": "fmt~97"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-98')",
+					"label": "HasPriorityOver-fmt/98",
+					"subjectId": "pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-98",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~98')",
+							"file_formats_ID": 640,
+							"subjectId": "fmt~98"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-99')",
+					"label": "HasPriorityOver-fmt/99",
+					"subjectId": "pronom.Relationship~R-fmt-101-HasPriorityOver-fmt-99",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~99')",
+							"file_formats_ID": 641,
+							"subjectId": "fmt~99"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-application%2Fxml')",
+					"label": "application/xml",
+					"subjectId": "pronom.FormatIdentifier~FI-application%2Fxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.xml')",
+					"label": "public.xml",
+					"subjectId": "pronom.FormatIdentifier~FI-public.xml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fxml')",
+					"label": "text/xml",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-xml')",
+					"externalSignature_Extension": "xml",
+					"subjectId": "pronom.ExternalSignature~ES-xml"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-34')",
+					"internal_signatures_ID": 34,
+					"subjectId": "pronom.InternalSignature~IS-34"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~102')",
+			"fileFormat_Version": "1.0",
+			"file_formats_ID": 643,
+			"label": "Extensible Hypertext Markup Language",
+			"puid": "fmt/102",
+			"subjectId": "fmt~102",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-102-HasPriorityOver-fmt-101')",
+					"label": "HasPriorityOver-fmt/101",
+					"subjectId": "pronom.Relationship~R-fmt-102-HasPriorityOver-fmt-101",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~101')",
+							"file_formats_ID": 638,
+							"subjectId": "fmt~101"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-102-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-102-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-102-PriorVersionOf-fmt-103')",
+					"label": "PriorVersionOf-fmt/103",
+					"subjectId": "pronom.Relationship~R-fmt-102-PriorVersionOf-fmt-103",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~103')",
+							"file_formats_ID": 644,
+							"subjectId": "fmt~103"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-application%2Fxhtml%2Bxml')",
+					"label": "application/xhtml+xml",
+					"subjectId": "pronom.FormatIdentifier~FI-application%2Fxhtml%2Bxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-39')",
+					"internal_signatures_ID": 39,
+					"subjectId": "pronom.InternalSignature~IS-39"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~103')",
+			"fileFormat_Version": "1.1",
+			"file_formats_ID": 644,
+			"label": "Extensible Hypertext Markup Language",
+			"puid": "fmt/103",
+			"subjectId": "fmt~103",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-103-HasPriorityOver-fmt-101')",
+					"label": "HasPriorityOver-fmt/101",
+					"subjectId": "pronom.Relationship~R-fmt-103-HasPriorityOver-fmt-101",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~101')",
+							"file_formats_ID": 638,
+							"subjectId": "fmt~101"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-103-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-103-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-103-SubsequentVersionOf-fmt-102')",
+					"label": "SubsequentVersionOf-fmt/102",
+					"subjectId": "pronom.Relationship~R-fmt-103-SubsequentVersionOf-fmt-102",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~102')",
+							"file_formats_ID": 643,
+							"subjectId": "fmt~102"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-application%2Fxhtml%2Bxml')",
+					"label": "application/xhtml+xml",
+					"subjectId": "pronom.FormatIdentifier~FI-application%2Fxhtml%2Bxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-40')",
+					"internal_signatures_ID": 40,
+					"subjectId": "pronom.InternalSignature~IS-40"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~1144')",
+			"fileFormat_Version": null,
+			"file_formats_ID": 1954,
+			"label": "CompuServe WinCIM Message Format",
+			"puid": "fmt/1144",
+			"subjectId": "fmt~1144",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-msg')",
+					"externalSignature_Extension": "msg",
+					"subjectId": "pronom.ExternalSignature~ES-msg"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-plx')",
+					"externalSignature_Extension": "plx",
+					"subjectId": "pronom.ExternalSignature~ES-plx"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-1526')",
+					"internal_signatures_ID": 1526,
+					"subjectId": "pronom.InternalSignature~IS-1526"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~1172')",
+			"fileFormat_Version": "2.0",
+			"file_formats_ID": 1982,
+			"label": "Web Open Font Format",
+			"puid": "fmt/1172",
+			"subjectId": "fmt~1172",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-font%2Fwoff2')",
+					"label": "font/woff2",
+					"subjectId": "pronom.FormatIdentifier~FI-font%2Fwoff2",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-woff2')",
+					"externalSignature_Extension": "woff2",
+					"subjectId": "pronom.ExternalSignature~ES-woff2"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-1553')",
+					"internal_signatures_ID": 1553,
+					"subjectId": "pronom.InternalSignature~IS-1553"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~120')",
+			"fileFormat_Version": "1.0",
+			"file_formats_ID": 769,
+			"label": "DROID File Collection File Format",
+			"puid": "fmt/120",
+			"subjectId": "fmt~120",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-120-HasPriorityOver-fmt-101')",
+					"label": "HasPriorityOver-fmt/101",
+					"subjectId": "pronom.Relationship~R-fmt-120-HasPriorityOver-fmt-101",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~101')",
+							"file_formats_ID": 638,
+							"subjectId": "fmt~101"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fxml')",
+					"label": "text/xml",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-xml')",
+					"externalSignature_Extension": "xml",
+					"subjectId": "pronom.ExternalSignature~ES-xml"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-176')",
+					"internal_signatures_ID": 176,
+					"subjectId": "pronom.InternalSignature~IS-176"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~121')",
+			"fileFormat_Version": "1.0",
+			"file_formats_ID": 768,
+			"label": "DROID Signature File Format",
+			"puid": "fmt/121",
+			"subjectId": "fmt~121",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-121-HasPriorityOver-fmt-101')",
+					"label": "HasPriorityOver-fmt/101",
+					"subjectId": "pronom.Relationship~R-fmt-121-HasPriorityOver-fmt-101",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~101')",
+							"file_formats_ID": 638,
+							"subjectId": "fmt~101"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fxml')",
+					"label": "text/xml",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fxml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-xml')",
+					"externalSignature_Extension": "xml",
+					"subjectId": "pronom.ExternalSignature~ES-xml"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-175')",
+					"internal_signatures_ID": 175,
+					"subjectId": "pronom.InternalSignature~IS-175"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~3')",
+			"fileFormat_Version": "87a",
+			"file_formats_ID": 619,
+			"label": "Graphics Interchange Format",
+			"puid": "fmt/3",
+			"subjectId": "fmt~3",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-3-PriorVersionOf-fmt-4')",
+					"label": "PriorVersionOf-fmt/4",
+					"subjectId": "pronom.Relationship~R-fmt-3-PriorVersionOf-fmt-4",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~4')",
+							"file_formats_ID": 620,
+							"subjectId": "fmt~4"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-com.compuserve.gif')",
+					"label": "com.compuserve.gif",
+					"subjectId": "pronom.FormatIdentifier~FI-com.compuserve.gif",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-image%2Fgif')",
+					"label": "image/gif",
+					"subjectId": "pronom.FormatIdentifier~FI-image%2Fgif",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-gif')",
+					"externalSignature_Extension": "gif",
+					"subjectId": "pronom.ExternalSignature~ES-gif"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-18')",
+					"internal_signatures_ID": 18,
+					"subjectId": "pronom.InternalSignature~IS-18"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~383')",
+			"fileFormat_Version": null,
+			"file_formats_ID": 1132,
+			"label": "VICAR (Video Image Communication and Retrieval) Planetary File Format",
+			"puid": "fmt/383",
+			"subjectId": "fmt~383",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-img')",
+					"externalSignature_Extension": "img",
+					"subjectId": "pronom.ExternalSignature~ES-img"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-vic')",
+					"externalSignature_Extension": "vic",
+					"subjectId": "pronom.ExternalSignature~ES-vic"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-vicar')",
+					"externalSignature_Extension": "vicar",
+					"subjectId": "pronom.ExternalSignature~ES-vicar"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-568')",
+					"internal_signatures_ID": 568,
+					"subjectId": "pronom.InternalSignature~IS-568"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~395')",
+			"fileFormat_Version": null,
+			"file_formats_ID": 1143,
+			"label": "vCard",
+			"puid": "fmt/395",
+			"subjectId": "fmt~395",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fvcard')",
+					"label": "text/vcard",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fvcard",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-vcf')",
+					"externalSignature_Extension": "vcf",
+					"subjectId": "pronom.ExternalSignature~ES-vcf"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-634')",
+					"internal_signatures_ID": 634,
+					"subjectId": "pronom.InternalSignature~IS-634"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~4')",
+			"fileFormat_Version": "89a",
+			"file_formats_ID": 620,
+			"label": "Graphics Interchange Format",
+			"puid": "fmt/4",
+			"subjectId": "fmt~4",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-4-SubsequentVersionOf-fmt-3')",
+					"label": "SubsequentVersionOf-fmt/3",
+					"subjectId": "pronom.Relationship~R-fmt-4-SubsequentVersionOf-fmt-3",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~3')",
+							"file_formats_ID": 619,
+							"subjectId": "fmt~3"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-com.compuserve.gif')",
+					"label": "com.compuserve.gif",
+					"subjectId": "pronom.FormatIdentifier~FI-com.compuserve.gif",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-image%2Fgif')",
+					"label": "image/gif",
+					"subjectId": "pronom.FormatIdentifier~FI-image%2Fgif",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-gif')",
+					"externalSignature_Extension": "gif",
+					"subjectId": "pronom.ExternalSignature~ES-gif"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-17')",
+					"internal_signatures_ID": 17,
+					"subjectId": "pronom.InternalSignature~IS-17"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~42')",
+			"fileFormat_Version": "1.00",
+			"file_formats_ID": 667,
+			"label": "JPEG File Interchange Format",
+			"puid": "fmt/42",
+			"subjectId": "fmt~42",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-42-HasPriorityOver-fmt-41')",
+					"label": "HasPriorityOver-fmt/41",
+					"subjectId": "pronom.Relationship~R-fmt-42-HasPriorityOver-fmt-41",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~41')",
+							"file_formats_ID": 670,
+							"subjectId": "fmt~41"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-42-PriorVersionOf-fmt-43')",
+					"label": "PriorVersionOf-fmt/43",
+					"subjectId": "pronom.Relationship~R-fmt-42-PriorVersionOf-fmt-43",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~43')",
+							"file_formats_ID": 668,
+							"subjectId": "fmt~43"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-image%2Fjpeg')",
+					"label": "image/jpeg",
+					"subjectId": "pronom.FormatIdentifier~FI-image%2Fjpeg",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.jpeg')",
+					"label": "public.jpeg",
+					"subjectId": "pronom.FormatIdentifier~FI-public.jpeg",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpe')",
+					"externalSignature_Extension": "jpe",
+					"subjectId": "pronom.ExternalSignature~ES-jpe"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpeg')",
+					"externalSignature_Extension": "jpeg",
+					"subjectId": "pronom.ExternalSignature~ES-jpeg"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpg')",
+					"externalSignature_Extension": "jpg",
+					"subjectId": "pronom.ExternalSignature~ES-jpg"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-66')",
+					"internal_signatures_ID": 66,
+					"subjectId": "pronom.InternalSignature~IS-66"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~43')",
+			"fileFormat_Version": "1.01",
+			"file_formats_ID": 668,
+			"label": null,
+			"puid": "fmt/43",
+			"subjectId": "fmt~43",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-43-HasPriorityOver-fmt-41')",
+					"label": "HasPriorityOver-fmt/41",
+					"subjectId": "pronom.Relationship~R-fmt-43-HasPriorityOver-fmt-41",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~41')",
+							"file_formats_ID": 670,
+							"subjectId": "fmt~41"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-43-PriorVersionOf-fmt-44')",
+					"label": "PriorVersionOf-fmt/44",
+					"subjectId": "pronom.Relationship~R-fmt-43-PriorVersionOf-fmt-44",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~44')",
+							"file_formats_ID": 669,
+							"subjectId": "fmt~44"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-43-SubsequentVersionOf-fmt-42')",
+					"label": "SubsequentVersionOf-fmt/42",
+					"subjectId": "pronom.Relationship~R-fmt-43-SubsequentVersionOf-fmt-42",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~42')",
+							"file_formats_ID": 667,
+							"subjectId": "fmt~42"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-image%2Fjpeg')",
+					"label": "image/jpeg",
+					"subjectId": "pronom.FormatIdentifier~FI-image%2Fjpeg",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.jpeg')",
+					"label": "public.jpeg",
+					"subjectId": "pronom.FormatIdentifier~FI-public.jpeg",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpe')",
+					"externalSignature_Extension": "jpe",
+					"subjectId": "pronom.ExternalSignature~ES-jpe"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpeg')",
+					"externalSignature_Extension": "jpeg",
+					"subjectId": "pronom.ExternalSignature~ES-jpeg"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-jpg')",
+					"externalSignature_Extension": "jpg",
+					"subjectId": "pronom.ExternalSignature~ES-jpg"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-67')",
+					"internal_signatures_ID": 67,
+					"subjectId": "pronom.InternalSignature~IS-67"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~800')",
+			"fileFormat_Version": null,
+			"file_formats_ID": 1600,
+			"label": "CSV Schema",
+			"puid": "fmt/800",
+			"subjectId": "fmt~800",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fcsv-schema')",
+					"label": "text/csv-schema",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fcsv-schema",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-csvs')",
+					"externalSignature_Extension": "csvs",
+					"subjectId": "pronom.ExternalSignature~ES-csvs"
+				}
+			],
+			"fileFormat_InternalSignature": []
+		}, {
+			"@odata.id": "FileFormat('fmt~882')",
+			"fileFormat_Version": "1",
+			"file_formats_ID": 1686,
+			"label": "Wordstar 2000",
+			"puid": "fmt/882",
+			"subjectId": "fmt~882",
+			"has_Relationship": [],
+			"fileFormat_FormatIdentifier": [],
+			"fileFormat_ExternalSignature": [],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-1234')",
+					"internal_signatures_ID": 1234,
+					"subjectId": "pronom.InternalSignature~IS-1234"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~97')",
+			"fileFormat_Version": "2.0",
+			"file_formats_ID": 639,
+			"label": "Hypertext Markup Language",
+			"puid": "fmt/97",
+			"subjectId": "fmt~97",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-97-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-97-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-97-PriorVersionOf-fmt-98')",
+					"label": "PriorVersionOf-fmt/98",
+					"subjectId": "pronom.Relationship~R-fmt-97-PriorVersionOf-fmt-98",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~98')",
+							"file_formats_ID": 640,
+							"subjectId": "fmt~98"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.html')",
+					"label": "public.html",
+					"subjectId": "pronom.FormatIdentifier~FI-public.html",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fhtml')",
+					"label": "text/html",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fhtml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-35')",
+					"internal_signatures_ID": 35,
+					"subjectId": "pronom.InternalSignature~IS-35"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~98')",
+			"fileFormat_Version": "3.2",
+			"file_formats_ID": 640,
+			"label": "Hypertext Markup Language",
+			"puid": "fmt/98",
+			"subjectId": "fmt~98",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-98-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-98-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-98-PriorVersionOf-fmt-99')",
+					"label": "PriorVersionOf-fmt/99",
+					"subjectId": "pronom.Relationship~R-fmt-98-PriorVersionOf-fmt-99",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~99')",
+							"file_formats_ID": 641,
+							"subjectId": "fmt~99"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-98-SubsequentVersionOf-fmt-97')",
+					"label": "SubsequentVersionOf-fmt/97",
+					"subjectId": "pronom.Relationship~R-fmt-98-SubsequentVersionOf-fmt-97",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~97')",
+							"file_formats_ID": 639,
+							"subjectId": "fmt~97"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.html')",
+					"label": "public.html",
+					"subjectId": "pronom.FormatIdentifier~FI-public.html",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fhtml')",
+					"label": "text/html",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fhtml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-36')",
+					"internal_signatures_ID": 36,
+					"subjectId": "pronom.InternalSignature~IS-36"
+				}
+			]
+		}, {
+			"@odata.id": "FileFormat('fmt~99')",
+			"fileFormat_Version": "4.0",
+			"file_formats_ID": 641,
+			"label": "Hypertext Markup Language",
+			"puid": "fmt/99",
+			"subjectId": "fmt~99",
+			"has_Relationship": [{
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-99-HasPriorityOver-fmt-278')",
+					"label": "HasPriorityOver-fmt/278",
+					"subjectId": "pronom.Relationship~R-fmt-99-HasPriorityOver-fmt-278",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~278')",
+							"file_formats_ID": 1018,
+							"subjectId": "fmt~278"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-99-HasPriorityOver-fmt-96')",
+					"label": "HasPriorityOver-fmt/96",
+					"subjectId": "pronom.Relationship~R-fmt-99-HasPriorityOver-fmt-96",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~96')",
+							"file_formats_ID": 645,
+							"subjectId": "fmt~96"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-99-PriorVersionOf-fmt-100')",
+					"label": "PriorVersionOf-fmt/100",
+					"subjectId": "pronom.Relationship~R-fmt-99-PriorVersionOf-fmt-100",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~100')",
+							"file_formats_ID": 642,
+							"subjectId": "fmt~100"
+						}
+					]
+				}, {
+					"@odata.id": "Relationship('pronom.Relationship~R-fmt-99-SubsequentVersionOf-fmt-98')",
+					"label": "SubsequentVersionOf-fmt/98",
+					"subjectId": "pronom.Relationship~R-fmt-99-SubsequentVersionOf-fmt-98",
+					"with_FileFormat": [{
+							"@odata.id": "FileFormat('fmt~98')",
+							"file_formats_ID": 640,
+							"subjectId": "fmt~98"
+						}
+					]
+				}
+			],
+			"fileFormat_FormatIdentifier": [{
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-public.html')",
+					"label": "public.html",
+					"subjectId": "pronom.FormatIdentifier~FI-public.html",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~UniformTypeIdentifier')",
+						"label": "Uniform type identifier",
+						"subjectId": "pronom.FormatRegistry~UniformTypeIdentifier"
+					}
+				}, {
+					"@odata.id": "FormatIdentifier('pronom.FormatIdentifier~FI-text%2Fhtml')",
+					"label": "text/html",
+					"subjectId": "pronom.FormatIdentifier~FI-text%2Fhtml",
+					"formatIdentifier_FormatRegistry": {
+						"@odata.id": "FormatRegistry('pronom.FormatRegistry~InternetMediaType')",
+						"label": "Internet Media Type",
+						"subjectId": "pronom.FormatRegistry~InternetMediaType"
+					}
+				}
+			],
+			"fileFormat_ExternalSignature": [{
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-htm')",
+					"externalSignature_Extension": "htm",
+					"subjectId": "pronom.ExternalSignature~ES-htm"
+				}, {
+					"@odata.id": "ExternalSignature('pronom.ExternalSignature~ES-html')",
+					"externalSignature_Extension": "html",
+					"subjectId": "pronom.ExternalSignature~ES-html"
+				}
+			],
+			"fileFormat_InternalSignature": [{
+					"@odata.id": "InternalSignature('pronom.InternalSignature~IS-37')",
+					"internal_signatures_ID": 37,
+					"subjectId": "pronom.InternalSignature~IS-37"
+				}
+			]
+		}
+	]
+}</data>

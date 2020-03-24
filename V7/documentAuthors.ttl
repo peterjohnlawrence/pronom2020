@@ -1,0 +1,225 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors
+# prefix: documentAuthors
+
+@prefix documentAuthors: <http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-10>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-11>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-12>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-13>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-14>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-15>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-16>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-17>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-18>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-19>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-105> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-20>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-105> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-21>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-22>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-23>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-24>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-25>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-26>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-27>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-28>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-29>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-107> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-3>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-30>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-108> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-31>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-108> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-32>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-33>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-34>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-35>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-36>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-37>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-38>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-39>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-4>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-115> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-40>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-41>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-42>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-43>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-44>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-45>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-46>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-48>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-49>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-82> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-5>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-113> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-114> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-51>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-82> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-52>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-53>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-54>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-55>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-56>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-119> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-57>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-58>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-112> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-123> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-59>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-121> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-6>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-60>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-124> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-61>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-112> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-123> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-62>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-66>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-67>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-68>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-112> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-7>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-118> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-70>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-71>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-72>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-127> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-76>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-128> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-77>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-126> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-8>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-82>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-87>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-143> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-9>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-92>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-158> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-161> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-93>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/document.Author.Actor> <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-166> ;
+.

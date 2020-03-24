@@ -1,0 +1,472 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/fileFormatMappings
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/39> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-10000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/412> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/40> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/412> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/412> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/412> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/523> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/597> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/599> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1090>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/609> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/45> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/755> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-1110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/754> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-12000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/430> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/442> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/258> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/443> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/924> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/925> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/926> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/927> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/928> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-13080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/929> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-14000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/482> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-14010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/483> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-15000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/233> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-15010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/258> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-15020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/901> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-15025>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/901> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-16000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/494> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-16010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/682> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-17000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/56> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-17005>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/56> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-17010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/594> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-17015>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/936> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-17020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/151> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-18000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/502> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-18010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/829> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/617> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/619> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/620> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/621> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/622> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/274> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/274> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-19070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/724> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/59> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-20000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/657> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/61> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/61> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/214> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/214> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/214> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/445> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/595> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/598> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2090>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/627> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/628> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-21000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/646> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-21010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1187> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-2110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/17> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/672> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/673> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/674> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/675> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/676> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22085>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/676> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22090>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/677> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/678> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/679> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22120>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/680> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22200>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/681> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22500>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/827> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22510>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/852> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-22520>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/853> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/812> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/813> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/400> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/810> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/810> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/811> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23120>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/401> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23125>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/401> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23200>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/814> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23210>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/815> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23220>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/360> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23300>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/808> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23310>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/809> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-23320>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/359> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-24000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/836> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-24010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/837> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-24100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/877> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-24200>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/892> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-25000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/876> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-26000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/893> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-27000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/916> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-27020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/988> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-27040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/989> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-28000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/937> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-28010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/942> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-28020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/943> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-28100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1184> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-28200>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1190> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-29000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/971> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/126> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-30000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/977> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-30020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/978> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-30030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/978> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-30040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/978> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/215> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/215> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/215> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/487> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/524> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/629> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/630> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/631> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3090>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/632> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3100>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/633> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-31000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/161> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-31010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/995> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-31020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1196> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-3110>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/636> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-32000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/998> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-32010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/999> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-33000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1084> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-34000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1125> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-35000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/1213> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/243> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/245> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/245> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4030>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/247> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4040>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/247> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4050>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/440> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4060>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/440> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4070>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/725> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-4080>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/725> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-5000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/252> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-5010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/253> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-5020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/x-fmt/257> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-5500>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/240> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-6000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/136> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-6005>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/136> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-6010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/290> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-6020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/291> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-7000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/137> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-7005>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/137> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-7010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/294> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-7020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/295> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-8000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/138> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-8010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/292> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-8020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/293> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-9000>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/140> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-9010>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/444> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-9020>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/containerSignature.FileFormat> <http://www.nationalarchives.gov.uk/PRONOM/fmt/424> ;
+.

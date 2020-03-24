@@ -1,0 +1,124 @@
+<data>{
+    "@odata.context": "http://localhost:8080/odata2sparql/pronom2020/$metadata#InternalSignature(internal_signatures_ID,subjectId,internalSignature_ByteSequence(byteSequenceIndirectOffsetLength,byteSequenceIndirectOffsetLocation,byteSequenceMaxOffset,byteSequenceOffset,byteSequenceValue,subjectId,byteSequence_ByteSequencePosition(label,subjectId)))",
+    "value": [
+        {
+            "@odata.id": "InternalSignature('pronom.InternalSignature~IS-10')",
+            "internal_signatures_ID": 10,
+            "subjectId": "pronom.InternalSignature~IS-10",
+            "internalSignature_ByteSequence": [
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-184')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": null,
+                    "byteSequenceOffset": 0,
+                    "byteSequenceValue": "4D4D002A",
+                    "subjectId": "pronom.ByteSequence~BS-184",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                        "label": "Absolute from BOF",
+                        "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                    }
+                }
+            ]
+        },
+        {
+            "@odata.id": "InternalSignature('pronom.InternalSignature~IS-100')",
+            "internal_signatures_ID": 100,
+            "subjectId": "pronom.InternalSignature~IS-100",
+            "internalSignature_ByteSequence": [
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-47')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": null,
+                    "byteSequenceOffset": null,
+                    "byteSequenceValue": "300D0A53454354494F4E0D0A2020320D0A4845414445520D0A*390D0A24414341445645520D0A2020310D0A4143312E320D0A*300D0A454E445345430D0A",
+                    "subjectId": "pronom.ByteSequence~BS-47",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~Variable')",
+                        "label": "Variable",
+                        "subjectId": "pronom.ByteSequencePosition~Variable"
+                    }
+                },
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-48')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": null,
+                    "byteSequenceOffset": 0,
+                    "byteSequenceValue": "300D0A454F460D0A",
+                    "subjectId": "pronom.ByteSequence~BS-48",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteEOF')",
+                        "label": "Absolute from EOF",
+                        "subjectId": "pronom.ByteSequencePosition~AbsoluteEOF"
+                    }
+                }
+            ]
+        },
+        {
+            "@odata.id": "InternalSignature('pronom.InternalSignature~IS-1000')",
+            "internal_signatures_ID": 1000,
+            "subjectId": "pronom.InternalSignature~IS-1000",
+            "internalSignature_ByteSequence": [
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1230')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": 0,
+                    "byteSequenceOffset": 0,
+                    "byteSequenceValue": "004D524D00",
+                    "subjectId": "pronom.ByteSequence~BS-1230",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                        "label": "Absolute from BOF",
+                        "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                    }
+                }
+            ]
+        },
+        {
+            "@odata.id": "InternalSignature('pronom.InternalSignature~IS-1001')",
+            "internal_signatures_ID": 1001,
+            "subjectId": "pronom.InternalSignature~IS-1001",
+            "internalSignature_ByteSequence": [
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1229')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": 0,
+                    "byteSequenceOffset": 0,
+                    "byteSequenceValue": "4949524F08000000",
+                    "subjectId": "pronom.ByteSequence~BS-1229",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                        "label": "Absolute from BOF",
+                        "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                    }
+                }
+            ]
+        },
+        {
+            "@odata.id": "InternalSignature('pronom.InternalSignature~IS-1002')",
+            "internal_signatures_ID": 1002,
+            "subjectId": "pronom.InternalSignature~IS-1002",
+            "internalSignature_ByteSequence": [
+                {
+                    "@odata.id": "ByteSequence('pronom.ByteSequence~BS-1228')",
+                    "byteSequenceIndirectOffsetLength": null,
+                    "byteSequenceIndirectOffsetLocation": null,
+                    "byteSequenceMaxOffset": 0,
+                    "byteSequenceOffset": 0,
+                    "byteSequenceValue": "4949525308000000",
+                    "subjectId": "pronom.ByteSequence~BS-1228",
+                    "byteSequence_ByteSequencePosition": {
+                        "@odata.id": "ByteSequencePosition('pronom.ByteSequencePosition~AbsoluteBOF')",
+                        "label": "Absolute from BOF",
+                        "subjectId": "pronom.ByteSequencePosition~AbsoluteBOF"
+                    }
+                }
+            ]
+        }
+    ]
+}</data>

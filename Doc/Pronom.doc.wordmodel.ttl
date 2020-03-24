@@ -1,0 +1,98 @@
+# baseURI: http://www.nationalarchives.gov.uk/pronom/wordmodel
+# imports: http://data.nationalarchives.gov.uk/formatregistry/def/
+# imports: http://inova8.com/wordmodel/
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sp: <http://spinrdf.org/sp#> .
+@prefix spin: <http://spinrdf.org/spin#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.nationalarchives.gov.uk/pronom/wordmodel>
+  rdf:type owl:Ontology ;
+  spin:query [
+      rdf:type sp:Select ;
+      sp:resultVariables (
+          [
+            sp:varName "modelDefinition" ;
+          ]
+        ) ;
+      sp:where (
+          [
+            sp:object <http://data.nationalarchives.gov.uk/formatregistry/def/FileFormat> ;
+            sp:predicate rdf:first ;
+            sp:subject [
+                sp:varName "?0" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "?1" ;
+              ] ;
+            sp:predicate rdf:rest ;
+            sp:subject [
+                sp:varName "?0" ;
+              ] ;
+          ]
+          [
+            sp:object 10 ;
+            sp:predicate rdf:first ;
+            sp:subject [
+                sp:varName "?1" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "?2" ;
+              ] ;
+            sp:predicate rdf:rest ;
+            sp:subject [
+                sp:varName "?1" ;
+              ] ;
+          ]
+          [
+            sp:object "true"^^xsd:boolean ;
+            sp:predicate rdf:first ;
+            sp:subject [
+                sp:varName "?2" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "?3" ;
+              ] ;
+            sp:predicate rdf:rest ;
+            sp:subject [
+                sp:varName "?2" ;
+              ] ;
+          ]
+          [
+            sp:object "true"^^xsd:boolean ;
+            sp:predicate rdf:first ;
+            sp:subject [
+                sp:varName "?3" ;
+              ] ;
+          ]
+          [
+            sp:object () ;
+            sp:predicate rdf:rest ;
+            sp:subject [
+                sp:varName "?3" ;
+              ] ;
+          ]
+          [
+            sp:object [
+                sp:varName "modelDefinition" ;
+              ] ;
+            sp:predicate <http://inova8.com/wordmodel/modelDefinition> ;
+            sp:subject [
+                sp:varName "?0" ;
+              ] ;
+          ]
+        ) ;
+    ] ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/def/> ;
+  owl:imports <http://inova8.com/wordmodel/> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.

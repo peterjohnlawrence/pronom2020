@@ -1,0 +1,597 @@
+# baseURI: http://data.nationalarchives.gov.uk/formatregistry/data/documentAuthors
+
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-10>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-10> ;
+  rdfs:label "Actor-103-Authoring-Document-10" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-103-Authoring-Document-10" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-11>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-11> ;
+  rdfs:label "Actor-103-Authoring-Document-11" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-103-Authoring-Document-11" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-12>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-12> ;
+  rdfs:label "Actor-103-Authoring-Document-12" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-103-Authoring-Document-12" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-13>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-13> ;
+  rdfs:label "Actor-104-Authoring-Document-13" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-13" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-14>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-14> ;
+  rdfs:label "Actor-104-Authoring-Document-14" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-14" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-15>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-15> ;
+  rdfs:label "Actor-104-Authoring-Document-15" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-15" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-16>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-16> ;
+  rdfs:label "Actor-104-Authoring-Document-16" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-16" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-17>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-17> ;
+  rdfs:label "Actor-104-Authoring-Document-17" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-17" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-18>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-18> ;
+  rdfs:label "Actor-104-Authoring-Document-18" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-104-Authoring-Document-18" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-105-Authoring-Document-19>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-19> ;
+  rdfs:label "Actor-105-Authoring-Document-19" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-105-Authoring-Document-19" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-105-Authoring-Document-20>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-20> ;
+  rdfs:label "Actor-105-Authoring-Document-20" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-105-Authoring-Document-20" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-21>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-21> ;
+  rdfs:label "Actor-106-Authoring-Document-21" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-21" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-22>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-22> ;
+  rdfs:label "Actor-106-Authoring-Document-22" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-22" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-23>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-23> ;
+  rdfs:label "Actor-106-Authoring-Document-23" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-23" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-24>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-24> ;
+  rdfs:label "Actor-106-Authoring-Document-24" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-24" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-25>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-25> ;
+  rdfs:label "Actor-106-Authoring-Document-25" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-25" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-26>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-26> ;
+  rdfs:label "Actor-106-Authoring-Document-26" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-26" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-27>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-27> ;
+  rdfs:label "Actor-106-Authoring-Document-27" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-27" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-28>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-28> ;
+  rdfs:label "Actor-106-Authoring-Document-28" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-106-Authoring-Document-28" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-107-Authoring-Document-29>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-29> ;
+  rdfs:label "Actor-107-Authoring-Document-29" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-107-Authoring-Document-29" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-108-Authoring-Document-30>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-30> ;
+  rdfs:label "Actor-108-Authoring-Document-30" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-108-Authoring-Document-30" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-108-Authoring-Document-31>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-31> ;
+  rdfs:label "Actor-108-Authoring-Document-31" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-108-Authoring-Document-31" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-58>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-58> ;
+  rdfs:label "Actor-112-Authoring-Document-58" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-112-Authoring-Document-58" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-61>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-61> ;
+  rdfs:label "Actor-112-Authoring-Document-61" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-112-Authoring-Document-61" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-68>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-68> ;
+  rdfs:label "Actor-112-Authoring-Document-68" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-112-Authoring-Document-68" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-113-Authoring-Document-5>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-5> ;
+  rdfs:label "Actor-113-Authoring-Document-5" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-113-Authoring-Document-5" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-114-Authoring-Document-5>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-5> ;
+  rdfs:label "Actor-114-Authoring-Document-5" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-114-Authoring-Document-5" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-115-Authoring-Document-4>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-4> ;
+  rdfs:label "Actor-115-Authoring-Document-4" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-115-Authoring-Document-4" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-118-Authoring-Document-7>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-7> ;
+  rdfs:label "Actor-118-Authoring-Document-7" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-118-Authoring-Document-7" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-119-Authoring-Document-56>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-56> ;
+  rdfs:label "Actor-119-Authoring-Document-56" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-119-Authoring-Document-56" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-121-Authoring-Document-59>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-59> ;
+  rdfs:label "Actor-121-Authoring-Document-59" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-121-Authoring-Document-59" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-123-Authoring-Document-58>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-58> ;
+  rdfs:label "Actor-123-Authoring-Document-58" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-123-Authoring-Document-58" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-123-Authoring-Document-61>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-61> ;
+  rdfs:label "Actor-123-Authoring-Document-61" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-123-Authoring-Document-61" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Authoring-Document-60>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-60> ;
+  rdfs:label "Actor-124-Authoring-Document-60" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-124-Authoring-Document-60" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-126-Authoring-Document-77>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-77> ;
+  rdfs:label "Actor-126-Authoring-Document-77" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-126-Authoring-Document-77" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-127-Authoring-Document-72>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-72> ;
+  rdfs:label "Actor-127-Authoring-Document-72" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-127-Authoring-Document-72" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-128-Authoring-Document-76>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-76> ;
+  rdfs:label "Actor-128-Authoring-Document-76" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-128-Authoring-Document-76" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-130-Authoring-Document-82>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-82> ;
+  rdfs:label "Actor-130-Authoring-Document-82" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-130-Authoring-Document-82" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-143-Authoring-Document-87>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-87> ;
+  rdfs:label "Actor-143-Authoring-Document-87" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-143-Authoring-Document-87" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-15-Authoring-Document-57>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-57> ;
+  rdfs:label "Actor-15-Authoring-Document-57" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-15-Authoring-Document-57" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-158-Authoring-Document-92>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-92> ;
+  rdfs:label "Actor-158-Authoring-Document-92" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-158-Authoring-Document-92" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-161-Authoring-Document-92>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-92> ;
+  rdfs:label "Actor-161-Authoring-Document-92" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-161-Authoring-Document-92" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-166-Authoring-Document-93>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-93> ;
+  rdfs:label "Actor-166-Authoring-Document-93" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-166-Authoring-Document-93" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-32>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-32> ;
+  rdfs:label "Actor-18-Authoring-Document-32" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-32" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-33>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-33> ;
+  rdfs:label "Actor-18-Authoring-Document-33" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-33" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-34>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-34> ;
+  rdfs:label "Actor-18-Authoring-Document-34" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-34" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-35>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-35> ;
+  rdfs:label "Actor-18-Authoring-Document-35" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-35" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-36>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-36> ;
+  rdfs:label "Actor-18-Authoring-Document-36" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-36" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-8>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-8> ;
+  rdfs:label "Actor-18-Authoring-Document-8" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-8" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-9>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-9> ;
+  rdfs:label "Actor-18-Authoring-Document-9" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-18-Authoring-Document-9" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-56-Authoring-Document-48>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-48> ;
+  rdfs:label "Actor-56-Authoring-Document-48" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-56-Authoring-Document-48" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-43>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-43> ;
+  rdfs:label "Actor-7-Authoring-Document-43" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-43" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-44>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-44> ;
+  rdfs:label "Actor-7-Authoring-Document-44" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-44" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-45>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-45> ;
+  rdfs:label "Actor-7-Authoring-Document-45" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-45" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-46>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-46> ;
+  rdfs:label "Actor-7-Authoring-Document-46" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-46" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-52>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-52> ;
+  rdfs:label "Actor-7-Authoring-Document-52" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-52" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-53>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-53> ;
+  rdfs:label "Actor-7-Authoring-Document-53" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-53" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-54>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-54> ;
+  rdfs:label "Actor-7-Authoring-Document-54" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-54" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-55>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-55> ;
+  rdfs:label "Actor-7-Authoring-Document-55" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-55" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-62>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-62> ;
+  rdfs:label "Actor-7-Authoring-Document-62" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-62" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-66>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-66> ;
+  rdfs:label "Actor-7-Authoring-Document-66" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-66" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-67>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-67> ;
+  rdfs:label "Actor-7-Authoring-Document-67" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-67" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-70>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-70> ;
+  rdfs:label "Actor-7-Authoring-Document-70" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-7-Authoring-Document-70" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-82-Authoring-Document-49>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-49> ;
+  rdfs:label "Actor-82-Authoring-Document-49" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-82-Authoring-Document-49" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-82-Authoring-Document-51>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-51> ;
+  rdfs:label "Actor-82-Authoring-Document-51" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-82-Authoring-Document-51" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-3>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-3> ;
+  rdfs:label "Actor-93-Authoring-Document-3" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-3" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-37>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-37> ;
+  rdfs:label "Actor-93-Authoring-Document-37" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-37" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-38>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-38> ;
+  rdfs:label "Actor-93-Authoring-Document-38" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-38" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-39>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-39> ;
+  rdfs:label "Actor-93-Authoring-Document-39" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-39" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-40>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-40> ;
+  rdfs:label "Actor-93-Authoring-Document-40" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-40" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-41>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-41> ;
+  rdfs:label "Actor-93-Authoring-Document-41" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-41" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-42>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-42> ;
+  rdfs:label "Actor-93-Authoring-Document-42" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-42" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-49>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-49> ;
+  rdfs:label "Actor-93-Authoring-Document-49" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-49" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-51>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-51> ;
+  rdfs:label "Actor-93-Authoring-Document-51" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-51" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-6>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-6> ;
+  rdfs:label "Actor-93-Authoring-Document-6" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-6" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-71>
+  rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/AuthoringActivity> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://data.nationalarchives.gov.uk/formatregistry/id/Document/D-71> ;
+  rdfs:label "Actor-93-Authoring-Document-71" ;
+  <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-93-Authoring-Document-71" ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-103>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-10> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-11> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-103-Authoring-Document-12> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-104>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-13> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-14> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-15> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-16> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-17> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-104-Authoring-Document-18> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-105>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-105-Authoring-Document-19> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-105-Authoring-Document-20> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-106>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-21> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-22> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-23> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-24> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-25> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-26> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-27> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-106-Authoring-Document-28> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-107>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-107-Authoring-Document-29> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-108>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-108-Authoring-Document-30> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-108-Authoring-Document-31> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-112>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-58> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-61> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-112-Authoring-Document-68> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-113>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-113-Authoring-Document-5> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-114>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-114-Authoring-Document-5> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-115>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-115-Authoring-Document-4> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-118>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-118-Authoring-Document-7> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-119>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-119-Authoring-Document-56> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-121>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-121-Authoring-Document-59> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-123>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-123-Authoring-Document-58> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-123-Authoring-Document-61> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-124>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-124-Authoring-Document-60> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-126>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-126-Authoring-Document-77> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-127>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-127-Authoring-Document-72> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-128>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-128-Authoring-Document-76> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-130>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-130-Authoring-Document-82> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-143>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-143-Authoring-Document-87> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-15>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-15-Authoring-Document-57> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-158>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-158-Authoring-Document-92> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-161>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-161-Authoring-Document-92> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-166>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-166-Authoring-Document-93> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-18>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-32> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-33> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-34> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-35> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-36> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-8> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-18-Authoring-Document-9> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-56>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-56-Authoring-Document-48> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-7>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-43> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-44> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-45> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-46> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-52> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-53> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-54> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-55> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-62> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-66> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-67> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-7-Authoring-Document-70> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-82>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-82-Authoring-Document-49> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-82-Authoring-Document-51> ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-93>
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-37> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-38> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-39> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-40> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-41> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-42> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-49> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-51> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-6> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-93-Authoring-Document-71> ;
+.
