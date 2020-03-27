@@ -695,11 +695,16 @@ If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from 
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset>
   rdf:type owl:DatatypeProperty ;
-  rdfs:comment """If Byte Sequence Position Type is “Absolute from BOF”: offset in bytes from the beginning of the bitstream (offset 0) at which the sequence begins
-
-If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from the end of the bitstream (offset 0) at which the sequence ends"""@en ;
+  rdfs:comment "If Byte Sequence Position Type is “Absolute from BOF”: offset in bytes from the beginning of the bitstream (offset 0) at which the sequence begins" ;
   rdfs:domain pronom2020:ByteSequence ;
   rdfs:label "offset"@en ;
+  rdfs:range xsd:integer ;
+.
+<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Position>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The cardinailty of this byteSequence within the InternalSignatureCollection of the BinarySignature" ;
+  rdfs:domain pronom2020:ByteSequence ;
+  rdfs:label "position"@en ;
   rdfs:range xsd:integer ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Value>

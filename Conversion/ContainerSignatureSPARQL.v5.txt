@@ -24,9 +24,10 @@ INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/contain
 		rdfs:label ?byteSequenceLabel ;
 		<http://www.w3.org/2004/02/skos/core#prefLabel> ?byteSequenceLabel ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/internalSignature.ID>  ?internalSignatureId ;
-		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequenceValue> ?combinedSequence ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Value> ?sequence ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.ByteSequencePosition> ?positionType ;
-		#<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequenc.eIndirectOffsetLength> 0 ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Position> ?position ;
+		#<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLength> 0 ;
 		#<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.IndirectOffsetLocation> 0 ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.MaxOffset> ?subSeqMaxOffset ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/byteSequence.Offset> ?subSeqMinOffset  ;
@@ -63,14 +64,23 @@ WHERE {
 			composite:child ?byteSequenceChild .
 		?byteSequenceChild  a :ByteSequence ;
 			:Reference-ByteSequence ?byteOrderPosition ;
-			:Sequence-ByteSequence ?combinedSequence .
+			composite:child ?subSequenceChild .
+		?subSequenceChild  a :SubSequence ;
+			:Position-SubSequence ?position ;
+			composite:child ?SequenceChild .
+		OPTIONAL{ ?subSequenceChild	:SubSeqMaxOffset-SubSequence ?subSeqMaxOffset }.
+		OPTIONAL{ ?subSequenceChild	:SubSeqMinOffset-SubSequence ?subSeqMinOffset }.
+		?SequenceChild a :Sequence ;
+			composite:child ?SequenceTextChild .
+		?SequenceTextChild  a sxml:TextNode  ;
+			sxml:text  ?sequence .
 	}
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ContainerSignature/CS-",  STR(?containerSignatureId))) as ?containerSignatureIRI)
 	BIND(CONCAT("CF-",  STR(?containerSignatureId),"-", STR(?fileIndex)) as ?containerFileLabel)
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ContainerFile/",  ?containerFileLabel)) as ?containerFileIRI)
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ContainerType/CT-",  STR(?containerSignatureType))) as ?containerSignatureTypeIRI)
 	BIND ( ?containerSignatureComment as ?containerSignatureLabel )
-	BIND ( CONCAT("BS-",STR(?containerSignatureId),"-", STR(?internalSignatureId))as ?byteSequenceLabel)
+	BIND ( CONCAT("BS-",STR(?containerSignatureId),"-", STR(?internalSignatureId),"-", STR(?position) )as ?byteSequenceLabel)
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequence/",?byteSequenceLabel)) as ?byteSequenceIRI)
 	BIND(
 	IF(?byteOrderPosition = "BOFoffset", <http://data.nationalarchives.gov.uk/formatregistry/id/ByteSequencePosition/AbsoluteBOF>,
