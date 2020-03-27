@@ -141,7 +141,6 @@ WHERE {
 		vocab:dbo_countries_country_code_text  ?countryLabel ;
 		vocab:dbo_countries_country_name_text ?countryComment  ;
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-",  STR(?countryLabel))) as ?countryIRI)
-BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-",  STR(?countryLabel))) as ?countryIRI)
 }
 ;
 
