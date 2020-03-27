@@ -942,8 +942,8 @@ INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwar
 #CONSTRUCT{
 	?softwarePuidIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Process>  ?processRelationshipIRI . 
 	?processRelationshipIRI  a ?processRelationshipType  ;
-		rdfs:label ?processRelationshiplabel ;
-		<http://www.w3.org/2004/02/skos/core#prefLabel> ?processRelationshiplabel ;
+		rdfs:label ?processRelationshipLabel ;
+		<http://www.w3.org/2004/02/skos/core#prefLabel> ?processRelationshipLabel ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/on.FileFormat> ?targetPuidIRI .
 }
 }#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
@@ -985,7 +985,7 @@ where {
 			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
 		}
 	}
-	BIND( CONCAT(?processRelationshipTypeLabel, "-", ?targetPuidLabel ) as ?processRelationshipLabel)
+	BIND( CONCAT(?softwarePuidLabel , "-", ?processRelationshipTypeLabel, "-", ?targetPuidLabel ) as ?processRelationshipLabel)
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Process/P-", REPLACE(?softwarePuidPrefix," ",""), "-", STR(?softwarePuid) , "-", ?processRelationshipTypeLabel, "-", REPLACE(?targetPuidPrefix," ",""), "-", STR(?targetPuid) )) as ?processRelationshipIRI)
 }
 ;
