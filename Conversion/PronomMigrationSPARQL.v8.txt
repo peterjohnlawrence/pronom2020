@@ -223,7 +223,7 @@ where {
 		IF(?formatTypeText ="Library of Congress Format Description Identifier", xsd:anyURI(CONCAT("https://www.loc.gov/preservation/digital/formats/fdd/",?formatText,".shtml")), 
 		IF(?formatTypeText ="Apple Uniform Type Identifier", "" ,
 		""))) as ?seeExternal)
-	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FormatIdentifier/FI-",  ENCODE_FOR_URI(?formatText))) as ?formatIdentifierURI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/FormatIdentifier/FI-",  STR(?format_identifiersId ))) as ?formatIdentifierURI)
 	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
 }
 ;
