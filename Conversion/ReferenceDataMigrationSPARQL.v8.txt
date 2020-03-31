@@ -16,6 +16,12 @@ INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/compres
 		<http://www.w3.org/2004/02/skos/core#altLabel> ?compressionTypeAltLabel ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/compression_types.ID> 	?compressionTypeId ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/compressionType.Lossiness>  ?compressionTypeLossinessIRI  .
+		?sourceActorIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>  ?activityIRI . 
+			?activityIRI  a <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
+			rdfs:label ?activityLabel ;
+			<http://www.w3.org/2004/02/skos/core#prefLabel> ?activityLabel ;
+			<http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> ?compressionPuidIRI .
+		
 }
 }
 #select *
@@ -27,16 +33,22 @@ WHERE {
 		vocab:dbo_compression_types_compression_id  ?compressionTypeId ;
 		vocab:dbo_compression_types_puid_value  ?puid ;
 		vocab:dbo_compression_types_puid_type_id  ?puidType .
+       OPTIONAL { ?compressionType  vocab:dbo_compression_types_source_id ?sourceActor }
 	?puidType  vocab:dbo_puid_type_puid_type  ?puidP .
 	BIND(REPLACE(?puidP ," ","") as ?puidPrefix )
 	BIND( CONCAT( ?puidPrefix, "/",STR(?puid)) as ?puidLabel)
 	OPTIONAL{
 		?compressionAlias 	vocab:dbo_compression_aliases_compression_id ?compressionType .
-		?compressionAlias vocab:dbo_compression_aliases_name_text ?compressionTypeAltLabel 
+		?compressionAlias vocab:dbo_compression_aliases_name_text ?compressionTypeAltLabel .
 	}
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/CompressionType/CT-",  STR(?compressionTypeId))) as ?compressionTypeIRI)
 	BIND (IF(  ?compressionTypeLossiness =    db:lossiness_1, <http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossy>,<http://data.nationalarchives.gov.uk/formatregistry/id/Lossiness/Lossless>) as  ?compressionTypeLossinessIRI)
 	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?compressionPuidIRI)
+
+	BIND ( STRAFTER(STR(?sourceActor),"actors_") as ?sourceActorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?sourceActorId))) as ?sourceActorIRI)	
+	BIND( CONCAT("Actor-", ?sourceActorId, "-Sourcing-",?puidLabel ) as ?activityLabel)	
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-", ?sourceActorId, "-Sourcing-", ?puidPrefix, "~",STR(?puid) )) as ?activityIRI)
 }
 ;
 
@@ -213,7 +225,7 @@ WHERE {
 	BIND ( STRAFTER(STR(?sourceActor),"actors_") as ?sourceActorId)
 	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?sourceActorId))) as ?sourceActorIRI)
 	BIND( CONCAT("Actor-", ?sourceActorId, "-Sourcing-", ?encodingPuidLabel ) as ?activityLabel)	
-	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-", ?sourceActorId, "-Sourcing-", REPLACE(?encodingPuidPrefix," ",""), "-", STR( ?encodingPuid ) )) as ?activityIRI)	
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-", ?sourceActorId, "-Sourcing-", REPLACE(?encodingPuidPrefix," ",""), "~", STR( ?encodingPuid ) )) as ?activityIRI)	
 }
 ;
 

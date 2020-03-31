@@ -5,203 +5,203 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-1>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~1>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/1> ;
   rdfs:label "Actor-1-Sourcing-chr/1" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/1" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-10>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~10>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/10> ;
   rdfs:label "Actor-1-Sourcing-chr/10" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/10" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-11>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~11>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/11> ;
   rdfs:label "Actor-1-Sourcing-chr/11" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/11" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-12>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~12>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/12> ;
   rdfs:label "Actor-1-Sourcing-chr/12" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/12" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-13>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~13>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/13> ;
   rdfs:label "Actor-1-Sourcing-chr/13" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/13" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-14>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~14>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/14> ;
   rdfs:label "Actor-1-Sourcing-chr/14" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/14" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-15>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~15>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/15> ;
   rdfs:label "Actor-1-Sourcing-chr/15" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/15" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-16>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~16>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/16> ;
   rdfs:label "Actor-1-Sourcing-chr/16" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/16" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-17>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~17>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/17> ;
   rdfs:label "Actor-1-Sourcing-chr/17" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/17" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-18>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~18>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/18> ;
   rdfs:label "Actor-1-Sourcing-chr/18" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/18" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-19>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~19>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/19> ;
   rdfs:label "Actor-1-Sourcing-chr/19" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/19" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-2>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~2>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/2> ;
   rdfs:label "Actor-1-Sourcing-chr/2" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/2" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-20>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~20>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/20> ;
   rdfs:label "Actor-1-Sourcing-chr/20" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/20" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-21>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~21>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/21> ;
   rdfs:label "Actor-1-Sourcing-chr/21" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/21" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-22>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~22>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/22> ;
   rdfs:label "Actor-1-Sourcing-chr/22" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/22" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-23>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~23>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/23> ;
   rdfs:label "Actor-1-Sourcing-chr/23" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/23" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-24>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~24>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/24> ;
   rdfs:label "Actor-1-Sourcing-chr/24" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/24" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-25>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~25>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/25> ;
   rdfs:label "Actor-1-Sourcing-chr/25" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/25" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-26>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~26>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/26> ;
   rdfs:label "Actor-1-Sourcing-chr/26" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/26" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-27>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~27>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/27> ;
   rdfs:label "Actor-1-Sourcing-chr/27" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/27" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-3>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~3>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/3> ;
   rdfs:label "Actor-1-Sourcing-chr/3" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/3" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-4>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~4>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/4> ;
   rdfs:label "Actor-1-Sourcing-chr/4" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/4" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-5>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~5>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/5> ;
   rdfs:label "Actor-1-Sourcing-chr/5" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/5" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-6>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~6>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/6> ;
   rdfs:label "Actor-1-Sourcing-chr/6" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/6" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-7>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~7>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/7> ;
   rdfs:label "Actor-1-Sourcing-chr/7" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/7" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-8>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~8>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/8> ;
   rdfs:label "Actor-1-Sourcing-chr/8" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/8" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-9>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~9>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/chr/9> ;
   rdfs:label "Actor-1-Sourcing-chr/9" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-chr/9" ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-x-chr-1>
+<http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-x-chr~1>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
   <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> <http://www.nationalarchives.gov.uk/PRONOM/x-chr/1> ;
   rdfs:label "Actor-1-Sourcing-x-chr/1" ;
   <http://www.w3.org/2004/02/skos/core#prefLabel> "Actor-1-Sourcing-x-chr/1" ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-1>
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-1> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-10> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-11> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-12> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-13> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-14> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-15> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-16> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-17> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-18> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-19> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-2> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-20> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-21> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-22> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-23> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-24> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-25> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-26> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-27> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-3> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-4> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-5> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-6> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-7> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-8> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr-9> ;
-  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-x-chr-1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~1> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~10> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~11> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~12> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~13> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~14> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~15> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~16> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~17> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~18> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~19> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~2> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~20> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~21> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~22> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~23> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~24> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~25> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~26> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~27> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~3> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~4> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~5> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~6> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~7> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~8> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-chr~9> ;
+  <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-1-Sourcing-x-chr~1> ;
 .
 <http://www.nationalarchives.gov.uk/PRONOM/chr/1>
   rdf:type <http://data.nationalarchives.gov.uk/formatregistry/def/Encoding> ;

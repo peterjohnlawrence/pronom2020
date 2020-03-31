@@ -114,6 +114,11 @@ INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/fileFor
 		<http://www.w3.org/2004/02/skos/core#prefLabel> ?extendedLabel ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/fileFormat.CompressionType>  ?compressionPuidIRI ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/file_formats.ID> ?file_formatId  .
+		?sourceActorIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>  ?activityIRI . 
+			?activityIRI  a <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
+			rdfs:label ?activityLabel ;
+			<http://www.w3.org/2004/02/skos/core#prefLabel> ?activityLabel ;
+			<http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> ?puidIRI .
 }
 }#USING <http://reference.data.gov.uk/technical-registry/data/mssql>
 #select *
@@ -124,6 +129,7 @@ where {
 		vocab:dbo_file_formats_file_format_id ?file_formatId ;
 		vocab:dbo_file_formats_puid_value  ?puid .
 		OPTIONAL{?fileFormat vocab:dbo_file_formats_version_text  ?version }
+		OPTIONAL { ?fileFormat  vocab:dbo_file_formats_source_id  ?sourceActor }
 		OPTIONAL{  
 			?fct a vocab:dbo_format_compression_types .
 			?fct vocab:dbo_format_compression_types_file_format_id ?fileFormat ;
@@ -156,6 +162,11 @@ where {
 	}
 	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?puidLabel)) as ?puidIRI)
 	BIND( CONCAT(?label,IF(BOUND(?version),CONCAT("(",?version,")"),"")) as ?extendedLabel)
+	
+	BIND ( STRAFTER(STR(?sourceActor),"actors_") as ?sourceActorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?sourceActorId))) as ?sourceActorIRI)	
+	BIND( CONCAT("Actor-", ?sourceActorId, "-Sourcing-",?puidLabel ) as ?activityLabel)	
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-", ?sourceActorId, "-Sourcing-", ?puidPrefix, "~",STR(?puid) )) as ?activityIRI)
 }
 ;
 #Construct file format types and link to fileformat
@@ -439,7 +450,7 @@ WHERE {
 	OPTIONAL{ ?actor vocab:dbo_actors_website_text  ?actorWebsite . BIND( xsd:anyURI(STR(?actorWebsite)) as ?website) }
 #
 	OPTIONAL{ ?actor vocab:dbo_actors_actor_type_id  ?actorType .   ?actorType vocab:dbo_actor_types_actor_type_id ?actorTypeId  . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/ActorType/AT-",  STR(?actorTypeId))) as ?actorTypeIRI)  } 
-	OPTIONAL{ ?actor vocab:dbo_actors_source_id ?actorSource . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/AT-",  STRAFTER(STR(?actorSource),"actors_"))) as ?actorSourceIRI)  } 
+	OPTIONAL{ ?actor vocab:dbo_actors_source_id ?actorSource . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STRAFTER(STR(?actorSource),"actors_"))) as ?actorSourceIRI)  } 
 	OPTIONAL{ ?actor vocab:dbo_actors_country_code_text  ?actorCountry  . BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Country/C-",  STRAFTER(STR(?actorCountry),"countries_"))) as ?countryIRI)   }
 #
 	BIND ( STRAFTER(STR(?actor),"actors_") as ?actorId)
@@ -721,7 +732,12 @@ INSERT  { GRAPH <http://data.nationalarchives.gov.uk/formatregistry/data/softwar
 		<http://data.nationalarchives.gov.uk/formatregistry/def/registry.puidIndex>   ?softwarePuid  ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/registry.puidType>   ?softwarePuidPrefix  ;
 		<http://data.nationalarchives.gov.uk/formatregistry/def/software.Version>   ?version ;
-		<http://data.nationalarchives.gov.uk/formatregistry/def/document.SoftwareType>  ?softwareTypeIRI  ;
+		<http://data.nationalarchives.gov.uk/formatregistry/def/document.SoftwareType>  ?softwareTypeIRI  .
+		?sourceActorIRI   <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>  ?activityIRI . 
+			?activityIRI  a <http://data.nationalarchives.gov.uk/formatregistry/def/SourcingActivity> ;
+			rdfs:label ?activityLabel ;
+			<http://www.w3.org/2004/02/skos/core#prefLabel> ?activityLabel ;
+			<http://data.nationalarchives.gov.uk/formatregistry/def/activity.On> ?softwarePuidIRI .
 }
 }
 #select *
@@ -737,6 +753,7 @@ WHERE {
 			BIND( CONCAT( ?softwarePuidPrefix, "/",STR(?softwarePuid)) as ?softwarePuidLabel)
 		}
 	}
+	OPTIONAL { ?software  vocab:dbo_software_source_id ?sourceActor }
 	OPTIONAL{ ?software	vocab:dbo_software_software_text  ?softwareComment  }
 	OPTIONAL{ ?software	vocab:dbo_software_software_name_text  ?softwareLabel }
 	OPTIONAL{ ?software	 vocab:dbo_software_version_text   ?version}
@@ -747,6 +764,11 @@ WHERE {
 	}
 	BIND ( STRAFTER(STR(?software),"software_") as ?softwareId)
 	BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?softwarePuidLabel)) as ?softwarePuidIRI)
+	
+	BIND ( STRAFTER(STR(?sourceActor),"actors_") as ?sourceActorId)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Actor/A-",  STR(?sourceActorId))) as ?sourceActorIRI)	
+	BIND( CONCAT("Actor-", ?sourceActorId, "-Sourcing-",?softwarePuidLabel ) as ?activityLabel)	
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Activity/A-Actor-", ?sourceActorId, "-Sourcing-", ?softwarePuidPrefix, "~",STR(?softwarePuid))) as ?activityIRI)
 }
 ;
 
@@ -1026,7 +1048,7 @@ WHERE {
 			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
 		}
 	}
-	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/AFF-", STR(?aliasID) )) as ?aliasIRI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/A-FF-", STR(?aliasID) )) as ?aliasIRI)
  } 
 }
 ;
@@ -1060,7 +1082,7 @@ WHERE {
 			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
 		}
 	}
-	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/ACT-", STR(?aliasID) )) as ?aliasIRI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/A-CT-", STR(?aliasID) )) as ?aliasIRI)
  } 
 }
 ;
@@ -1094,7 +1116,7 @@ WHERE {
 			BIND( IRI(CONCAT("http://www.nationalarchives.gov.uk/PRONOM/",  ?targetPuidLabel)) as ?targetPuidIRI)
 		}
 	}
-	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/ASW-", STR(?aliasID) )) as ?aliasIRI)
+	BIND( IRI(CONCAT("http://data.nationalarchives.gov.uk/formatregistry/id/Alias/A-SW-", STR(?aliasID) )) as ?aliasIRI)
  } 
 }
 ;
