@@ -1,4 +1,5 @@
 # baseURI: http://data.nationalarchives.gov.uk/formatregistry/def/
+# imports: http://data.nationalarchives.gov.uk/formatregistry/def/reification/
 # prefix: pronom2020
 
 @prefix chr: <http://www.nationalarchives.gov.uk/PRONOM/chr/> .
@@ -7,7 +8,6 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix pronom: <http://data.nationalarchives.gov.uk/formatregistry/id/> .
 @prefix pronom.Activity: <http://data.nationalarchives.gov.uk/formatregistry/id/Activity/> .
-@prefix pronom.ActivityType: <http://data.nationalarchives.gov.uk/formatregistry/id/ActivityType/> .
 @prefix pronom.Actor: <http://data.nationalarchives.gov.uk/formatregistry/id/Actor/> .
 @prefix pronom.ActorType: <http://data.nationalarchives.gov.uk/formatregistry/id/ActorType/> .
 @prefix pronom.Alias: <http://data.nationalarchives.gov.uk/formatregistry/id/Alias/> .
@@ -31,12 +31,10 @@
 @prefix pronom.Process: <http://data.nationalarchives.gov.uk/formatregistry/id/Process/> .
 @prefix pronom.ProcessType: <http://data.nationalarchives.gov.uk/formatregistry/id/ProcessType/> .
 @prefix pronom.Relationship: <http://data.nationalarchives.gov.uk/formatregistry/id/Relationship/> .
-@prefix pronom.RelationshipType: <http://data.nationalarchives.gov.uk/formatregistry/id/RelationshipType/> .
 @prefix pronom.SoftwareType: <http://data.nationalarchives.gov.uk/formatregistry/id/SoftwareType/> .
 @prefix pronom2020: <http://data.nationalarchives.gov.uk/formatregistry/def/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix reification: <http://data.nationalarchives.gov.uk/formatregistry/def/reification/> .
 @prefix sfw: <http://www.nationalarchives.gov.uk/PRONOM/sfw/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix x-chr: <http://www.nationalarchives.gov.uk/PRONOM/x-chr/> .
@@ -47,15 +45,9 @@
 
 pronom2020:
   rdf:type owl:Ontology ;
+  owl:imports <http://data.nationalarchives.gov.uk/formatregistry/def/reification/> ;
   owl:priorVersion <http://data.nationalarchives.gov.uk/formatregistry/def/0.7/> ;
   owl:versionIRI <http://data.nationalarchives.gov.uk/formatregistry/def/0.8/> ;
-.
-pronom2020:ActedUpon
-  rdf:type owl:Class ;
-  rdfs:comment "A union of classes of entities that can be acted upon by an actor in some way"@en ;
-  rdfs:label "Acted-upon family"@en ;
-  rdfs:subClassOf pronom2020:Family ;
-  skos:prefLabel "Acted-upon family"@en ;
 .
 pronom2020:Activity
   rdf:type owl:Class ;
@@ -64,26 +56,17 @@ pronom2020:Activity
   rdfs:subClassOf pronom2020:Relation ;
   skos:prefLabel "Activity relationship"@en ;
 .
-pronom2020:ActivityType
-  rdf:type owl:Class ;
-  rdfs:comment "Defines the different types of activity that can be performed by an Actor on that which is actted upon"@en ;
-  rdfs:label "ActivityType"@en ;
-  rdfs:subClassOf pronom2020:Reference ;
-  skos:prefLabel "ActivityType"@en ;
-  skos:topConceptOf pronom2020:PRONOM ;
-.
 pronom2020:Actor
   rdf:type owl:Class ;
   rdfs:comment "Actors that perform some role with respect to fileFormats, documentation, etc"@en ;
   rdfs:label "Actor"@en ;
-  rdfs:subClassOf pronom2020:ActedUpon ;
   rdfs:subClassOf pronom2020:Related ;
   skos:prefLabel "Actor"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
 pronom2020:ActorType
   rdf:type owl:Class ;
-  rdfs:comment "Defines the capacity within which an actor functions"@en ;
+  rdfs:comment "defines the capacity within which an actor functions"@en ;
   rdfs:label "ActorType"@en ;
   rdfs:subClassOf pronom2020:Reference ;
   skos:prefLabel "ActorType"@en ;
@@ -96,6 +79,11 @@ pronom2020:Alias
   rdfs:subClassOf pronom2020:Related ;
   skos:prefLabel "Alias"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:AuthoringActivity
+  rdf:type owl:Class ;
+  rdfs:label "Authoring activity" ;
+  rdfs:subClassOf pronom2020:Activity ;
 .
 pronom2020:ByteOrder
   rdf:type owl:Class ;
@@ -156,6 +144,18 @@ pronom2020:ByteSequencePosition
   skos:prefLabel "Byte sequence position"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
+pronom2020:CanBeContainedByRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Can be contained by Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Can be contained by Relationship"@en ;
+.
+pronom2020:CanContainRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Can contain"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Can contain"@en ;
+.
 pronom2020:Classification
   rdf:type owl:Class ;
   rdfs:comment "The use to which a file format is put" ;
@@ -205,11 +205,21 @@ pronom2020:Country
   skos:prefLabel "Country"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
+pronom2020:CreateProcess
+  rdf:type owl:Class ;
+  rdfs:label "Create process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Create process relationship" ;
+.
+pronom2020:DevelopingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Developing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
 pronom2020:Document
   rdf:type owl:Class ;
   rdfs:comment "Documents that perform some role with respect to fileFormats, documentation, etc"@en ;
   rdfs:label "Document"@en ;
-  rdfs:subClassOf pronom2020:ActedUpon ;
   rdfs:subClassOf pronom2020:Related ;
   skos:prefLabel "Document"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
@@ -230,6 +240,12 @@ pronom2020:Encoding
   rdfs:subClassOf pronom2020:Registry ;
   skos:prefLabel "Encoding" ;
 .
+pronom2020:EquivalentToRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Equivalent to Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Equivalent to Relationship"@en ;
+.
 pronom2020:ExternalSignature
   rdf:type owl:Class ;
   pronom2020:seeExternal "http://dbpedia.org/resource/Filename_extension"^^xsd:anyURI ;
@@ -244,6 +260,12 @@ pronom2020:ExternalSignature
     ] ;
   skos:prefLabel "External Signature"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
+.
+pronom2020:ExtractMetadataProcess
+  rdf:type owl:Class ;
+  rdfs:label "Extract Metadata process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Extract Metadata process" ;
 .
 pronom2020:Family
   rdf:type owl:Class ;
@@ -298,10 +320,22 @@ pronom2020:FormatRegistry
   skos:prefLabel "Format Registry"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
+pronom2020:HasPriorityOverRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Has priority over Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Has priority over Relationship"@en ;
+.
 pronom2020:ID
   rdf:type owl:AnnotationProperty ;
   rdfs:comment "The superproperty that contains the properties that reference the SQL primary keys for the purpose of maintaining a crosss reference with the legacy database."@en ;
   rdfs:label "ID"@en ;
+.
+pronom2020:IdentifyProcess
+  rdf:type owl:Class ;
+  rdfs:label "Identify process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Identify process" ;
 .
 pronom2020:InternalSignature
   rdf:type owl:Class ;
@@ -329,11 +363,22 @@ pronom2020:Lossiness
   skos:prefLabel "Lossiness"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
+pronom2020:MaintainingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Maintaining activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
 pronom2020:PRONOM
   rdf:type skos:ConceptScheme ;
   rdfs:comment "PRONOM (Public Record Office and Nôm 喃) [1] is a web-based technical registry to support digital preservation services, developed by The National Archives of the United Kingdom." ;
   rdfs:label "PRONOM" ;
   skos:prefLabel "PRONOM" ;
+.
+pronom2020:PriorVersionOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Prior version of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Prior version of Relationship"@en ;
 .
 pronom2020:Process
   rdf:type owl:Class ;
@@ -342,13 +387,10 @@ pronom2020:Process
   rdfs:subClassOf pronom2020:Relation ;
   skos:prefLabel "Process relationship" ;
 .
-pronom2020:ProcessType
+pronom2020:PublishingActivity
   rdf:type owl:Class ;
-  rdfs:comment "Defines the different types of processes that can be performed by software on a fileformat"@en ;
-  rdfs:label "ProcessType"@en ;
-  rdfs:subClassOf pronom2020:Reference ;
-  skos:prefLabel "ProcessType"@en ;
-  skos:topConceptOf pronom2020:PRONOM ;
+  rdfs:label "Publishing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
 .
 pronom2020:Reference
   rdf:type owl:Class ;
@@ -362,8 +404,6 @@ pronom2020:Registry
   rdf:type owl:Class ;
   rdfs:comment "The superclass of all registry things, aka things that have been given a PUID"@en ;
   rdfs:label "Registry"@en ;
-  rdfs:subClassOf pronom2020:ActedUpon ;
-  rdfs:subClassOf owl:Thing ;
   rdfs:subClassOf skos:Concept ;
   skos:prefLabel "Registry"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
@@ -380,7 +420,6 @@ pronom2020:Relation
   rdf:type owl:Class ;
   rdfs:comment "The superclass of relations between entities. It is not intended that this should be instantiated, an abstract  entity"@en ;
   rdfs:label "Relation"@en ;
-  rdfs:subClassOf rdf:Statement ;
   rdfs:subClassOf owl:Thing ;
   rdfs:subClassOf skos:Concept ;
   skos:prefLabel "Relation"@en ;
@@ -393,13 +432,11 @@ pronom2020:Relationship
   rdfs:subClassOf pronom2020:Relation ;
   skos:prefLabel "File format relationship" ;
 .
-pronom2020:RelationshipType
+pronom2020:RenderProcess
   rdf:type owl:Class ;
-  rdfs:comment "Defines the different types of relationships between fileformats"@en ;
-  rdfs:label "RealtionshipType"@en ;
-  rdfs:subClassOf pronom2020:Reference ;
-  skos:prefLabel "RelationshipType"@en ;
-  skos:topConceptOf pronom2020:PRONOM ;
+  rdfs:label "Render process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Render process" ;
 .
 pronom2020:Signature
   rdf:type owl:Class ;
@@ -425,6 +462,40 @@ pronom2020:SoftwareType
   skos:prefLabel "SoftwareType"@en ;
   skos:topConceptOf pronom2020:PRONOM ;
 .
+pronom2020:SourcingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Sourcing activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:SubTypeOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Subtype of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Subtype of Relationship"@en ;
+.
+pronom2020:SubsequentVersionOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Subsequent version of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Subsequent version of Relationship"@en ;
+.
+pronom2020:SuperTypeOfRelationship
+  rdf:type owl:Class ;
+  rdfs:label "Supertype of Relationship"@en ;
+  rdfs:subClassOf pronom2020:Relationship ;
+  skos:prefLabel "Supertype of Relationship"@en ;
+.
+pronom2020:SupportingActivity
+  rdf:type owl:Class ;
+  rdfs:label "Supporting activity"@en ;
+  rdfs:subClassOf pronom2020:Activity ;
+.
+pronom2020:ValidateProcess
+  rdf:type owl:Class ;
+  rdfs:label "Validate process"@en ;
+  rdfs:subClassOf pronom2020:Process ;
+  skos:prefLabel "Validate process" ;
+.
 <http://data.nationalarchives.gov.uk/formatregistry/def/about.Relationship>
   rdf:type owl:ObjectProperty ;
   rdfs:domain pronom2020:FileFormat ;
@@ -440,28 +511,12 @@ pronom2020:activity
   rdfs:label "activity relationship"@en ;
   rdfs:subPropertyOf pronom2020:relationships ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/def/activity.ActivityType>
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain pronom2020:Activity ;
-  rdfs:label "Activity type"@en ;
-  rdfs:range pronom2020:ActivityType ;
-  rdfs:subPropertyOf pronom2020:activity ;
-  rdfs:subPropertyOf rdf:predicate ;
-  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/activityType.Activity> ;
-.
 <http://data.nationalarchives.gov.uk/formatregistry/def/activity.On>
   rdf:type owl:ObjectProperty ;
   rdfs:domain pronom2020:Activity ;
-  rdfs:label "activity on"@en ;
-  rdfs:range pronom2020:ActedUpon ;
+  rdfs:label "activity on" ;
   rdfs:subPropertyOf pronom2020:activity ;
-  rdfs:subPropertyOf rdf:object ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Activity> ;
-.
-<http://data.nationalarchives.gov.uk/formatregistry/def/activityType.Activity>
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "activity type.Activity" ;
-  rdfs:subPropertyOf pronom2020:activity ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/actor.Address>
   rdf:type owl:DatatypeProperty ;
@@ -1202,9 +1257,8 @@ If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from 
   rdfs:label "of fileFormat"@en ;
   rdfs:range pronom2020:FileFormat ;
   rdfs:subPropertyOf pronom2020:relationship ;
-  rdfs:subPropertyOf rdf:subject ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/has.Relationship> ;
-  skos:prefLabel "of fileFormat"@en ;
+  skos:prefLabel "file format relationship.File format" ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/on.FileFormat>
   rdf:type owl:ObjectProperty ;
@@ -1212,7 +1266,6 @@ If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from 
   rdfs:label "on fileFormat"@en ;
   rdfs:range pronom2020:FileFormat ;
   rdfs:subPropertyOf pronom2020:process ;
-  rdfs:subPropertyOf rdf:object ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Process> ;
   skos:prefLabel "on fileFormat"@en ;
 .
@@ -1222,18 +1275,16 @@ If Byte Sequence Position Type is “Absolute from EOF”: offset in bytes from 
   rdfs:label "performedBy Actor"@en ;
   rdfs:range pronom2020:Actor ;
   rdfs:subPropertyOf pronom2020:activity ;
-  rdfs:subPropertyOf rdf:subject ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity> ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/performedBy.Software>
   rdf:type owl:ObjectProperty ;
   rdfs:domain pronom2020:Process ;
-  rdfs:label "performed By Software"@en ;
+  rdfs:label "performedBy Software"@en ;
   rdfs:range pronom2020:Software ;
   rdfs:subPropertyOf pronom2020:process ;
-  rdfs:subPropertyOf rdf:subject ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Process> ;
-  skos:prefLabel "performed By Software"@en ;
+  skos:prefLabel "performedBy Software"@en ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/performs.Activity>
   rdf:type owl:ObjectProperty ;
@@ -1265,20 +1316,6 @@ pronom2020:process
   rdfs:comment "Abstract property solely to act as a super property of similarly related properties" ;
   rdfs:label "process relationship"@en ;
   rdfs:subPropertyOf pronom2020:relationships ;
-.
-<http://data.nationalarchives.gov.uk/formatregistry/def/process.ProcessType>
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain pronom2020:Process ;
-  rdfs:label "Process type"@en ;
-  rdfs:range pronom2020:ProcessType ;
-  rdfs:subPropertyOf pronom2020:process ;
-  rdfs:subPropertyOf rdf:predicate ;
-  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/processType.Process> ;
-.
-<http://data.nationalarchives.gov.uk/formatregistry/def/processType.Process>
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "process type.Process" ;
-  rdfs:subPropertyOf pronom2020:process ;
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/registry.Alias>
   rdf:type owl:ObjectProperty ;
@@ -1334,9 +1371,6 @@ pronom2020:process
   rdfs:range xsd:string ;
   skos:prefLabel "PUID"@en ;
 .
-reification:
-  owl:versionInfo "Created with TopBraid Composer" ;
-.
 pronom2020:relations
   rdf:type rdf:Property ;
   rdfs:comment "The superproperty of objectproperties between entities. It is not intended that this should be instantiated, an abstract  property"@en ;
@@ -1348,20 +1382,6 @@ pronom2020:relationship
   rdfs:label "file format relationship"@en ;
   rdfs:subPropertyOf pronom2020:relationships ;
 .
-<http://data.nationalarchives.gov.uk/formatregistry/def/relationship.RelationshipType>
-  rdf:type owl:ObjectProperty ;
-  rdfs:domain pronom2020:Relationship ;
-  rdfs:label "Relationship type"@en ;
-  rdfs:range pronom2020:RelationshipType ;
-  rdfs:subPropertyOf pronom2020:relationship ;
-  rdfs:subPropertyOf rdf:predicate ;
-  owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/relationshipType.Relationship> ;
-.
-<http://data.nationalarchives.gov.uk/formatregistry/def/relationshipType.Relationship>
-  rdf:type owl:ObjectProperty ;
-  rdfs:label "relationship type.Relationship" ;
-  rdfs:subPropertyOf pronom2020:relationship ;
-.
 pronom2020:relationships
   rdf:type rdf:Property ;
   rdfs:comment "The superproperty of relations between entities. It is not intended that this should be instantiated, an abstract  property"@en ;
@@ -1370,7 +1390,6 @@ pronom2020:relationships
 .
 <http://data.nationalarchives.gov.uk/formatregistry/def/resultOf.Activity>
   rdf:type owl:ObjectProperty ;
-  rdfs:domain pronom2020:ActedUpon ;
   rdfs:label "result of activity" ;
   rdfs:range pronom2020:Activity ;
   rdfs:subPropertyOf pronom2020:activity ;
@@ -1431,33 +1450,8 @@ pronom2020:seeExternal
   rdfs:label "with fileFormat"@en ;
   rdfs:range pronom2020:FileFormat ;
   rdfs:subPropertyOf pronom2020:relationship ;
-  rdfs:subPropertyOf rdf:object ;
   owl:inverseOf <http://data.nationalarchives.gov.uk/formatregistry/def/about.Relationship> ;
-  skos:prefLabel "with fileFormat"@en ;
-.
-pronom.ActivityType:Authoring
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Authoring activity" ;
-.
-pronom.ActivityType:Developing
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Developing activity"@en ;
-.
-pronom.ActivityType:Maintaining
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Maintaining activity"@en ;
-.
-pronom.ActivityType:Publishing
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Publishing activity"@en ;
-.
-pronom.ActivityType:Sourcing
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Sourcing activity"@en ;
-.
-pronom.ActivityType:Supporting
-  rdf:type pronom2020:ActivityType ;
-  rdfs:label "Supporting activity"@en ;
+  skos:prefLabel "file format relationship.With.File format" ;
 .
 pronom.ByteOrder:bigEndian
   rdf:type pronom2020:ByteOrder ;
@@ -1538,69 +1532,4 @@ pronom.Lossiness:Lossy
   rdfs:label "Lossy"@en ;
   skos:broader pronom2020:Lossiness ;
   skos:prefLabel "Lossy"@en ;
-.
-pronom.ProcessType:Create
-  rdf:type pronom2020:ProcessType ;
-  rdfs:label "Create process"@en ;
-  skos:prefLabel "Create process relationship" ;
-.
-pronom.ProcessType:ExtractMetadata
-  rdf:type pronom2020:ProcessType ;
-  rdfs:label "Extract Metadata process"@en ;
-  skos:prefLabel "Extract Metadata process" ;
-.
-pronom.ProcessType:Identify
-  rdf:type pronom2020:ProcessType ;
-  rdfs:label "Identify process"@en ;
-  skos:prefLabel "Identify process" ;
-.
-pronom.ProcessType:Render
-  rdf:type pronom2020:ProcessType ;
-  rdfs:label "Render process"@en ;
-  skos:prefLabel "Render process" ;
-.
-pronom.ProcessType:Validate
-  rdf:type pronom2020:ProcessType ;
-  rdfs:label "Validate process"@en ;
-  skos:prefLabel "Validate process" ;
-.
-pronom.RelationshipType:CanBeContainedBy
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Can be contained by Relationship"@en ;
-  skos:prefLabel "Can be contained by Relationship"@en ;
-.
-pronom.RelationshipType:CanContain
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Can contain"@en ;
-  skos:prefLabel "Can contain"@en ;
-.
-pronom.RelationshipType:EquivalentTo
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Equivalent to Relationship"@en ;
-  skos:prefLabel "Equivalent to Relationship"@en ;
-.
-pronom.RelationshipType:HasPriorityOver
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Has priority over Relationship"@en ;
-  skos:prefLabel "Has priority over Relationship"@en ;
-.
-pronom.RelationshipType:PriorVersionOf
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Prior version of Relationship"@en ;
-  skos:prefLabel "Prior version of Relationship"@en ;
-.
-pronom.RelationshipType:SubTypeOf
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Subtype of Relationship"@en ;
-  skos:prefLabel "Subtype of Relationship"@en ;
-.
-pronom.RelationshipType:SubsequentVersionOf
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Subsequent version of Relationship"@en ;
-  skos:prefLabel "Subsequent version of Relationship"@en ;
-.
-pronom.RelationshipType:SuperTypeOf
-  rdf:type pronom2020:RelationshipType ;
-  rdfs:label "Supertype of Relationship"@en ;
-  skos:prefLabel "Supertype of Relationship"@en ;
 .
